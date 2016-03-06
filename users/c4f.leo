@@ -14,8 +14,11 @@
 <v t="leo.20151212173315.2"><vh>@data qt-gui-plugin-style-sheet</vh></v>
 <v t="leo.20151212173315.3"><vh>@string initial_split_orientation = horizontal</vh></v>
 </v>
+<v t="amd.20160306101815.1" a="E"><vh>網站規劃</vh>
+<v t="amd.20160306101823.1"><vh>code4future.org</vh></v>
+<v t="amd.20160306182104.1"><vh>內容分類</vh></v>
+</v>
 <v t="amd.20160106095324.1" a="E"><vh>@path ./../</vh>
-<v t="amd.20160224204802.1"><vh>@edit CNAME</vh></v>
 <v t="leo.20151213173811.1" a="E"><vh>假如要送到 gh-pages 分支, 使用下列按鈕</vh>
 <v t="leo.20151212173658.1"><vh>@button gh-pages pelican</vh></v>
 </v>
@@ -23,7 +26,7 @@
 <v t="leo.20151213085727.1"><vh>@button local pelican</vh></v>
 </v>
 <v t="amd.20160117010542.1"><vh>@button git rm -rf blog</vh></v>
-<v t="amd.20151215180106.1" a="E"><vh>設定與開發</vh>
+<v t="amd.20151215180106.1"><vh>設定與開發</vh>
 <v t="amd.20151216151325.1"><vh>@edit index.html</vh></v>
 <v t="amd.20151216152209.1"><vh>@edit README.md</vh></v>
 <v t="leo.20151213230723.1"><vh>Pelican 設定</vh>
@@ -85,6 +88,10 @@
 <v t="amd.20160213095053.1" a="E"><vh>201602</vh>
 <v t="amd.20160224170554.1"><vh>@edit c4f_20160225.md</vh></v>
 <v t="amd.20160224171626.1"><vh>@edit c4f_20160225-1.md</vh></v>
+</v>
+<v t="amd.20160306214231.1" a="E"><vh>201603</vh>
+<v t="amd.20160306214240.1"><vh>@edit c4f_20160306-1.md</vh></v>
+<v t="amd.20160306214335.1"><vh>@edit c4f_20160306-2.md</vh></v>
 </v>
 </v>
 </v>
@@ -155,6 +162,26 @@ import os
 os.system("git rm -rf blog")
 g.es("git rm -rf blog 執行完畢")</t>
 <t tx="amd.20160213095053.1"></t>
+<t tx="amd.20160306101815.1"></t>
+<t tx="amd.20160306101823.1">code4future.org 會 redirect 到 www.code4future.org, 然後再 redirect 到 www.code4future.org/blog/
+
+然後其中再根據服務對象:
+
+未成年學員 - 想透過編程學習, 克服未來挑戰的 K-12
+家長 - K-12 學員的父母或其他家庭長輩
+教師 - 有意推廣未成年學員編程教育的成年人
+社會人士 - 想透過編程學習, 克服未來職場挑戰的成年人
+
+建立相關教案內容
+
+</t>
+<t tx="amd.20160306182104.1">Green logo - 綠色 (成長中) - 未成年學員
+Red logo - 紅色 (隨時保持紅色警戒) - 家長
+Blue logo - 藍色 (指引美麗藍天所在的團隊) -  教師
+Yellow logo - 黃色 (以黃皮膚的華人為主要對象) - 社會人士
+
+Black logo - 黑色 - 通用內容</t>
+<t tx="amd.20160306214231.1"></t>
 <t tx="leo.20151212173315.1"></t>
 <t tx="leo.20151212173315.2">QTreeWidget {
     /* These apply to the selected item, but not to editing items.*/

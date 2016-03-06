@@ -1,5 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>Code4future</title><link href="http://blog.code4future.org/blog/" rel="alternate"></link><link href="http://blog.code4future.org/blog/feeds/all.atom.xml" rel="self"></link><id>http://blog.code4future.org/blog/</id><updated>2016-02-24T20:47:44+08:00</updated><entry><title>Code4future user 文章套稿</title><link href="http://blog.code4future.org/blog/code4future-user-wen-zhang-tao-gao.html" rel="alternate"></link><updated>2016-02-24T20:47:44+08:00</updated><author><name>user</name></author><id>tag:blog.code4future.org,2016-02-24:blog/code4future-user-wen-zhang-tao-gao.html</id><summary type="html">&lt;p&gt;這裡可以放入文章的摘要內容&lt;/p&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>Code4future</title><link href="http://blog.code4future.org/blog/" rel="alternate"></link><link href="http://blog.code4future.org/blog/feeds/all.atom.xml" rel="self"></link><id>http://blog.code4future.org/blog/</id><updated>2016-03-06T21:53:42+08:00</updated><entry><title>為什麼大家都叫你學電腦?</title><link href="http://blog.code4future.org/blog/wei-shi-mo-da-jia-du-jiao-ni-xue-dian-nao.html" rel="alternate"></link><updated>2016-03-06T21:53:42+08:00</updated><author><name>code4future</name></author><id>tag:blog.code4future.org,2016-03-06:blog/wei-shi-mo-da-jia-du-jiao-ni-xue-dian-nao.html</id><summary type="html">&lt;p&gt;這裡放入文章摘要&lt;/p&gt;
+
+
+&lt;p&gt;這裡為文章主要內容&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://github.com/code4futuredotorg/reeborg_tw"&gt;https://github.com/code4futuredotorg/reeborg_tw&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://github.com/code4futuretw/blogsite"&gt;https://github.com/code4futuretw/blogsite&lt;/a&gt;&lt;/p&gt;</summary><category term="Reeborg 機器人"></category></entry><entry><title>Code4future user 文章套稿</title><link href="http://blog.code4future.org/blog/code4future-user-wen-zhang-tao-gao.html" rel="alternate"></link><updated>2016-03-06T21:52:24+08:00</updated><author><name>user</name></author><id>tag:blog.code4future.org,2016-03-06:blog/code4future-user-wen-zhang-tao-gao.html</id><summary type="html">&lt;p&gt;這裡可以放入文章的摘要內容&lt;/p&gt;
 
 
 &lt;h1&gt;文章標題&lt;/h1&gt;
@@ -30,10 +35,13 @@
 &lt;span class="n"&gt;h&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="n"&gt;hypotenuse&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;side1&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="n"&gt;side2&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
 &lt;span class="k"&gt;print&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;a&lt;/span&gt; &lt;span class="n"&gt;right&lt;/span&gt; &lt;span class="n"&gt;triangle&lt;/span&gt; &lt;span class="k"&gt;with&lt;/span&gt; &lt;span class="n"&gt;side1&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="s"&gt;&amp;quot;, side1, &amp;quot;&lt;/span&gt; &lt;span class="ow"&gt;and&lt;/span&gt; &lt;span class="n"&gt;side2&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="s"&gt;&amp;quot;, side2, &amp;quot;&lt;/span&gt;&lt;span class="n"&gt;the&lt;/span&gt; &lt;span class="n"&gt;hypotenuse&lt;/span&gt; &lt;span class="ow"&gt;is&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;&lt;span class="s"&gt;&amp;quot;, h)&lt;/span&gt;
 &lt;/pre&gt;&lt;/div&gt;
-&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</summary><category term="研究室"></category></entry><entry><title>自我檢討</title><link href="http://blog.code4future.org/blog/zi-wo-jian-tao.html" rel="alternate"></link><updated>2016-02-24T20:47:44+08:00</updated><author><name>code4future</name></author><id>tag:blog.code4future.org,2016-02-24:blog/zi-wo-jian-tao.html</id><summary type="html">&lt;p&gt;這裡放入文章摘要&lt;/p&gt;
+&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</summary><category term="協同網誌"></category></entry><entry><title>有關社會人士學習電腦</title><link href="http://blog.code4future.org/blog/you-guan-she-hui-ren-shi-xue-xi-dian-nao.html" rel="alternate"></link><updated>2016-03-06T21:45:51+08:00</updated><author><name>code4future</name></author><id>tag:blog.code4future.org,2016-03-06:blog/you-guan-she-hui-ren-shi-xue-xi-dian-nao.html</id><summary type="html">&lt;p&gt;這裡放入文章摘要&lt;/p&gt;
 
 
-&lt;p&gt;這裡為文章主要內容&lt;/p&gt;</summary><category term="自我檢討"></category></entry><entry><title>文章標題</title><link href="http://blog.code4future.org/blog/wen-zhang-biao-ti.html" rel="alternate"></link><updated>2016-02-24T20:47:44+08:00</updated><author><name>code4future</name></author><id>tag:blog.code4future.org,2016-02-24:blog/wen-zhang-biao-ti.html</id><summary type="html">&lt;p&gt;這裡放入文章摘要&lt;/p&gt;
+&lt;p&gt;這裡為文章主要內容&lt;/p&gt;</summary><category term="電腦基本功能"></category></entry><entry><title>有關學童電腦教學</title><link href="http://blog.code4future.org/blog/you-guan-xue-tong-dian-nao-jiao-xue.html" rel="alternate"></link><updated>2016-03-06T21:45:36+08:00</updated><author><name>code4future</name></author><id>tag:blog.code4future.org,2016-03-06:blog/you-guan-xue-tong-dian-nao-jiao-xue.html</id><summary type="html">&lt;p&gt;這裡放入文章摘要&lt;/p&gt;
 
 
-&lt;p&gt;這裡為文章主要內容&lt;/p&gt;</summary><category term="家長導引"></category><category term="教師導引"></category></entry></feed>
+&lt;p&gt;這裡為文章主要內容&lt;/p&gt;</summary><category term="導引"></category></entry><entry><title>家長如何制定網路使用政策</title><link href="http://blog.code4future.org/blog/jia-chang-ru-he-zhi-ding-wang-lu-shi-yong-zheng-ce.html" rel="alternate"></link><updated>2016-03-06T21:45:36+08:00</updated><author><name>code4future</name></author><id>tag:blog.code4future.org,2016-03-06:blog/jia-chang-ru-he-zhi-ding-wang-lu-shi-yong-zheng-ce.html</id><summary type="html">&lt;p&gt;這裡放入文章摘要&lt;/p&gt;
+
+
+&lt;p&gt;這裡為文章主要內容&lt;/p&gt;</summary><category term="網路操作"></category></entry></feed>
