@@ -5,28 +5,28 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
 <url>
 <loc>http://blog.code4future.org/blog/</loc>
-<lastmod>2016-03-06T22:03:24-00:00</lastmod>
+<lastmod>2016-03-06T23:09:30-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>http://blog.code4future.org/blog/archives.html</loc>
-<lastmod>2016-03-06T22:03:24-00:00</lastmod>
+<lastmod>2016-03-06T23:09:30-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>http://blog.code4future.org/blog/tags.html</loc>
-<lastmod>2016-03-06T22:03:24-00:00</lastmod>
+<lastmod>2016-03-06T23:09:30-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>http://blog.code4future.org/blog/categories.html</loc>
-<lastmod>2016-03-06T22:03:24-00:00</lastmod>
+<lastmod>2016-03-06T23:09:30-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
@@ -40,7 +40,7 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
 <url>
 <loc>http://blog.code4future.org/blog/wei-shi-mo-da-jia-du-jiao-ni-xue-dian-nao.html</loc>
-<lastmod>2016-03-06T21:53:42+08:00</lastmod>
+<lastmod>2016-03-06T23:07:43+08:00</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
 </url>
@@ -89,7 +89,7 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
 <url>
 <loc>http://blog.code4future.org/blog/category/k-12.html</loc>
-<lastmod>2016-03-06T21:53:42+08:06</lastmod>
+<lastmod>2016-03-06T23:07:43+08:06</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
@@ -109,28 +109,7 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 </url>
 
 <url>
-<loc>http://blog.code4future.org/blog/tag/xie-tong-wang-zhi.html</loc>
-<lastmod>2016-03-06T21:52:24+08:06</lastmod>
-<changefreq>daily</changefreq>
-<priority>0.5</priority>
-</url>
-
-<url>
 <loc>http://blog.code4future.org/blog/tag/wang-lu-cao-zuo.html</loc>
-<lastmod>2016-03-06T21:45:36+08:06</lastmod>
-<changefreq>daily</changefreq>
-<priority>0.5</priority>
-</url>
-
-<url>
-<loc>http://blog.code4future.org/blog/tag/reeborg-ji-qi-ren.html</loc>
-<lastmod>2016-03-06T21:53:42+08:06</lastmod>
-<changefreq>daily</changefreq>
-<priority>0.5</priority>
-</url>
-
-<url>
-<loc>http://blog.code4future.org/blog/tag/dao-yin.html</loc>
 <lastmod>2016-03-06T21:45:36+08:06</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
@@ -144,8 +123,29 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 </url>
 
 <url>
+<loc>http://blog.code4future.org/blog/tag/dao-yin.html</loc>
+<lastmod>2016-03-06T21:45:36+08:06</lastmod>
+<changefreq>daily</changefreq>
+<priority>0.5</priority>
+</url>
+
+<url>
+<loc>http://blog.code4future.org/blog/tag/reeborg-ji-qi-ren.html</loc>
+<lastmod>2016-03-06T23:07:43+08:06</lastmod>
+<changefreq>daily</changefreq>
+<priority>0.5</priority>
+</url>
+
+<url>
+<loc>http://blog.code4future.org/blog/tag/xie-tong-wang-zhi.html</loc>
+<lastmod>2016-03-06T21:52:24+08:06</lastmod>
+<changefreq>daily</changefreq>
+<priority>0.5</priority>
+</url>
+
+<url>
 <loc>http://blog.code4future.org/blog/author/code4future.html</loc>
-<lastmod>2016-03-06T21:53:42+08:06</lastmod>
+<lastmod>2016-03-06T23:07:43+08:06</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>

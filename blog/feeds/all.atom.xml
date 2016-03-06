@@ -1,10 +1,23 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>Code4future</title><link href="http://blog.code4future.org/blog/" rel="alternate"></link><link href="http://blog.code4future.org/blog/feeds/all.atom.xml" rel="self"></link><id>http://blog.code4future.org/blog/</id><updated>2016-03-06T21:53:42+08:00</updated><entry><title>為什麼大家都叫你學電腦?</title><link href="http://blog.code4future.org/blog/wei-shi-mo-da-jia-du-jiao-ni-xue-dian-nao.html" rel="alternate"></link><updated>2016-03-06T21:53:42+08:00</updated><author><name>code4future</name></author><id>tag:blog.code4future.org,2016-03-06:blog/wei-shi-mo-da-jia-du-jiao-ni-xue-dian-nao.html</id><summary type="html">&lt;p&gt;這裡放入文章摘要&lt;/p&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>Code4future</title><link href="http://blog.code4future.org/blog/" rel="alternate"></link><link href="http://blog.code4future.org/blog/feeds/all.atom.xml" rel="self"></link><id>http://blog.code4future.org/blog/</id><updated>2016-03-06T23:07:43+08:00</updated><entry><title>為什麼大家都叫你學電腦?</title><link href="http://blog.code4future.org/blog/wei-shi-mo-da-jia-du-jiao-ni-xue-dian-nao.html" rel="alternate"></link><updated>2016-03-06T23:07:43+08:00</updated><author><name>code4future</name></author><id>tag:blog.code4future.org,2016-03-06:blog/wei-shi-mo-da-jia-du-jiao-ni-xue-dian-nao.html</id><summary type="html">&lt;p&gt;學電腦?學習寫程式?然後呢?&lt;/p&gt;
 
 
-&lt;p&gt;這裡為文章主要內容&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://github.com/code4futuredotorg/reeborg_tw"&gt;https://github.com/code4futuredotorg/reeborg_tw&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://github.com/code4futuretw/blogsite"&gt;https://github.com/code4futuretw/blogsite&lt;/a&gt;&lt;/p&gt;</summary><category term="Reeborg 機器人"></category></entry><entry><title>Code4future user 文章套稿</title><link href="http://blog.code4future.org/blog/code4future-user-wen-zhang-tao-gao.html" rel="alternate"></link><updated>2016-03-06T21:52:24+08:00</updated><author><name>user</name></author><id>tag:blog.code4future.org,2016-03-06:blog/code4future-user-wen-zhang-tao-gao.html</id><summary type="html">&lt;p&gt;這裡可以放入文章的摘要內容&lt;/p&gt;
+&lt;p&gt;學電腦是一個非常廣的題目, 因為電腦原來的意思是計算器, 現在的計算器到處都是, 從冷氣的溫度控制到手機, 都是不同等級的電腦. 所以嚴格來說, 與電腦有關的學習是學不完的, 當全世界許多現代人都已經離不開電腦的時候, 所謂的學電腦, 應該是指:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;了解電腦的基本軟體與硬體運作原理&lt;/li&gt;
+&lt;li&gt;了解電腦的基本操作方法&lt;/li&gt;
+&lt;li&gt;了解如何操控電腦, 並且用電腦來協助解決問題&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;接著來回答, 為什麼大家都叫你學電腦?最主要的原因就是, 現代人無論從事那一個行業, 都需要依賴電腦來解決問題, 所以假如學生能夠從小就知道什麼叫作數位運算, 有那些特性, 與現實世界的運作有那些關聯, 學習如何利用電腦來增加工作效率, 那麼才能在父母與老師的協助下, 真正發揮電腦的功用.&lt;/p&gt;
+&lt;p&gt;這一篇文章的類別是: K-12, K 指的是幼稚園的學生, 也就是五歲到六歲的孩童, 我們當然不是寫文章給幼稚園的小朋友看的, 但這裡指的 12, 就是 12 年國教的學生, 從小學一年級開始到高中畢業, 總共 12 年, 假如你是國小高年級以上的學生, 已經可以利用 Code4future 網站上的資料, 進行自學, 但是我們並不鼓勵你們這樣做, 因為你們還沒有成年, 也就是還沒有滿十八歲, 根據我們的經驗, 未成年的學生是不允許獨自上網的, 希望能夠在家長或老師的指導下, 下載 Code4future 上的教案資料, 可以在沒有外部網路 (也稱為廣域網路) 的單機或內部網路上執行.&lt;/p&gt;
+&lt;p&gt;我們特別鼓勵過去以為學電腦就是玩遊戲的國小高年級學生, 能夠在家長與老師的協助下, 儘早學習利用電腦來解決問題的訣竅, 讓你可以更加了解學習的樂趣, 並且有效率地學習其他學科, 以便空出更多時間發展個人技藝或專長.&lt;/p&gt;
+&lt;p&gt;這裡要介紹的電腦程式學習課程之一是 Reeborg 機器人: &lt;a href="http://reeborg.ca/world.html"&gt;http://reeborg.ca/world.html&lt;/a&gt;, 假如你用瀏覽器打開這個頁面之後, 完全看不懂其中的英文字與說明段落, 我們希望你不要用翻譯軟體來看這些資料, 因為我們要告訴你, 想學好電腦, 英文能力是必備條件, 而且基本的數學能力也是有效運用電腦的另一個必要條件, 所以不要以為只要學會使用電腦, 就可以丟開其他課本, 正確的學習電腦觀念是:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;未成年學生不要獨自上網, 因為網路上沒有用的東西比有用的資料, 多了許多, 你要在老師與家長的安排之下才能使用電腦與網路.&lt;/li&gt;
+&lt;li&gt;電腦與數學及英文, 或者其他各種學科, 都有很密切的關聯, 學習電腦是要讓你的學習更有效率, 及早掌握現代人協同合作的方式.&lt;/li&gt;
+&lt;li&gt;學習電腦的主要目的在解決問題, 這些問題當然包括用有效率的方式來提供使用者遊戲或運動或玩樂.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;最後, 我們再次提醒你, 為什麼大家都叫你學電腦? 因為我們希望你未來能夠快速融入國際社會, 利用電腦解決各種問題, 做一個有用的青年, 造福社會!&lt;/p&gt;</summary><category term="Reeborg 機器人"></category></entry><entry><title>Code4future user 文章套稿</title><link href="http://blog.code4future.org/blog/code4future-user-wen-zhang-tao-gao.html" rel="alternate"></link><updated>2016-03-06T21:52:24+08:00</updated><author><name>user</name></author><id>tag:blog.code4future.org,2016-03-06:blog/code4future-user-wen-zhang-tao-gao.html</id><summary type="html">&lt;p&gt;這裡可以放入文章的摘要內容&lt;/p&gt;
 
 
 &lt;h1&gt;文章標題&lt;/h1&gt;
