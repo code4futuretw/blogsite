@@ -1,13 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>Code4future</title><link href="http://blog.code4future.org/blog/" rel="alternate"></link><link href="http://blog.code4future.org/blog/feeds/all.atom.xml" rel="self"></link><id>http://blog.code4future.org/blog/</id><updated>2016-03-19T07:40:27+08:00</updated><entry><title>有關社會人士學習電腦</title><link href="http://blog.code4future.org/blog/you-guan-she-hui-ren-shi-xue-xi-dian-nao.html" rel="alternate"></link><updated>2016-03-19T07:40:27+08:00</updated><author><name>code4future</name></author><id>tag:blog.code4future.org,2016-03-19:blog/you-guan-she-hui-ren-shi-xue-xi-dian-nao.html</id><summary type="html">&lt;p&gt;社會人士學習電腦的課題很廣, 我們只能提供較為廣泛的電腦基本使用功能與觀念的導引, 例如, 有關 Windows 與 Ubuntu 操作系統的取捨, 如何運用網路與網站來提升工作效率等.&lt;/p&gt;
-
-
-&lt;p&gt;Code4Future 將與社會人士學習電腦的主題劃分為:&lt;/p&gt;
-&lt;ol&gt;
-&lt;li&gt;電腦基本軟硬體層次, 桌上型、筆記型與卡片型電腦的取捨, Windows 或 Ubuntu 操作系統?&lt;/li&gt;
-&lt;li&gt;基本的本地端網路協定、設定與應用&lt;/li&gt;
-&lt;li&gt;區域網路上的全球資訊網伺服器與雲端全球資訊網伺服器的應用&lt;/li&gt;
-&lt;/ol&gt;</summary><category term="電腦基本功能"></category></entry><entry><title>有關學童電腦教學</title><link href="http://blog.code4future.org/blog/you-guan-xue-tong-dian-nao-jiao-xue.html" rel="alternate"></link><updated>2016-03-19T07:33:12+08:00</updated><author><name>code4future</name></author><id>tag:blog.code4future.org,2016-03-19:blog/you-guan-xue-tong-dian-nao-jiao-xue.html</id><summary type="html">&lt;p&gt;數位運算裝置融入各種教學的趨勢已經不可避免, 身為的幼稚園到國小的教師, 可以利用現有的優秀教材來推廣學童電腦教學.&lt;/p&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>Code4future</title><link href="http://blog.code4future.org/blog/" rel="alternate"></link><link href="http://blog.code4future.org/blog/feeds/all.atom.xml" rel="self"></link><id>http://blog.code4future.org/blog/</id><updated>2016-03-19T07:47:50+08:00</updated><entry><title>有關學童電腦教學</title><link href="http://blog.code4future.org/blog/you-guan-xue-tong-dian-nao-jiao-xue.html" rel="alternate"></link><updated>2016-03-19T07:47:50+08:00</updated><author><name>code4future</name></author><id>tag:blog.code4future.org,2016-03-19:blog/you-guan-xue-tong-dian-nao-jiao-xue.html</id><summary type="html">&lt;p&gt;數位運算裝置融入各種教學的趨勢已經不可避免, 身為幼稚園到國小的教師, 可以利用現有的優秀教材來推廣學童電腦教學.&lt;/p&gt;
 
 
 &lt;p&gt;這裡先介紹來自台灣, 兩個很棒的線上教材:&lt;/p&gt;
@@ -33,7 +25,15 @@ Javascript: &lt;span class="nt"&gt;&amp;lt;a&lt;/span&gt; &lt;span class="na"&gt
 &lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
 
 &lt;p&gt;橘子蘋果開放教材: &lt;a href="https://orangeapple.co/csr/open-material"&gt;https://orangeapple.co/csr/open-material&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;最後則介紹來自美國哈佛大學的 Scratch 開放教材: &lt;a href="http://scratched.gse.harvard.edu/guide/"&gt;http://scratched.gse.harvard.edu/guide/&lt;/a&gt;&lt;/p&gt;</summary><category term="導引"></category></entry><entry><title>家長如何制定網路使用政策</title><link href="http://blog.code4future.org/blog/jia-chang-ru-he-zhi-ding-wang-lu-shi-yong-zheng-ce.html" rel="alternate"></link><updated>2016-03-19T07:16:13+08:00</updated><author><name>code4future</name></author><id>tag:blog.code4future.org,2016-03-19:blog/jia-chang-ru-he-zhi-ding-wang-lu-shi-yong-zheng-ce.html</id><summary type="html">&lt;p&gt;無論您從事那一個行業, 週遭一定充滿了各種網路與大小電腦的應用, 從大樓的門禁開始, 電梯、飲水機, 更不用提許多人辦公地點幾乎都各有一台桌上型或筆記型的個人電腦, 透過無線或有線網路與各種資訊系統或網站相連, 未來, 有關網路與電腦的各種應用, 更會密切涉入現代人的生活.&lt;/p&gt;
+&lt;p&gt;最後則介紹來自美國哈佛大學的 Scratch 開放教材: &lt;a href="http://scratched.gse.harvard.edu/guide/"&gt;http://scratched.gse.harvard.edu/guide/&lt;/a&gt;&lt;/p&gt;</summary><category term="導引"></category></entry><entry><title>有關社會人士學習電腦</title><link href="http://blog.code4future.org/blog/you-guan-she-hui-ren-shi-xue-xi-dian-nao.html" rel="alternate"></link><updated>2016-03-19T07:40:27+08:00</updated><author><name>code4future</name></author><id>tag:blog.code4future.org,2016-03-19:blog/you-guan-she-hui-ren-shi-xue-xi-dian-nao.html</id><summary type="html">&lt;p&gt;社會人士學習電腦的課題很廣, 我們只能提供較為廣泛的電腦基本使用功能與觀念的導引, 例如, 有關 Windows 與 Ubuntu 操作系統的取捨, 如何運用網路與網站來提升工作效率等.&lt;/p&gt;
+
+
+&lt;p&gt;Code4Future 將與社會人士學習電腦的主題劃分為:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;電腦基本軟硬體層次, 桌上型、筆記型與卡片型電腦的取捨, Windows 或 Ubuntu 操作系統?&lt;/li&gt;
+&lt;li&gt;基本的本地端網路協定、設定與應用&lt;/li&gt;
+&lt;li&gt;區域網路上的全球資訊網伺服器與雲端全球資訊網伺服器的應用&lt;/li&gt;
+&lt;/ol&gt;</summary><category term="電腦基本功能"></category></entry><entry><title>家長如何制定網路使用政策</title><link href="http://blog.code4future.org/blog/jia-chang-ru-he-zhi-ding-wang-lu-shi-yong-zheng-ce.html" rel="alternate"></link><updated>2016-03-19T07:16:13+08:00</updated><author><name>code4future</name></author><id>tag:blog.code4future.org,2016-03-19:blog/jia-chang-ru-he-zhi-ding-wang-lu-shi-yong-zheng-ce.html</id><summary type="html">&lt;p&gt;無論您從事那一個行業, 週遭一定充滿了各種網路與大小電腦的應用, 從大樓的門禁開始, 電梯、飲水機, 更不用提許多人辦公地點幾乎都各有一台桌上型或筆記型的個人電腦, 透過無線或有線網路與各種資訊系統或網站相連, 未來, 有關網路與電腦的各種應用, 更會密切涉入現代人的生活.&lt;/p&gt;
 
 
 &lt;p&gt;因此, 身為家長的您, 除了必須體認到未來的現代國民已經離不開網路與電腦之外, 必須了解目前全世界有關網路內容分級, 都是採取軟性的自我管制模式, 所以各位家長必須自己在家裡, 嚴格制定未成年兒童的網路使用政策.&lt;/p&gt;
