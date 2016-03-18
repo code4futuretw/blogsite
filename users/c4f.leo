@@ -270,14 +270,14 @@ Author: code4future
 
 均一平台上的電腦課程:
 
-    Scratch: &lt;a href="http://www.junyiacademy.org/root/isc"&gt;http://www.junyiacademy.org/root/isc&lt;/a&gt;
-    
-    Javascript: &lt;a href="http://www.junyiacademy.org/root/ijs"&gt;http://www.junyiacademy.org/root/ijs&lt;/a&gt;
-    
-    一小時玩程式: &lt;a href="http://www.junyiacademy.org/computer-science-a/ihc"&gt;http://www.junyiacademy.org/computer-science-a/ihc&lt;/a&gt;
-    
-    數學式與 LaTeX: &lt;a href="http://www.junyiacademy.org/computer-science-a/i5t"&gt;http://www.junyiacademy.org/computer-science-a/i5t&lt;/a&gt;
-    
+Scratch: &lt;a href="http://www.junyiacademy.org/root/isc"&gt;http://www.junyiacademy.org/root/isc&lt;/a&gt;
+
+Javascript: &lt;a href="http://www.junyiacademy.org/root/ijs"&gt;http://www.junyiacademy.org/root/ijs&lt;/a&gt;
+
+一小時玩程式: &lt;a href="http://www.junyiacademy.org/computer-science-a/ihc"&gt;http://www.junyiacademy.org/computer-science-a/ihc&lt;/a&gt;
+
+數學式與 LaTeX: &lt;a href="http://www.junyiacademy.org/computer-science-a/i5t"&gt;http://www.junyiacademy.org/computer-science-a/i5t&lt;/a&gt;
+
 橘子蘋果開放教材: &lt;a href="https://orangeapple.co/csr/open-material"&gt;https://orangeapple.co/csr/open-material&lt;/a&gt;
 
 最後則介紹來自美國哈佛大學的 Scratch 開放教材: &lt;a href="http://scratched.gse.harvard.edu/guide/"&gt;http://scratched.gse.harvard.edu/guide/&lt;/a&gt;
