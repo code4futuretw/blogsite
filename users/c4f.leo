@@ -14,9 +14,20 @@
 <v t="leo.20151212173315.2"><vh>@data qt-gui-plugin-style-sheet</vh></v>
 <v t="leo.20151212173315.3"><vh>@string initial_split_orientation = horizontal</vh></v>
 </v>
-<v t="amd.20160306101815.1" a="E"><vh>網站規劃</vh>
+<v t="amd.20160306101815.1"><vh>網站規劃</vh>
 <v t="amd.20160306101823.1"><vh>code4future.org</vh></v>
 <v t="amd.20160306182104.1"><vh>內容分類</vh></v>
+</v>
+<v t="amd.20160309162721.1"><vh>Wordpress 端</vh>
+<v t="amd.20160309162721.2"><vh>@button new to wp (pelican)</vh>
+<v t="amd.20160309162721.3"><vh>md 檔案的格式</vh></v>
+<v t="amd.20160309162721.4"><vh>將 md 節點內容送到 Wordpress 方法</vh></v>
+</v>
+<v t="amd.20160309162721.5"><vh>@button edit to wp (pelican)</vh></v>
+<v t="amd.20160309175129.1"><vh>@button get from wp (pelican)</vh>
+<v t="amd.20160309175129.2"><vh>程式設計考量</vh></v>
+</v>
+<v t="amd.20160309162721.8"><vh>Leo Editor 程式開發</vh></v>
 </v>
 <v t="amd.20160106095324.1" a="E"><vh>@path ./../</vh>
 <v t="leo.20151213173811.1" a="E"><vh>假如要送到 gh-pages 分支, 使用下列按鈕</vh>
@@ -84,14 +95,25 @@
 <v t="amd.20160106093610.1"><vh>協同網誌編寫規範</vh></v>
 <v t="amd.20151216001126.1"><vh>md 檔案範例</vh></v>
 <v t="amd.20151215170031.1" a="E"><vh>@path ./../content</vh>
-<v t="amd.20160106093454.1" a="E"><vh>code4future 網誌文章</vh>
+<v t="amd.20160106093454.1" a="E"><vh>網誌 md 檔案</vh>
 <v t="amd.20160213095053.1" a="E"><vh>201602</vh>
-<v t="amd.20160224170554.1"><vh>@edit c4f_20160225.md</vh></v>
-<v t="amd.20160224171626.1"><vh>@edit c4f_20160225-1.md</vh></v>
+<v t="amd.20160224170554.1" a="E"><vh>@clean c4f_20160225.md</vh>
+<v t="amd.20160309174033.1"><vh>10</vh></v>
+</v>
+<v t="amd.20160224171626.1"><vh>@clean c4f_20160225-1.md</vh>
+<v t="amd.20160319074114.1"><vh>18</vh></v>
+</v>
 </v>
 <v t="amd.20160306214231.1" a="E"><vh>201603</vh>
-<v t="amd.20160306214240.1"><vh>@edit c4f_20160306-1.md</vh></v>
-<v t="amd.20160306214335.1"><vh>@edit c4f_20160306-2.md</vh></v>
+<v t="amd.20160306214240.1"><vh>@clean c4f_20160306-1.md</vh>
+<v t="amd.20160319074122.1"><vh>20</vh></v>
+</v>
+<v t="amd.20160306214335.1" a="E"><vh>@clean c4f_20160306-2.md</vh>
+<v t="amd.20160319074059.1"><vh>16</vh></v>
+</v>
+<v t="amd.20160309191406.1" a="E"><vh>掌握未來, 速學編程</vh>
+<v t="amd.20160309191408.1"><vh>1</vh></v>
+</v>
 </v>
 </v>
 </v>
@@ -162,6 +184,55 @@ import os
 os.system("git rm -rf blog")
 g.es("git rm -rf blog 執行完畢")</t>
 <t tx="amd.20160213095053.1"></t>
+<t tx="amd.20160224170554.1">@language md
+Title: 為什麼大家都要你學電腦?
+Category: K-12
+Tags: Reeborg 機器人
+Author: code4future
+@others
+學電腦?學習寫程式?然後呢?
+
+&lt;!-- PELICAN_END_SUMMARY --&gt;
+
+學電腦是一個非常廣的題目, 因為電腦原來的意思是計算器, 現在的計算器到處都是, 從冷氣的溫度控制到手機, 都是不同等級的電腦. 所以嚴格來說, 與電腦有關的學習是學不完的, 當全世界許多現代人都已經離不開電腦的時候, 所謂的學電腦, 應該是指:
+
+1. 了解電腦的基本軟體與硬體運作原理
+2. 了解電腦的基本操作方法
+3. 了解如何操控電腦, 並且用電腦來協助解決問題
+
+接著來回答, 為什麼大家都叫你學電腦?最主要的原因就是, 現代人無論從事那一個行業, 都需要依賴電腦來解決問題, 所以假如學生能夠從小就知道什麼叫作數位運算, 有那些特性, 與現實世界的運作有那些關聯, 學習如何利用電腦來增加工作效率, 那麼才能在父母與老師的協助下, 真正發揮電腦的功用.
+
+這一篇文章的類別是: K-12, K 指的是幼稚園的學生, 也就是五歲到六歲的孩童, 我們當然不是寫文章給幼稚園的小朋友看的, 但這裡指的 12, 就是 12 年國教的學生, 從小學一年級開始到高中畢業, 總共 12 年, 假如你是國小高年級以上的學生, 已經可以利用 Code4future 網站上的資料, 進行自學, 但是我們並不鼓勵你們這樣做, 因為你們還沒有成年, 也就是還沒有滿十八歲, 根據我們的經驗, 未成年的學生是不允許獨自上網的, 希望能夠在家長或老師的指導下, 下載 Code4future 上的教案資料, 可以在沒有外部網路 (也稱為廣域網路) 的單機或內部網路上執行.
+
+我們特別鼓勵過去以為學電腦就是玩遊戲的國小高年級學生, 能夠在家長與老師的協助下, 儘早學習利用電腦來解決問題的訣竅, 讓你可以更加了解學習的樂趣, 並且有效率地學習其他學科, 以便空出更多時間發展個人技藝或專長.
+
+這裡要介紹的電腦程式學習課程之一是 Reeborg 機器人: &lt;http://reeborg.ca/world.html&gt;, 假如你用瀏覽器打開這個頁面之後, 完全看不懂其中的英文字與說明段落, 我們希望你不要用翻譯軟體來看這些資料, 因為我們要告訴你, 想學好電腦, 英文能力是必備條件, 而且基本的數學能力也是有效運用電腦的另一個必要條件, 所以不要以為只要學會使用電腦, 就可以丟開其他課本, 正確的學習電腦觀念是:
+
+1. 未成年學生不要獨自上網, 因為網路上沒有用的東西比有用的資料, 多了許多, 你要在老師與家長的安排之下才能使用電腦與網路.
+2. 電腦與數學及英文, 或者其他各種學科, 都有很密切的關聯, 學習電腦是要讓你的學習更有效率, 及早掌握現代人協同合作的方式.
+3. 學習電腦的主要目的在解決問題, 這些問題當然包括用有效率的方式來提供使用者遊戲或運動或玩樂.
+
+最後, 我們再次提醒你, 為什麼大家都叫你學電腦? 因為我們希望你未來能夠快速融入國際社會, 利用電腦解決各種問題, 做一個有用的青年, 造福社會!
+
+</t>
+<t tx="amd.20160224171626.1">@language md
+Title: 家長如何制定網路使用政策
+Category: 家長
+Tags: 網路操作
+Author: code4future
+@others
+無論您從事那一個行業, 週遭一定充滿了各種網路與大小電腦的應用, 從大樓的門禁開始, 電梯、飲水機, 更不用提許多人辦公地點幾乎都各有一台桌上型或筆記型的個人電腦, 透過無線或有線網路與各種資訊系統或網站相連, 未來, 有關網路與電腦的各種應用, 更會密切涉入現代人的生活.
+
+&lt;!-- PELICAN_END_SUMMARY --&gt;
+
+因此, 身為家長的您, 除了必須體認到未來的現代國民已經離不開網路與電腦之外, 必須了解目前全世界有關網路內容分級, 都是採取軟性的自我管制模式, 所以各位家長必須自己在家裡, 嚴格制定未成年兒童的網路使用政策.
+
+我們的認知:
+
+未成年兒童, 不應該獨自使用公共網路, 更不應該在沒有家長的管制下, 上網交友.
+
+根據 Facebook 的規定 &lt;a href="https://www.facebook.com/help/210644045634222"&gt;13 歲以上&lt;/a&gt; 才能建立帳號, 也就是 grade 7, 國中之後的年輕人才能夠使用臉書, 所以身為家長, 必須限制國小學童在家自由使用網路與電腦 (包括手機) 的權力, 假如配合學校功課的要求,  13 歲之前的孩童, 最好是在家長的陪同下使用廣域網路與電腦.
+</t>
 <t tx="amd.20160306101815.1"></t>
 <t tx="amd.20160306101823.1">code4future.org 會 redirect 到 www.code4future.org, 然後再 redirect 到 www.code4future.org/blog/
 
@@ -182,6 +253,352 @@ Yellow logo - 黃色 (以黃皮膚的華人為主要對象) - 社會人士
 
 Black logo - 黑色 - 通用內容</t>
 <t tx="amd.20160306214231.1"></t>
+<t tx="amd.20160306214240.1">@language md
+Title: 有關學童電腦教學
+Category: 教師
+Tags: 導引
+Author: code4future
+@others
+數位運算裝置融入各種教學的趨勢已經不可避免, 身為幼稚園到國小的教師, 可以利用現有的優秀教材來推廣學童電腦教學.
+
+&lt;!-- PELICAN_END_SUMMARY --&gt;
+
+這裡先介紹來自台灣, 兩個很棒的線上教材:
+
+1. 均一教育平台: &lt;a href="http://www.junyiacademy.org/"&gt;http://www.junyiacademy.org/&lt;/a&gt;
+2. 橘子蘋果程式設計學苑: &lt;a href="https://orangeapple.co/"&gt;https://orangeapple.co/&lt;/a&gt;
+
+均一平台上的電腦課程:
+
+    Scratch: &lt;a href="http://www.junyiacademy.org/root/isc"&gt;http://www.junyiacademy.org/root/isc&lt;/a&gt;
+    
+    Javascript: &lt;a href="http://www.junyiacademy.org/root/ijs"&gt;http://www.junyiacademy.org/root/ijs&lt;/a&gt;
+    
+    一小時玩程式: &lt;a href="http://www.junyiacademy.org/computer-science-a/ihc"&gt;http://www.junyiacademy.org/computer-science-a/ihc&lt;/a&gt;
+    
+    數學式與 LaTeX: &lt;a href="http://www.junyiacademy.org/computer-science-a/i5t"&gt;http://www.junyiacademy.org/computer-science-a/i5t&lt;/a&gt;
+    
+橘子蘋果開放教材: &lt;a href="https://orangeapple.co/csr/open-material"&gt;https://orangeapple.co/csr/open-material&lt;/a&gt;
+
+最後則介紹來自美國哈佛大學的 Scratch 開放教材: &lt;a href="http://scratched.gse.harvard.edu/guide/"&gt;http://scratched.gse.harvard.edu/guide/&lt;/a&gt;
+</t>
+<t tx="amd.20160306214335.1">@language md
+Title: 有關社會人士學習電腦
+Category: 社會人士
+Tags: 電腦基本功能
+Author: code4future
+@others
+社會人士學習電腦的課題很廣, 我們只能提供較為廣泛的電腦基本使用功能與觀念的導引, 例如, 有關 Windows 與 Ubuntu 操作系統的取捨, 如何運用網路與網站來提升工作效率等.
+
+&lt;!-- PELICAN_END_SUMMARY --&gt;
+
+Code4Future 將與社會人士學習電腦的主題劃分為:
+
+1. 電腦基本軟硬體層次, 桌上型、筆記型與卡片型電腦的取捨, Windows 或 Ubuntu 操作系統?
+2. 基本的本地端網路協定、設定與應用
+3. 區域網路上的全球資訊網伺服器與雲端全球資訊網伺服器的應用</t>
+<t tx="amd.20160309162721.1"></t>
+<t tx="amd.20160309162721.2">@language python
+#coding: utf-8
+import xmlrpc.client
+import datetime
+import os
+
+def get_cat_tag_content(data):
+    # 請注意, 因為 data 來自 .md 的 body pan 內容, 第1行為 @language python
+    # 用跳行符號分割
+    data_list = data.split("\n")
+    #第2行為 title
+    title= data_list[1]
+    #第3行為 category
+    category = data_list[2]
+    #第4行為 tags
+    tags = data_list[3]
+    # 有多項資料的 content 型別為數列
+    # 再將第7行之後的資料數列串回成以跳行隔開的資料
+    content = "\n".join(data_list[6:])
+    # 先將截斷摘要與內文的 pelican md 檔按符號, 換成 Wordpress 的 &lt;!-more-&gt;
+    content = content.replace('&lt;!-- PELICAN_END_SUMMARY --&gt;', '&lt;!--more--&gt;')
+    # 接著若內容有 ~~~python 與 ~~~ 則換成 Wordpress 格式
+    content = content.replace('~~~python', '[code lang="python"]')
+    content = content.replace('~~~', '[/code]')
+    return title, category, tags, content
+    
+os.environ['TZ'] = 'Asia/Taipei'
+
+#################################
+filepath = "/home/amd/Desktop/www-code4future.txt"
+wordpress = "www.code4future.org"
+fo = open(filepath, "r+")
+data = []
+for line in fo.readlines():
+    data.append(line)
+fo.close()
+
+# 從網誌節點的 parent().h 取得 wp_url
+# 從網誌節點的 parent().b 取得帳號與密碼對應的文字檔案路徑
+wp_url = "https://"+wordpress+"/xmlrpc.php"
+wp_username = data[0]
+wp_password = data[1]
+#################################
+wp_blogid = "0"
+ 
+status_draft = 0
+status_published = 1
+ 
+server = xmlrpc.client.ServerProxy(wp_url)
+
+# 從目前所在節點的 body pan 中取出類別, tags 以及文章內容
+title_str, category_str, tags_str, content = get_cat_tag_content(p.b)
+# title 是一個單獨的字串
+title = title_str.split(":")[1]
+# 指定時間出版
+'''
+date_created = xmlrpc.client.DateTime(datetime.datetime.strptime("2013-01-01 00:00",
+"%Y-%m-%d %H:%M"))
+'''
+# 以現在時間出版, 考慮與 Server 時間差八個小時 (480 分鐘), 因此要在 8 個小時前發表
+date_created = xmlrpc.client.DateTime(datetime.datetime.strptime((datetime.datetime.now()- \
+datetime.timedelta(minutes=480)).strftime('%Y-%m-%d %H:%M'),"%Y-%m-%d %H:%M"))
+categories = [category_str.split(":")[1]]
+# 請注意, 因為 tags 用逗點隔開, 因此必須透過 split() 再分開成為 list 資料
+# 先用 : 斷開標投頭的 Tags:, 然後再透過逗點隔開, 將標註轉為數列資料
+tags = tags_str.split(":")[1].split(",")
+data = {'title': title, 'description': content, 'dateCreated': date_created, 'categories': categories, 'mt_keywords': tags}
+ 
+post_id = server.metaWeblog.newPost(wp_blogid, wp_username, wp_password, data, status_published)
+# 利用最後的 child 節點來儲存 post_id
+to_save_post_id = p.insertAsLastChild()   
+# 改為內文為空的節點, id 直接標在 head 標題 
+to_save_post_id.b = ""
+to_save_post_id.h = post_id
+# 因為新增節點, commander 必須 redraw
+c.redraw() 
+
+g.es("post_id 為", post_id)
+g.es("已經送出資料!")
+
+'''
+其他 metaWeblog 的用法:
+metaWeblog.newPost (blogid, username, password, struct, publish) returns string(postid)
+metaWeblog.editPost (postid, username, password, struct, publish) returns true
+metaWeblog.getPost (postid, username, password) returns struct(blog content)
+'''</t>
+<t tx="amd.20160309162721.3">第1行 
+
+    Title: yen - Github Pages 網頁資料更新問題
+    
+第2行
+
+    Category: Misc
+    
+第3行
+
+    Tags: Github Pages
+    
+第4行
+
+    Author: yen
+
+&lt;!-- PELICAN_END_SUMMARY --&gt; 之前為 文章摘要
+
+之後為文章內容, 但是
+
+~~~python 必須換為 [code lang="python"]
+~~~ 則換為 [/code]
+
+然後再看看 &lt;a href="http://project.mde.tw"&gt;http://project.mde.tw&lt;/a&gt; 是否要直接採用 html anchor 或將
+
+Pelican 的 &lt;http://project.mde.tw&gt; 轉為 html anchor 格式
+
+此外, 將 .md 檔案的內容解讀後, 送到對應的 Wordpress 網站後, 將回傳在 .md 檔案的子節點, 加入一個"文章 id "的節點, 內文為該文章在 Wordpress 的 id 號碼
+
+但是從 Pelican md 文章內容解讀後送到 Wordpress, 只支援 new 與 edit, 從 Wordpress 取回文章內容的流程還要再思考一下
+</t>
+<t tx="amd.20160309162721.4">滑鼠停在 .md 文章的對應節點, 然後按下 new-wp-pelican 按鈕,
+完成後該 .md 節點下屬會傳回文章 id 節點, 標示在 Wordpress 的對應文章 id</t>
+<t tx="amd.20160309162721.5">@language python
+#coding: utf-8
+import xmlrpc.client
+import datetime
+import os
+
+def get_cat_tag_content(data):
+    # 請注意, 因為 data 來自 .md 的 body pan 內容, 第1行為 @language python
+    # 用跳行符號分割
+    data_list = data.split("\n")
+    #第2行為 title
+    title= data_list[1]
+    #第3行為 category
+    category = data_list[2]
+    #第4行為 tags
+    tags = data_list[3]
+    # 有多項資料的 content 型別為數列
+    # 再將第7行之後的資料數列串回成以跳行隔開的資料
+    content = "\n".join(data_list[6:])
+    # 先將截斷摘要與內文的 pelican md 檔按符號, 換成 Wordpress 的 &lt;!-more-&gt;
+    content = content.replace('&lt;!-- PELICAN_END_SUMMARY --&gt;', '&lt;!--more--&gt;')
+    # 接著若內容有 ~~~python 與 ~~~ 則換成 Wordpress 格式
+    content = content.replace('~~~python', '[code lang="python"]')
+    content = content.replace('~~~', '[/code]')
+    return title, category, tags, content
+    
+os.environ['TZ'] = 'Asia/Taipei'
+ 
+#################################
+filepath = "/home/amd/Desktop/www-code4future.txt"
+wordpress = "www.code4future.org"
+fo = open(filepath, "r+")
+data = []
+for line in fo.readlines():
+    data.append(line)
+fo.close()
+
+wp_url = "https://"+wordpress+"/xmlrpc.php"
+wp_username = data[0]
+wp_password = data[1]
+#################################
+wp_blogid = "0"
+ 
+status_draft = 0
+status_published = 1
+ 
+server = xmlrpc.client.ServerProxy(wp_url)
+
+# 從目前所在節點的 body pan 中取出類別, tags 以及文章內容
+title_str, category_str, tags_str, content = get_cat_tag_content(p.b)
+# title 是一個單獨的字串
+title = title_str.split(":")[1]
+# 指定時間出版
+'''
+date_created = xmlrpc.client.DateTime(datetime.datetime.strptime("2013-01-01 00:00",
+"%Y-%m-%d %H:%M"))
+'''
+# 以現在時間出版, 考慮與 Server 時間差八個小時 (480 分鐘), 因此要在 8 個小時前發表
+date_created = xmlrpc.client.DateTime(datetime.datetime.strptime((datetime.datetime.now()- \
+datetime.timedelta(minutes=480)).strftime('%Y-%m-%d %H:%M'),"%Y-%m-%d %H:%M"))
+categories = [category_str.split(":")[1]]
+# 請注意, 因為 tags 用逗點隔開, 因此必須透過 split() 再分開成為 list 資料
+tags = tags_str.split(":")[1].split(",")
+data = {'title': title, 'description': content, 'dateCreated': date_created, 'categories': categories, 'mt_keywords': tags}
+
+# 設法取得原 post 的 id
+origin_post = p.getLastChild()
+# 直接從標題取得 post 的 id 號碼
+post_id = origin_post.h
+status = server.metaWeblog.editPost(post_id, wp_username, wp_password, data, status_published)
+
+if status:
+    g.es("資料已經更新!")
+else:
+    g.es("有問題, 資料沒有更新!")
+'''
+其他 metaWeblog 的用法:
+metaWeblog.newPost (blogid, username, password, struct, publish) returns string(postid)
+metaWeblog.editPost (postid, username, password, struct, publish) returns true
+metaWeblog.getPost (postid, username, password) returns struct(blog content)
+'''</t>
+<t tx="amd.20160309162721.8">execute-script predefines:
+
+c: The commander of the present outline.
+g: The leo.core.leoGlobals module.
+p: The presently selected position, c.p.</t>
+<t tx="amd.20160309174033.1"></t>
+<t tx="amd.20160309175129.1">@language python
+#coding: utf-8
+import xmlrpc.client
+# 導入 html 模組, 使用 html.unescape 轉換 html 特殊符號
+import html
+ 
+#################################
+filepath = "/home/amd/Desktop/www-code4future.txt"
+wordpress = "www.code4future.org"
+fo = open(filepath, "r+")
+data = []
+for line in fo.readlines():
+    data.append(line)
+fo.close()
+
+# 從網誌節點的 parent().h 取得 wp_url
+# 從網誌節點的 parent().b 取得帳號與密碼對應的文字檔案路徑
+wp_url = "https://"+wordpress+"/xmlrpc.php"
+wp_username = data[0]
+wp_password = data[1]
+#################################
+
+server = xmlrpc.client.ServerProxy(wp_url)
+
+# 設法透過上述網誌網址, 帳號與密碼, 以及文章 id, 取回 categories, tags, 文章標題, 文章內容等資
+
+# 從最後的 child 節點來取 post_id
+origin_post = p.getLastChild()
+post_id = origin_post.h
+# 取回與 post_id 對應的網誌文章內容
+blog_content = server.metaWeblog.getPost(post_id, wp_username, wp_password)
+title = blog_content["title"]
+# 這裡要利用 html.unescape 轉回特殊符號
+description = html.unescape(blog_content["description"])
+mt_text_more = html.unescape(blog_content["mt_text_more"])
+if mt_text_more != "":
+    post_content = description + "\n&lt;!--more--&gt;\n"+mt_text_more
+else:
+    post_content = description
+# 所取回的 categories 為 list
+categories = blog_content["categories"]
+# 所取回的 tags 為以逗點隔開的字串
+mt_keywords = blog_content["mt_keywords"]
+# 取回文章作者
+author = blog_content["wp_author_display_name"]
+p.h = title
+categories_str = ""
+for category in categories:
+    # 假如不是最後一個
+    if category != categories[len(categories)-1]:
+        categories_str += category + ", "
+    else:
+        # 這是最後一個
+        categories_str += category
+line1 = "@language md\n"
+line2 = "Title: " +title + "\n"
+line3 = "Category: " + categories_str + "\n"
+line4 = "Tags: " + mt_keywords + "\n"
+line5 = "Author: " + author + "\n@others\n"
+post_content = post_content.replace('&lt;!--more--&gt;', '\n&lt;!-- PELICAN_END_SUMMARY --&gt;\n')
+post_content = post_content.replace('[code lang="python"]', '~~~python')
+post_content = post_content.replace('[/code]', '~~~')
+p.b = line1 + line2 + line3 + line4 + line5 + post_content + "\n"
+# 因為節點資料更新, commander 必須 redraw
+c.redraw() 
+g.es("資料已經取回")
+
+
+
+</t>
+<t tx="amd.20160309175129.2">俱備取回資料的權限
+
+透過子節點的文章 id 與網誌網址, 以 xmlrpc 協定進行連線
+
+取回 categories, tags, 文章標題與文章內容, 還有作者帳號?
+
+分別按照格式, 將取回的資料放入對應節點
+
+</t>
+<t tx="amd.20160309191406.1">@language md
+Title: 掌握未來, 速學編程
+Category: K-12 學生
+Tags: 導引
+Author: code4future
+@others
+二十一世紀是數位運算與電腦編程充斥的世代.
+
+&lt;!-- PELICAN_END_SUMMARY --&gt;
+
+從小就學習程式的目的, 無非就是要這些未來的主人翁能夠及早了解數位系統的特性, 並且有效率地利用這些數位工具, 來解決類比世界所面臨的各種問題. 是的, 學習編程是要您用它來解決問題, 解決學習上的問題, 解決提升生活效能的問題, 解決單憑藉類比工具無法單獨解決的問題.
+</t>
+<t tx="amd.20160309191408.1"></t>
+<t tx="amd.20160319074059.1"></t>
+<t tx="amd.20160319074114.1"></t>
+<t tx="amd.20160319074122.1"></t>
 <t tx="leo.20151212173315.1"></t>
 <t tx="leo.20151212173315.2">QTreeWidget {
     /* These apply to the selected item, but not to editing items.*/
