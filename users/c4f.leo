@@ -122,6 +122,7 @@
 <v t="amd.20160319230246.1"><vh>27</vh></v>
 </v>
 <v t="amd.20160319232117.1"><vh>@clean c4f_20160319-2.md</vh></v>
+<v t="amd.20160320001047.1"><vh>@clean c4f_20160320.md</vh></v>
 </v>
 </v>
 </v>
@@ -712,6 +713,32 @@ Author: code4future
 從數位基礎到應用:
 
 &lt;a href="http://www.nand2tetris.org/"&gt;http://www.nand2tetris.org/&lt;/a&gt;</t>
+<t tx="amd.20160320001047.1">@language md
+Title: 全雲端電腦輔助機械設計 3D 套件
+Category: 社會人士
+Tags: MCAD, CAD
+Author: code4future
+@others
+一般人對於所謂的電腦輔助機械設計繪圖套件, 可能都還停留在單機 ,必須安裝, 必須經過軟硬體授權認証才能啟動的單機應用程式. 自從 2015 年3月份開始, 一群曾經在 1993 協助打造全世界第一套個人電腦操作系統上的 MCAD (Mechanical Computer Aided Design) 團隊, 推出了 OnShape, 從此您又多了一個選擇, 可以在各種電腦裝置 (包括手機與平板電腦) 上設計繪製 3D 的零組件, 不僅能與多人進行即時協同設計, 並且可以從擁有 500MB 到 5GB 的免費帳號開始入門.
+
+&lt;!-- PELICAN_END_SUMMARY --&gt;
+
+今天起, 請您暫時放下其他類似的 MCAD 套件, 開始關注: &lt;a href="https://www.onshape.com/"&gt;https://www.onshape.com/&lt;/a&gt;.
+
+&lt;video controls autoplay="autoplay" width="800" height="600"&gt;
+  &lt;source src="http://code4futuretw.github.io/blogsite_data/files/grab-windows700kb.mp4"&gt;
+  Your browser does not support the video tag.
+&lt;/video&gt;
+
+&lt;video controls autoplay="autoplay" width="800" height="600"&gt;
+  &lt;source src="http://code4futuretw.github.io/blogsite_data/files/ipad-air-720p_700kb.mp4"&gt;
+  Your browser does not support the video tag.
+&lt;/video&gt;
+
+&lt;video controls autoplay="autoplay" width="800" height="600"&gt;
+  &lt;source src="http://code4futuretw.github.io/blogsite_data/files/laptop-720p-apple700kb.mp4"&gt;
+  Your browser does not support the video tag.
+&lt;/video&gt;</t>
 <t tx="leo.20151212173315.1"></t>
 <t tx="leo.20151212173315.2">QTreeWidget {
     /* These apply to the selected item, but not to editing items.*/
