@@ -121,6 +121,7 @@
 <v t="amd.20160319222458.1"><vh>@clean c4f_20160319-1.md</vh>
 <v t="amd.20160319230246.1"><vh>27</vh></v>
 </v>
+<v t="amd.20160319232117.1"><vh>@clean c4f_20160319-2.md</vh></v>
 </v>
 </v>
 </v>
@@ -664,6 +665,35 @@ Rapid Router 從圖像編程入手, 規劃了適合 5-11 歲孩童電腦教學�
 
 同時, 老師註冊帳號後登入系統 ,就可以下載規劃完整的教學導引與學習評量內容, 儘管全部教材都是英文, 但若能夠藉由此份"快車找路"的類遊戲編程教學中, 讓孩童同時學習簡單的英文字句, 應該也是很不錯的額外收穫.</t>
 <t tx="amd.20160319230246.1"></t>
+<t tx="amd.20160319232117.1">@language md
+Title: 數位運算博物館
+Category: 專題研究
+Tags: 數位運算, 電腦發展史
+Author: code4future
+@others
+台灣是全世界重要的個人電腦生產國之一, 假如能夠有系統收集歷史上與數位運算相關的軟硬體相關資訊, 成立一個實體或虛擬的數位運算博物館, 那麼, 或許下一代年輕人能藉以鑑往知來, 在全球數位公民中扮演更重要的角色.
+
+&lt;!-- PELICAN_END_SUMMARY --&gt;
+
+英國運算博物館 (National Museum of Computing):
+
+&lt;iframe width="560" height="315" src="https://www.youtube.com/embed/_Sw15F2QzMQ" frameborder="0" allowfullscreen&gt;&lt;/iframe&gt;
+
+電腦發展史:
+
+&lt;img src="http://code4futuretw.github.io/blogsite_data/files/computer_history_timeline.png" width="800" /&gt;
+
+電腦博物館 (Computer Museum):
+
+&lt;a href="https://en.wikipedia.org/wiki/The_Computer_Museum,_Boston"&gt;https://en.wikipedia.org/wiki/The_Computer_Museum,_Boston&lt;/a&gt;
+
+&lt;a href="http://www.computerhistory.org/"&gt;http://www.computerhistory.org/&lt;/a&gt;
+
+&lt;a href="http://tcm.computerhistory.org/"&gt;http://tcm.computerhistory.org/&lt;/a&gt;
+
+從數位基礎到應用:
+
+&lt;a href="http://www.nand2tetris.org/"&gt;http://www.nand2tetris.org/&lt;/a&gt;</t>
 <t tx="leo.20151212173315.1"></t>
 <t tx="leo.20151212173315.2">QTreeWidget {
     /* These apply to the selected item, but not to editing items.*/
