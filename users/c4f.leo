@@ -115,7 +115,9 @@
 <v t="amd.20160309191406.1"><vh>掌握未來, 速學編程</vh>
 <v t="amd.20160309191408.1"><vh>1</vh></v>
 </v>
-<v t="amd.20160319123605.1"><vh>@clean c4f_20160319.md</vh></v>
+<v t="amd.20160319123605.1"><vh>@clean c4f_20160319.md</vh>
+<v t="amd.20160319132434.1"><vh>24</vh></v>
+</v>
 </v>
 </v>
 </v>
@@ -641,7 +643,8 @@ Author: code4future
 6. 先利用本地端所屬的 local-pelican 按鈕建立網誌文章.
 7. 本地端內容查詢無誤後, 再用 gh-pages-pelican 按鈕, 產升即將送到雲端上的 Pelican 網誌內容
 
-至於將 Pelican 中的 .md 檔案內容, 送到 Wordpress, 則配合 new-to-wp-pelican, edit-to-wp-pelican 與 get-from-wp-pellican 等3個按鈕指令.</t>
+至於將 Pelican 中的 .md 檔案內容, 送到 Wordpress, 則配合 new-to-wp-pelican, edit-to-wp-pelican 與 get-from-wp-pelican 等3個按鈕指令.</t>
+<t tx="amd.20160319132434.1"></t>
 <t tx="leo.20151212173315.1"></t>
 <t tx="leo.20151212173315.2">QTreeWidget {
     /* These apply to the selected item, but not to editing items.*/
