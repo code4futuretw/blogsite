@@ -1,5 +1,22 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>Code4future</title><link href="http://blog.code4future.org/blog/" rel="alternate"></link><link href="http://blog.code4future.org/blog/feeds/she-hui-ren-shi.atom.xml" rel="self"></link><id>http://blog.code4future.org/blog/</id><updated>2016-03-19T13:29:17+08:00</updated><entry><title>如何架構一個動靜皆宜的網誌系統</title><link href="http://blog.code4future.org/blog/ru-he-jia-gou-yi-ge-dong-jing-jie-yi-de-wang-zhi-xi-tong.html" rel="alternate"></link><updated>2016-03-19T13:29:17+08:00</updated><author><name>code4future</name></author><id>tag:blog.code4future.org,2016-03-19:blog/ru-he-jia-gou-yi-ge-dong-jing-jie-yi-de-wang-zhi-xi-tong.html</id><summary type="html">&lt;p&gt;全球資訊網上有兩種基本的 Blog 架構, 動態的網誌以 &lt;a href="https://wordpress.com/"&gt;Wordpress&lt;/a&gt; 為代表, 而靜態的網誌則以 &lt;a href="https://github.com/getpelican/pelican"&gt;Pelican&lt;/a&gt; 為例.&lt;/p&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>Code4future</title><link href="http://blog.code4future.org/blog/" rel="alternate"></link><link href="http://blog.code4future.org/blog/feeds/she-hui-ren-shi.atom.xml" rel="self"></link><id>http://blog.code4future.org/blog/</id><updated>2016-03-19T23:59:14+08:00</updated><entry><title>有關社會人士學習電腦</title><link href="http://blog.code4future.org/blog/you-guan-she-hui-ren-shi-xue-xi-dian-nao.html" rel="alternate"></link><updated>2016-03-19T23:59:14+08:00</updated><author><name>code4future</name></author><id>tag:blog.code4future.org,2016-03-19:blog/you-guan-she-hui-ren-shi-xue-xi-dian-nao.html</id><summary type="html">&lt;p&gt;社會人士學習電腦的課題很廣, 我們只能提供較為廣泛的電腦基本使用功能與觀念的導引, 例如, 有關 Windows 與 Ubuntu 操作系統的取捨, 如何運用網路與網站來提升工作效率等.&lt;/p&gt;
+
+
+&lt;p&gt;Code4Future 將與社會人士學習電腦的主題劃分為:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;電腦基本軟硬體層次, 桌上型、筆記型與卡片型電腦的取捨, Windows 或 Ubuntu 操作系統?&lt;/li&gt;
+&lt;li&gt;基本的本地端網路協定、設定與應用&lt;/li&gt;
+&lt;li&gt;區域網路上的全球資訊網伺服器與雲端全球資訊網伺服器的應用&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;全球資訊網上, 免費學習電腦編程的網站:&lt;/p&gt;
+&lt;p&gt;CodeCademy：&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://www.codecademy.com/"&gt;https://www.codecademy.com/&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;FreeCodeCamp:&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://www.freecodecamp.com/"&gt;https://www.freecodecamp.com/&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Udemy:&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://www.udemy.com/"&gt;https://www.udemy.com/&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Khanacademy:&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://www.khanacademy.org/computing/computer-programming"&gt;https://www.khanacademy.org/computing/computer-programming&lt;/a&gt;&lt;/p&gt;</summary><category term="電腦基本功能"></category></entry><entry><title>如何架構一個動靜皆宜的網誌系統</title><link href="http://blog.code4future.org/blog/ru-he-jia-gou-yi-ge-dong-jing-jie-yi-de-wang-zhi-xi-tong.html" rel="alternate"></link><updated>2016-03-19T13:29:17+08:00</updated><author><name>code4future</name></author><id>tag:blog.code4future.org,2016-03-19:blog/ru-he-jia-gou-yi-ge-dong-jing-jie-yi-de-wang-zhi-xi-tong.html</id><summary type="html">&lt;p&gt;全球資訊網上有兩種基本的 Blog 架構, 動態的網誌以 &lt;a href="https://wordpress.com/"&gt;Wordpress&lt;/a&gt; 為代表, 而靜態的網誌則以 &lt;a href="https://github.com/getpelican/pelican"&gt;Pelican&lt;/a&gt; 為例.&lt;/p&gt;
 
 
 &lt;p&gt;這一篇文章的目的, 在介紹 Code4Future 團隊如何利用 PHP、Python3, 在 OpenShift 雲端平台與 Github 版次管理系統中, 用同 Leo Editor 的專案架構, 以同一份內容, 幾乎同步地更新到動態與靜態的兩個網站.&lt;/p&gt;
@@ -24,12 +41,4 @@
 &lt;li&gt;先利用本地端所屬的 local-pelican 按鈕建立網誌文章.&lt;/li&gt;
 &lt;li&gt;本地端內容查詢無誤後, 再用 gh-pages-pelican 按鈕, 產升即將送到雲端上的 Pelican 網誌內容&lt;/li&gt;
 &lt;/ol&gt;
-&lt;p&gt;至於將 Pelican 中的 .md 檔案內容, 送到 Wordpress, 則配合 new-to-wp-pelican, edit-to-wp-pelican 與 get-from-wp-pelican 等3個按鈕指令.&lt;/p&gt;</summary><category term="導引"></category></entry><entry><title>有關社會人士學習電腦</title><link href="http://blog.code4future.org/blog/you-guan-she-hui-ren-shi-xue-xi-dian-nao.html" rel="alternate"></link><updated>2016-03-19T07:40:27+08:00</updated><author><name>code4future</name></author><id>tag:blog.code4future.org,2016-03-19:blog/you-guan-she-hui-ren-shi-xue-xi-dian-nao.html</id><summary type="html">&lt;p&gt;社會人士學習電腦的課題很廣, 我們只能提供較為廣泛的電腦基本使用功能與觀念的導引, 例如, 有關 Windows 與 Ubuntu 操作系統的取捨, 如何運用網路與網站來提升工作效率等.&lt;/p&gt;
-
-
-&lt;p&gt;Code4Future 將與社會人士學習電腦的主題劃分為:&lt;/p&gt;
-&lt;ol&gt;
-&lt;li&gt;電腦基本軟硬體層次, 桌上型、筆記型與卡片型電腦的取捨, Windows 或 Ubuntu 操作系統?&lt;/li&gt;
-&lt;li&gt;基本的本地端網路協定、設定與應用&lt;/li&gt;
-&lt;li&gt;區域網路上的全球資訊網伺服器與雲端全球資訊網伺服器的應用&lt;/li&gt;
-&lt;/ol&gt;</summary><category term="電腦基本功能"></category></entry></feed>
+&lt;p&gt;至於將 Pelican 中的 .md 檔案內容, 送到 Wordpress, 則配合 new-to-wp-pelican, edit-to-wp-pelican 與 get-from-wp-pelican 等3個按鈕指令.&lt;/p&gt;</summary><category term="導引"></category></entry></feed>

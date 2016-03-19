@@ -304,7 +304,25 @@ Code4Future 將與社會人士學習電腦的主題劃分為:
 
 1. 電腦基本軟硬體層次, 桌上型、筆記型與卡片型電腦的取捨, Windows 或 Ubuntu 操作系統?
 2. 基本的本地端網路協定、設定與應用
-3. 區域網路上的全球資訊網伺服器與雲端全球資訊網伺服器的應用</t>
+3. 區域網路上的全球資訊網伺服器與雲端全球資訊網伺服器的應用
+
+全球資訊網上, 免費學習電腦編程的網站:
+
+CodeCademy：
+
+&lt;a href="https://www.codecademy.com/"&gt;https://www.codecademy.com/&lt;/a&gt;
+
+FreeCodeCamp:
+
+&lt;a href="https://www.freecodecamp.com/"&gt;https://www.freecodecamp.com/&lt;/a&gt;
+
+Udemy:
+
+&lt;a href="https://www.udemy.com/"&gt;https://www.udemy.com/&lt;/a&gt;
+
+Khanacademy:
+
+&lt;a href="https://www.khanacademy.org/computing/computer-programming"&gt;https://www.khanacademy.org/computing/computer-programming&lt;/a&gt;</t>
 <t tx="amd.20160309162721.1"></t>
 <t tx="amd.20160309162721.2">@language python
 #coding: utf-8
