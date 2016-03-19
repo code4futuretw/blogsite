@@ -18,7 +18,7 @@
 <v t="amd.20160306101823.1"><vh>code4future.org</vh></v>
 <v t="amd.20160306182104.1"><vh>內容分類</vh></v>
 </v>
-<v t="amd.20160309162721.1"><vh>Wordpress 端</vh>
+<v t="amd.20160309162721.1" a="E"><vh>Wordpress 端</vh>
 <v t="amd.20160309162721.2"><vh>@button new to wp (pelican)</vh>
 <v t="amd.20160309162721.3"><vh>md 檔案的格式</vh></v>
 <v t="amd.20160309162721.4"><vh>將 md 節點內容送到 Wordpress 方法</vh></v>
@@ -97,7 +97,7 @@
 <v t="amd.20151215170031.1" a="E"><vh>@path ./../content</vh>
 <v t="amd.20160106093454.1" a="E"><vh>網誌 md 檔案</vh>
 <v t="amd.20160213095053.1" a="E"><vh>201602</vh>
-<v t="amd.20160224170554.1" a="E"><vh>@clean c4f_20160225.md</vh>
+<v t="amd.20160224170554.1"><vh>@clean c4f_20160225.md</vh>
 <v t="amd.20160309174033.1"><vh>10</vh></v>
 </v>
 <v t="amd.20160224171626.1"><vh>@clean c4f_20160225-1.md</vh>
@@ -108,12 +108,14 @@
 <v t="amd.20160306214240.1"><vh>@clean c4f_20160306-1.md</vh>
 <v t="amd.20160319074122.1"><vh>20</vh></v>
 </v>
-<v t="amd.20160306214335.1" a="E"><vh>@clean c4f_20160306-2.md</vh>
+<v t="amd.20160306214335.1"><vh>@clean c4f_20160306-2.md</vh>
 <v t="amd.20160319074059.1"><vh>16</vh></v>
 </v>
-<v t="amd.20160309191406.1" a="E"><vh>掌握未來, 速學編程</vh>
+<v t="amd.20160319123316.1"><vh>下一則只有標題與 id 的文章, 只送到 WP</vh></v>
+<v t="amd.20160309191406.1"><vh>掌握未來, 速學編程</vh>
 <v t="amd.20160309191408.1"><vh>1</vh></v>
 </v>
+<v t="amd.20160319123605.1"><vh>@clean c4f_20160319.md</vh></v>
 </v>
 </v>
 </v>
@@ -599,6 +601,47 @@ Author: code4future
 <t tx="amd.20160319074059.1"></t>
 <t tx="amd.20160319074114.1"></t>
 <t tx="amd.20160319074122.1"></t>
+<t tx="amd.20160319123316.1">在這個 Leo Editor 專案中, 有 Pelican 靜態網誌系統的設定與實際將 md 檔轉為 html 的指令按鈕
+
+而且每一則文章, 可以透過與 WP 對應的指令按鈕將文章轉換格式後, 送到對應的 Wordpress 動態網誌</t>
+<t tx="amd.20160319123605.1">@language md
+Title: 如何架構一個動靜皆宜的網誌系統
+Category: 社會人士
+Tags: 導引
+Author: code4future
+@others
+全球資訊網上有兩種基本的 Blog 架構, 動態的網誌以 &lt;a href="https://wordpress.com/"&gt;Wordpress&lt;/a&gt; 為代表, 而靜態的網誌則以 &lt;a href="https://github.com/getpelican/pelican"&gt;Pelican&lt;/a&gt; 為例.
+
+&lt;!-- PELICAN_END_SUMMARY --&gt;
+
+這一篇文章的目的, 在介紹 Code4Future 團隊如何利用 PHP、Python3, 在 OpenShift 雲端平台與 Github 版次管理系統中, 用同 Leo Editor 的專案架構, 以同一份內容, 幾乎同步地更新到動態與靜態的兩個網站.
+
+首先, Code4Future 目前的動態網站為: &lt;a href="http://www.code4future.org"&gt;http://www.code4future.org&lt;/a&gt;, 而靜態網站則位於 &lt;a href="http://blog.code4future.org"&gt;http://blog.code4future.org&lt;/a&gt;.
+
+其中的動態網站採用 &lt;a href="https://www.openshift.com/"&gt;Openshift&lt;/a&gt; 雲端平台建構, 而靜態網頁則架構在 &lt;a href="https://pages.github.com/"&gt;Github Pages&lt;/a&gt; 上.
+
+從 &lt;a href="https://github.com/code4futuretw/blogsite"&gt;https://github.com/code4futuretw/blogsite&lt;/a&gt; 倉儲, 可以取得 &lt;a href="http://blog.code4future.org"&gt;http://blog.code4future.org&lt;/a&gt; 靜態網誌上的所有資料 ,包括 Pelican 設定與 Leo Editor 專案檔中的所有按鈕指令程式碼.
+
+首先來看, 如何在 OpenShift 建立一個 Wordpress 網誌:
+
+1. 到 &lt;a href="https://www.openshift.com/"&gt;https://www.openshift.com/&lt;/a&gt; 申請一個帳號.
+2. 收到 OpenShift 信件後, 按回電子郵箱的確認連結, 就可以開始在 OpenShift 雲端平台上建立應用程式.
+3. 建立應用程式時, 選擇建立 Wordpress 類別的網誌, 並且選擇可用的網域名稱與應用程式名稱, 就可完成 Wordpress 起始設定.
+4. 當建立 Wordpress 應用程式完成後, 使用者即可進行網誌的設定, 其中包括管理者帳號的建立與基本網誌設定.
+
+至於 Github Pages 上的 &lt;a href="http://blog.code4future.org"&gt;http://blog.code4future.org&lt;/a&gt; 靜態網誌, 其架構則比較複雜, 一方面, 我們採用 &lt;a href="http://leoeditor.com/"&gt;Leo Editor&lt;/a&gt; 來管理所有資料. 當使用者從 &lt;a href="https://github.com/code4futuretw/blogsite"&gt;https://github.com/code4futuretw/blogsite&lt;/a&gt; 倉儲 git clone 資料到本地端之後, 必須依靠 Python3, PyQt, Pelican 與 Git 才能順利在本地端與 Github Page 分支端, 順利建立並管理這個靜態網誌系統.
+
+此外, 我們建構靜態網頁系統的目的, 是希望爾後在實體課堂中推廣 Code4Future 的各階段教材時, 可以無需上到廣域網路, 利用隨身硬碟與區域網路就能夠上課. 因此 Github 倉儲中的 Pelican 系統又分為本地端與雲端平台上的轉檔設定. 使用本靜態網頁時, 基本工作流程如下:
+
+1. 從 &lt;a href="https://github.com/code4futuretw/blogsite"&gt;https://github.com/code4futuretw/blogsite&lt;/a&gt; 倉儲, git clone 資料到本地端.
+2. 確定工作目錄中為倉儲的 gh-pages 分支內容.
+3. 利用 Leo Editor 5.1 以後的版本, 開啟 users 目錄下的 c4f.leo, 就可以看到本站的所有資料.
+4. 修改設定檔案內容.
+5. 根據網誌 md 檔案中的格式, 編寫新網誌文章.
+6. 先利用本地端所屬的 local-pelican 按鈕建立網誌文章.
+7. 本地端內容查詢無誤後, 再用 gh-pages-pelican 按鈕, 產升即將送到雲端上的 Pelican 網誌內容
+
+至於將 Pelican 中的 .md 檔案內容, 送到 Wordpress, 則配合 new-to-wp-pelican, edit-to-wp-pelican 與 get-from-wp-pellican 等3個按鈕指令.</t>
 <t tx="leo.20151212173315.1"></t>
 <t tx="leo.20151212173315.2">QTreeWidget {
     /* These apply to the selected item, but not to editing items.*/
