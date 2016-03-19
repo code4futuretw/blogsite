@@ -18,7 +18,7 @@
 <v t="amd.20160306101823.1"><vh>code4future.org</vh></v>
 <v t="amd.20160306182104.1"><vh>內容分類</vh></v>
 </v>
-<v t="amd.20160309162721.1" a="E"><vh>Wordpress 端</vh>
+<v t="amd.20160309162721.1"><vh>Wordpress 端</vh>
 <v t="amd.20160309162721.2"><vh>@button new to wp (pelican)</vh>
 <v t="amd.20160309162721.3"><vh>md 檔案的格式</vh></v>
 <v t="amd.20160309162721.4"><vh>將 md 節點內容送到 Wordpress 方法</vh></v>
@@ -117,6 +117,9 @@
 </v>
 <v t="amd.20160319123605.1"><vh>@clean c4f_20160319.md</vh>
 <v t="amd.20160319132434.1"><vh>24</vh></v>
+</v>
+<v t="amd.20160319222458.1"><vh>@clean c4f_20160319-1.md</vh>
+<v t="amd.20160319230246.1"><vh>27</vh></v>
 </v>
 </v>
 </v>
@@ -645,6 +648,22 @@ Author: code4future
 
 至於將 Pelican 中的 .md 檔案內容, 送到 Wordpress, 則配合 new-to-wp-pelican, edit-to-wp-pelican 與 get-from-wp-pelican 等3個按鈕指令.</t>
 <t tx="amd.20160319132434.1"></t>
+<t tx="amd.20160319222458.1">@language md
+Title: CodeForLife 編程套件介紹
+Category: K-12
+Tags: 導引
+Author: code4future
+@others
+Code for Life &lt;a href="https://www.codeforlife.education/"&gt;https://www.codeforlife.education/&lt;/a&gt; 是一套適合幼稚園到國小兒童使用的編程教育套件.
+
+&lt;!-- PELICAN_END_SUMMARY --&gt;
+
+Rapid Router 則是其中由英國 Ocado 公司在 &lt;a href="http://www.ocadotechnology.com/our-blog/articles/why-weve-open-sourced-code-for-life"&gt;2015 年 10 月份開源&lt;/a&gt;釋出的全球資訊網套件 (&lt;a href="https://github.com/ocadotechnology/rapid-router"&gt;Rapid Router Github 倉儲&lt;/a&gt;, &lt;a href="https://twitter.com/codeforlifeuk"&gt;Code for Life Twitter&lt;/a&gt;), 採用 Javascript 與 Python 編寫, 並且架構在 &lt;a href="https://www.djangoproject.com/"&gt;Django&lt;/a&gt; 全球資訊網框架上.
+
+Rapid Router 從圖像編程入手, 規劃了適合 5-11 歲孩童電腦教學的教材, 並且逐步導入 Python 程式語法的教學, 其中的每一份教材都明確訂出進度與標的: &lt;a href="http://storage.googleapis.com/codeforlife-assets/general_resources/introduction_to_coding.pdf"&gt;http://storage.googleapis.com/codeforlife-assets/general_resources/introduction_to_coding.pdf&lt;/a&gt;.
+
+同時, 老師註冊帳號後登入系統 ,就可以下載規劃完整的教學導引與學習評量內容, 儘管全部教材都是英文, 但若能夠藉由此份"快車找路"的類遊戲編程教學中, 讓孩童同時學習簡單的英文字句, 應該也是很不錯的額外收穫.</t>
+<t tx="amd.20160319230246.1"></t>
 <t tx="leo.20151212173315.1"></t>
 <t tx="leo.20151212173315.2">QTreeWidget {
     /* These apply to the selected item, but not to editing items.*/
