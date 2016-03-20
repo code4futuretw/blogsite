@@ -14,7 +14,7 @@
 <v t="leo.20151212173315.2"><vh>@data qt-gui-plugin-style-sheet</vh></v>
 <v t="leo.20151212173315.3"><vh>@string initial_split_orientation = horizontal</vh></v>
 </v>
-<v t="amd.20160306101815.1"><vh>網站規劃</vh>
+<v t="amd.20160306101815.1" a="E"><vh>網站規劃</vh>
 <v t="amd.20160306101823.1"><vh>code4future.org</vh></v>
 <v t="amd.20160306182104.1"><vh>內容分類</vh></v>
 </v>
@@ -29,6 +29,7 @@
 </v>
 <v t="amd.20160309162721.8"><vh>Leo Editor 程式開發</vh></v>
 </v>
+<v t="amd.20160320145431.1"><vh>有關 reeborg</vh></v>
 <v t="amd.20160106095324.1" a="E"><vh>@path ./../</vh>
 <v t="leo.20151213173811.1" a="E"><vh>假如要送到 gh-pages 分支, 使用下列按鈕</vh>
 <v t="leo.20151212173658.1"><vh>@button gh-pages pelican</vh></v>
@@ -123,6 +124,9 @@
 </v>
 <v t="amd.20160319232117.1"><vh>@clean c4f_20160319-2.md</vh></v>
 <v t="amd.20160320001047.1"><vh>@clean c4f_20160320.md</vh></v>
+<v t="amd.20160320182523.1"><vh>@clean c4f_20160320-1.md</vh>
+<v t="amd.20160320184332.1"><vh>34</vh></v>
+</v>
 </v>
 </v>
 </v>
@@ -739,6 +743,27 @@ Author: code4future
   &lt;source src="http://code4futuretw.github.io/blogsite_data/files/laptop-720p-apple700kb.mp4"&gt;
   Your browser does not support the video tag.
 &lt;/video&gt;</t>
+<t tx="amd.20160320145431.1"></t>
+<t tx="amd.20160320182523.1">@language md
+Title: Reeborg 機器人的兩個世界
+Category: 教師
+Tags: 導引
+Author: code4future
+@others
+Reeborg 機器人世界是孩童學習 Python3 程式的一套有趣味性的工具, 從早期的單機程式, 到現在能夠直接在雲端主機或本地端進行練習操作, 正好見證了過去十幾年全球數位運算發展趨勢.
+
+&lt;!-- PELICAN_END_SUMMARY --&gt;
+
+因為目前 Reeborg 機器人程式碼中同時存在 JavaScript 與 Brython: &lt;a href="http://brython.info/"&gt;http://brython.info/&lt;/a&gt; 語法, 而作者也不斷在這兩種語言中進行各種切換測試, 這裡先提供最近版本中的兩個機器人世界:
+
+&lt;a href="http://code4futuredotorg.github.io/reeborg_tw/world.html"&gt;http://code4futuredotorg.github.io/reeborg_tw/world.html&lt;/a&gt; (&lt;a href="https://github.com/code4futuredotorg/reeborg_tw"&gt;Github 倉儲&lt;/a&gt;)
+
+&lt;a href="http://code4futuredotorg.github.io/reeborg2/"&gt;http://code4futuredotorg.github.io/reeborg2/&lt;/a&gt; (&lt;a href="https://github.com/code4futuredotorg/reeborg2"&gt;Github 倉儲&lt;/a&gt;)
+
+上面這兩個網站都是採用 &lt;a href="https://pages.github.com/"&gt;Github Pages 技術&lt;/a&gt;, 已經將原始程式碼中的絕對根目錄資料設定, 改為相對目錄, 因此也能夠在本地端利用 python3 -m http.server 的方式啟動.
+
+</t>
+<t tx="amd.20160320184332.1"></t>
 <t tx="leo.20151212173315.1"></t>
 <t tx="leo.20151212173315.2">QTreeWidget {
     /* These apply to the selected item, but not to editing items.*/
