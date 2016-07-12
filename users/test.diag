@@ -1,0 +1,61 @@
+
+blockdiag {
+    default_shape = roundedbox;
+    // 內定寬度為 128
+    node_width = 140;
+    // 內定高度為 40
+    node_height = 50;
+    default_fontsize = 15;
+    default_node_color = "lightyellow";
+    edge_layout = flowchart;
+    code4future [label = "克服未來"]
+    // 服務對象
+    對象 [label = "四種服務對象"];
+    1 [label = "未成年兒童"];
+    2 [label = "家長"];
+    3 [label = "教師"];
+    4 [label = "社會人士"];
+    對象 -> 1;
+    對象 -> 2;
+    對象 -> 3;
+    對象 -> 4;
+    // 任務
+    任務 [label = "任務"];
+    數位運算 [label = "數位運算"];
+    編程教學 [label = "編程教學"];
+    任務 -> 數位運算;
+    任務 -> 編程教學;
+    // 工具
+    工具 [label = "工具"];
+    數位教材 [label = "數位教材"];
+    BYOD [label = "自帶筆電"];
+    RPI [label = "樹莓派電腦"];
+    3DP [label = "3D 印表機"];
+    SS [label = "3D 參數繪圖"]
+    OS [label = "3D 雲端繪圖"]
+    VREP [label = "動態模擬"]
+    工具 -> 數位教材;
+    工具 -> BYOD;
+    工具 -> RPI;
+    工具 -> 3DP;
+    工具 -> SS;
+    工具 -> OS;
+    工具 -> VREP;
+    //手段
+    手段 [label = "手段"];
+    電腦程式設計 [label = "電腦程式設計"]
+    3D_製圖 [label = "3D 製圖"]
+    數位模擬 [label = "數位模擬"]
+    3D_列印 [label = "3D 列印"]
+    機電控制 [label = "機電控制"]
+    手段 -> 電腦程式設計;
+    手段 -> 3D_製圖;
+    手段 -> 數位模擬;
+    手段 -> 3D_列印;
+    手段 -> 機電控制;
+    //C4F
+    code4future -> 對象
+    code4future -> 任務
+    code4future -> 工具
+    code4future -> 手段
+}

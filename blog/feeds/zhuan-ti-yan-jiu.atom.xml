@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>Code4future</title><link href="http://blog.code4future.org/blog/" rel="alternate"></link><link href="http://blog.code4future.org/blog/feeds/zhuan-ti-yan-jiu.atom.xml" rel="self"></link><id>http://blog.code4future.org/blog/</id><updated>2016-03-19T23:45:30+08:00</updated><entry><title>數位運算博物館</title><link href="http://blog.code4future.org/blog/shu-wei-yun-suan-bo-wu-guan.html" rel="alternate"></link><updated>2016-03-19T23:45:30+08:00</updated><author><name>code4future</name></author><id>tag:blog.code4future.org,2016-03-19:blog/shu-wei-yun-suan-bo-wu-guan.html</id><summary type="html">&lt;p&gt;台灣是全世界重要的個人電腦生產國之一, 假如能夠有系統收集歷史上與數位運算相關的軟硬體相關資訊, 成立一個實體或虛擬的數位運算博物館, 那麼, 或許下一代年輕人能藉以鑑往知來, 在全球數位公民中扮演更重要的角色.&lt;/p&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>Code4future</title><link href="./" rel="alternate"></link><link href="./feeds/zhuan-ti-yan-jiu.atom.xml" rel="self"></link><id>./</id><updated>2016-03-19T23:45:30+08:00</updated><entry><title>數位運算博物館</title><link href="./shu-wei-yun-suan-bo-wu-guan.html" rel="alternate"></link><updated>2016-03-19T23:45:30+08:00</updated><author><name>code4future</name></author><id>tag:,2016-03-19:./shu-wei-yun-suan-bo-wu-guan.html</id><summary type="html">&lt;p&gt;台灣是全世界重要的個人電腦生產國之一, 假如能夠有系統收集歷史上與數位運算相關的軟硬體相關資訊, 成立一個實體或虛擬的數位運算博物館, 那麼, 或許下一代年輕人能藉以鑑往知來, 在全球數位公民中扮演更重要的角色.&lt;/p&gt;
 
 
 &lt;p&gt;英國運算博物館 (National Museum of Computing):&lt;/p&gt;
@@ -12,7 +12,7 @@
 &lt;p&gt;&lt;a href="http://www.computerhistory.org/"&gt;http://www.computerhistory.org/&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;&lt;a href="http://tcm.computerhistory.org/"&gt;http://tcm.computerhistory.org/&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;從數位基礎到應用:&lt;/p&gt;
-&lt;p&gt;&lt;a href="http://www.nand2tetris.org/"&gt;http://www.nand2tetris.org/&lt;/a&gt;&lt;/p&gt;</summary><category term="數位運算"></category><category term="電腦發展史"></category></entry><entry><title>Code4future user 文章套稿</title><link href="http://blog.code4future.org/blog/code4future-user-wen-zhang-tao-gao.html" rel="alternate"></link><updated>2016-03-06T21:52:24+08:00</updated><author><name>user</name></author><id>tag:blog.code4future.org,2016-03-06:blog/code4future-user-wen-zhang-tao-gao.html</id><summary type="html">&lt;p&gt;這裡可以放入文章的摘要內容&lt;/p&gt;
+&lt;p&gt;&lt;a href="http://www.nand2tetris.org/"&gt;http://www.nand2tetris.org/&lt;/a&gt;&lt;/p&gt;</summary><category term="數位運算"></category><category term="電腦發展史"></category></entry><entry><title>Code4future user 文章套稿</title><link href="./code4future-user-wen-zhang-tao-gao.html" rel="alternate"></link><updated>2016-03-06T21:52:24+08:00</updated><author><name>user</name></author><id>tag:,2016-03-06:./code4future-user-wen-zhang-tao-gao.html</id><summary type="html">&lt;p&gt;這裡可以放入文章的摘要內容&lt;/p&gt;
 
 
 &lt;h1&gt;文章標題&lt;/h1&gt;

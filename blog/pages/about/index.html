@@ -166,7 +166,7 @@ init_mathjax = function() {
 init_mathjax();
 </script>
 
-<link rel="canonical" href="http://blog.code4future.org/blog/pages/about/">
+<link rel="canonical" href="../../pages/about/">
 
         <meta name="author" content="code4future" />
         <meta name="description" content="Code4future 網誌 從小就學習程式的目的, 無非就是要這些未來的主人翁能夠及早了解數位系統的特性, 並且有效率地利用這些數位工具, 來解決類比世界所面臨的各種問題. 是的, 學習編程是要您用它來解決問題, 解決學習上的問題, 解決提升生活效能的問題, 解決單憑藉類比工具無法單獨解決的問題. 在華人世界推動兒童編程教學, 我們有兩個信念： 1. 編程的學習必須要能為其他的功課學習加分. 2. 任何有心推動類似活動的單位, 都能自由取得本站各種內容. 因為我們相信, 重要的事要能讓更多人參與. 您可以從 https://github.com/code4futuretw/blogsite 下載網站的內容. 這個倉儲的 gh-pages 分支, 就是 code4future.org 網站上的內容, 我們從 https://github.com/aroberge/reeborg 下載基本資料之後, 將原本無法直接在 Github pages 佈署的程式碼加以修改, 以便能夠讓兒童編程教學的推動者, 在沒有廣域網路連線的情況下來使用 Reeborg 機器人編程教學. code4fugure ..." />
@@ -174,20 +174,66 @@ init_mathjax();
     <meta property="og:site_name" content="Code4future" />
     <meta property="og:type" content="article"/>
     <meta property="og:title" content="About"/>
-    <meta property="og:url" content="http://blog.code4future.org/blog/pages/about/"/>
+    <meta property="og:url" content="../../pages/about/"/>
     <meta property="og:description" content="Code4future 網誌 從小就學習程式的目的, 無非就是要這些未來的主人翁能夠及早了解數位系統的特性, 並且有效率地利用這些數位工具, 來解決類比世界所面臨的各種問題. 是的, 學習編程是要您用它來解決問題, 解決學習上的問題, 解決提升生活效能的問題, 解決單憑藉類比工具無法單獨解決的問題. 在華人世界推動兒童編程教學, 我們有兩個信念： 1. 編程的學習必須要能為其他的功課學習加分. 2. 任何有心推動類似活動的單位, 都能自由取得本站各種內容. 因為我們相信, 重要的事要能讓更多人參與. 您可以從 https://github.com/code4futuretw/blogsite 下載網站的內容. 這個倉儲的 gh-pages 分支, 就是 code4future.org 網站上的內容, 我們從 https://github.com/aroberge/reeborg 下載基本資料之後, 將原本無法直接在 Github pages 佈署的程式碼加以修改, 以便能夠讓兒童編程教學的推動者, 在沒有廣域網路連線的情況下來使用 Reeborg 機器人編程教學. code4fugure ..." />
 
 
     <!-- Bootstrap -->
-        <link rel="stylesheet" href="http://blog.code4future.org/blog/theme/css/bootstrap.united.min.css" type="text/css"/>
-    <link href="http://blog.code4future.org/blog/theme/css/font-awesome.min.css" rel="stylesheet">
+        <link rel="stylesheet" href="../../theme/css/bootstrap.united.min.css" type="text/css"/>
+    <link href="../../theme/css/font-awesome.min.css" rel="stylesheet">
 
-    <link href="http://blog.code4future.org/blog/theme/css/pygments/fruity.css" rel="stylesheet">
-    <link href="http://blog.code4future.org/blog/theme/tipuesearch/tipuesearch.css" rel="stylesheet">
-    <link rel="stylesheet" href="http://blog.code4future.org/blog/theme/css/style.css" type="text/css"/>
+    <link href="../../theme/css/pygments/monokai.css" rel="stylesheet">
+    <link href="../../theme/tipuesearch/tipuesearch.css" rel="stylesheet">
+    <link rel="stylesheet" href="../../theme/css/style.css" type="text/css"/>
 
-        <link href="http://blog.code4future.org/blog/feeds/all.atom.xml" type="application/atom+xml" rel="alternate"
+        <link href="../../feeds/all.atom.xml" type="application/atom+xml" rel="alternate"
               title="Code4future ATOM Feed"/>
+
+<script type="text/javascript" src="http://code4futuretw.github.io/blogsite_data/files/syntaxhighlighter/shCore.js"></script>
+<script type="text/javascript" src="http://code4futuretw.github.io/blogsite_data/files/syntaxhighlighter/shBrushJScript.js"></script>
+<script type="text/javascript" src="http://code4futuretw.github.io/blogsite_data/files/syntaxhighlighter/shBrushJava.js"></script>
+<script type="text/javascript" src="http://code4futuretw.github.io/blogsite_data/files/syntaxhighlighter/shBrushPython.js"></script>
+<script type="text/javascript" src="http://code4futuretw.github.io/blogsite_data/files/syntaxhighlighter/shBrushSql.js"></script>
+<script type="text/javascript" src="http://code4futuretw.github.io/blogsite_data/files/syntaxhighlighter/shBrushXml.js"></script>
+<script type="text/javascript" src="http://code4futuretw.github.io/blogsite_data/files/syntaxhighlighter/shBrushPhp.js"></script>
+<script type="text/javascript" src="http://code4futuretw.github.io/blogsite_data/files/syntaxhighlighter/shBrushCpp.js"></script>
+<script type="text/javascript" src="http://code4futuretw.github.io/blogsite_data/files/syntaxhighlighter/shBrushCss.js"></script>
+<script type="text/javascript" src="http://code4futuretw.github.io/blogsite_data/files/syntaxhighlighter/shBrushCSharp.js"></script>
+<script type='text/javascript'>
+	(function(){
+		var corecss = document.createElement('link');
+		var themecss = document.createElement('link');
+		var corecssurl = "http://code4futuretw.github.io/blogsite_data/files/syntaxhighlighter/css/shCore.css";
+		if ( corecss.setAttribute ) {
+				corecss.setAttribute( "rel", "stylesheet" );
+				corecss.setAttribute( "type", "text/css" );
+				corecss.setAttribute( "href", corecssurl );
+		} else {
+				corecss.rel = "stylesheet";
+				corecss.href = corecssurl;
+		}
+		document.getElementsByTagName("head")[0].insertBefore( corecss, document.getElementById("syntaxhighlighteranchor") );
+		var themecssurl = "http://code4futuretw.github.io/blogsite_data/files/syntaxhighlighter/css/shThemeDefault.css?ver=3.0.9b";
+		if ( themecss.setAttribute ) {
+				themecss.setAttribute( "rel", "stylesheet" );
+				themecss.setAttribute( "type", "text/css" );
+				themecss.setAttribute( "href", themecssurl );
+		} else {
+				themecss.rel = "stylesheet";
+				themecss.href = themecssurl;
+		}
+		//document.getElementById("syntaxhighlighteranchor").appendChild(themecss);
+		document.getElementsByTagName("head")[0].insertBefore( themecss, document.getElementById("syntaxhighlighteranchor") );
+	})();
+	SyntaxHighlighter.config.strings.expandSource = '+ expand source';
+	SyntaxHighlighter.config.strings.help = '?';
+	SyntaxHighlighter.config.strings.alert = 'SyntaxHighlighter\n\n';
+	SyntaxHighlighter.config.strings.noBrush = 'Can\'t find brush for: ';
+	SyntaxHighlighter.config.strings.brushNotHtmlScript = 'Brush wasn\'t configured for html-script option: ';
+	SyntaxHighlighter.defaults['pad-line-numbers'] = false;
+	SyntaxHighlighter.defaults['toolbar'] = false;
+	SyntaxHighlighter.all();
+</script>
 
 </head>
 <body>
@@ -201,37 +247,37 @@ init_mathjax();
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
             </button>
-            <a href="http://blog.code4future.org/blog/" class="navbar-brand">
+            <a href="../../" class="navbar-brand">
 Code4future            </a>
         </div>
         <div class="collapse navbar-collapse navbar-ex1-collapse">
             <ul class="nav navbar-nav">
-                         <li class="active"><a href="http://blog.code4future.org/blog/pages/about/">
+                         <li class="active"><a href="../../pages/about/">
                              About
                           </a></li>
                         <li >
-                            <a href="http://blog.code4future.org/blog/category/jia-chang.html">家長</a>
+                            <a href="../../category/jia-chang.html">家長</a>
                         </li>
                         <li >
-                            <a href="http://blog.code4future.org/blog/category/jiao-shi.html">教師</a>
+                            <a href="../../category/jiao-shi.html">教師</a>
                         </li>
                         <li >
-                            <a href="http://blog.code4future.org/blog/category/k-12.html">K-12</a>
+                            <a href="../../category/k-12.html">K-12</a>
                         </li>
                         <li >
-                            <a href="http://blog.code4future.org/blog/category/she-hui-ren-shi.html">社會人士</a>
+                            <a href="../../category/she-hui-ren-shi.html">社會人士</a>
                         </li>
                         <li >
-                            <a href="http://blog.code4future.org/blog/category/zhuan-ti-yan-jiu.html">專題研究</a>
+                            <a href="../../category/zhuan-ti-yan-jiu.html">專題研究</a>
                         </li>
             </ul>
             <ul class="nav navbar-nav navbar-right">
               <li><span>
-                <form class="navbar-search" action="http://blog.code4future.org/blog/search.html">
+                <form class="navbar-search" action="../../search.html">
                   <input type="text" class="search-query" placeholder="Search" name="q" id="tipue_search_input" required>
                 </form></span>
               </li>
-              <li><a href="http://blog.code4future.org/blog/archives.html"><i class="fa fa-th-list"></i><span class="icon-label">Archives</span></a></li>
+              <li><a href="../../archives.html"><i class="fa fa-th-list"></i><span class="icon-label">Archives</span></a></li>
             </ul>
         </div>
         <!-- /.navbar-collapse -->
@@ -269,64 +315,64 @@ Code4future            </a>
             <li class="list-group-item"><h4><i class="fa fa-home fa-lg"></i><span class="icon-label">Recent Posts</span></h4>
                 <ul class="list-group" id="recentposts">
                     <li class="list-group-item">
-                        <a href="http://blog.code4future.org/blog/reeborg-ji-qi-ren-de-liang-ge-shi-jie.html">
+                        <a href="../../xue-xi-xie-dian-nao-cheng-shi-de-mu-de-yu-yi-yi.html">
+                            學習寫電腦程式的目的與意義
+                        </a>
+                    </li>
+                    <li class="list-group-item">
+                        <a href="../../wei-xiao-hai-zhun-bei-yi-tai-dian-nao.html">
+                            為小孩準備一台電腦
+                        </a>
+                    </li>
+                    <li class="list-group-item">
+                        <a href="../../reeborg-ji-qi-ren-de-liang-ge-shi-jie.html">
                             Reeborg 機器人的兩個世界
                         </a>
                     </li>
                     <li class="list-group-item">
-                        <a href="http://blog.code4future.org/blog/you-guan-she-hui-ren-shi-xue-xi-dian-nao.html">
+                        <a href="../../you-guan-she-hui-ren-shi-xue-xi-dian-nao.html">
                             有關社會人士學習電腦
                         </a>
                     </li>
                     <li class="list-group-item">
-                        <a href="http://blog.code4future.org/blog/quan-yun-duan-dian-nao-fu-zhu-ji-jie-she-ji-3d-tao-jian.html">
+                        <a href="../../quan-yun-duan-dian-nao-fu-zhu-ji-jie-she-ji-3d-tao-jian.html">
                             全雲端電腦輔助機械設計 3D 套件
-                        </a>
-                    </li>
-                    <li class="list-group-item">
-                        <a href="http://blog.code4future.org/blog/shu-wei-yun-suan-bo-wu-guan.html">
-                            數位運算博物館
-                        </a>
-                    </li>
-                    <li class="list-group-item">
-                        <a href="http://blog.code4future.org/blog/codeforlife-bian-cheng-tao-jian-jie-shao.html">
-                            CodeForLife 編程套件介紹
                         </a>
                     </li>
                 </ul>
             </li>
 
-            <li class="list-group-item"><a href="http://blog.code4future.org/blog/categories.html"><h4><i class="fa fa-home fa-lg"></i><span class="icon-label">Categories</span></h4></a>
+            <li class="list-group-item"><a href="../../categories.html"><h4><i class="fa fa-home fa-lg"></i><span class="icon-label">Categories</span></h4></a>
                 <ul class="list-group" id="categories">
                     <li class="list-group-item">
-                        <a href="http://blog.code4future.org/blog/category/jia-chang.html">
+                        <a href="../../category/jia-chang.html">
                             <i class="fa fa-folder-open fa-lg"></i> 家長
                         </a>
                     </li>
                     <li class="list-group-item">
-                        <a href="http://blog.code4future.org/blog/category/jiao-shi.html">
+                        <a href="../../category/jiao-shi.html">
                             <i class="fa fa-folder-open fa-lg"></i> 教師
                         </a>
                     </li>
                     <li class="list-group-item">
-                        <a href="http://blog.code4future.org/blog/category/k-12.html">
+                        <a href="../../category/k-12.html">
                             <i class="fa fa-folder-open fa-lg"></i> K-12
                         </a>
                     </li>
                     <li class="list-group-item">
-                        <a href="http://blog.code4future.org/blog/category/she-hui-ren-shi.html">
+                        <a href="../../category/she-hui-ren-shi.html">
                             <i class="fa fa-folder-open fa-lg"></i> 社會人士
                         </a>
                     </li>
                     <li class="list-group-item">
-                        <a href="http://blog.code4future.org/blog/category/zhuan-ti-yan-jiu.html">
+                        <a href="../../category/zhuan-ti-yan-jiu.html">
                             <i class="fa fa-folder-open fa-lg"></i> 專題研究
                         </a>
                     </li>
                 </ul>
             </li>
 
-            <li class="list-group-item"><a href="http://blog.code4future.org/blog/tags.html"><h4><i class="fa fa-tags fa-lg"></i><span class="icon-label">Tags</span></h4></a>
+            <li class="list-group-item"><a href="../../tags.html"><h4><i class="fa fa-tags fa-lg"></i><span class="icon-label">Tags</span></h4></a>
                 <ul class="list-group list-inline tagcloud" id="tags">
                 </ul>
             </li>
@@ -372,29 +418,14 @@ Code4future            </a>
       </div>
    </div>
 </footer>
-<script src="http://blog.code4future.org/blog/theme/js/jquery.min.js"></script>
+<script src="../../theme/js/jquery.min.js"></script>
 
 <!-- Include all compiled plugins (below), or include individual files as needed -->
-<script src="http://blog.code4future.org/blog/theme/js/bootstrap.min.js"></script>
+<script src="../../theme/js/bootstrap.min.js"></script>
 
 <!-- Enable responsive features in IE8 with Respond.js (https://github.com/scottjehl/Respond) -->
-<script src="http://blog.code4future.org/blog/theme/js/respond.min.js"></script>
+<script src="../../theme/js/respond.min.js"></script>
 
-    <!-- Disqus -->
-    <script type="text/javascript">
-        /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
-        var disqus_shortname = 'code4future'; // required: replace example with your forum shortname
-
-        /* * * DON'T EDIT BELOW THIS LINE * * */
-        (function () {
-            var s = document.createElement('script');
-            s.async = true;
-            s.type = 'text/javascript';
-            s.src = '//' + disqus_shortname + '.disqus.com/count.js';
-            (document.getElementsByTagName('HEAD')[0] || document.getElementsByTagName('BODY')[0]).appendChild(s);
-        }());
-    </script>
-    <!-- End Disqus Code -->
 
 </body>
 </html>

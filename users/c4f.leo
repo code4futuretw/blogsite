@@ -30,7 +30,7 @@
 <v t="amd.20160309162721.8"><vh>Leo Editor 程式開發</vh></v>
 </v>
 <v t="amd.20160320145431.1"><vh>有關 reeborg</vh></v>
-<v t="amd.20160106095324.1" a="E"><vh>@path ./../</vh>
+<v t="amd.20160106095324.1"><vh>@path ./../</vh>
 <v t="leo.20151213173811.1" a="E"><vh>假如要送到 gh-pages 分支, 使用下列按鈕</vh>
 <v t="leo.20151212173658.1"><vh>@button gh-pages pelican</vh></v>
 </v>
@@ -38,7 +38,7 @@
 <v t="leo.20151213085727.1"><vh>@button local pelican</vh></v>
 </v>
 <v t="amd.20160117010542.1"><vh>@button git rm -rf blog</vh></v>
-<v t="amd.20151215180106.1"><vh>設定與開發</vh>
+<v t="amd.20151215180106.1" a="E"><vh>設定與開發</vh>
 <v t="amd.20151216151325.1"><vh>@edit index.html</vh></v>
 <v t="amd.20151216152209.1"><vh>@edit README.md</vh></v>
 <v t="leo.20151213230723.1"><vh>Pelican 設定</vh>
@@ -67,7 +67,7 @@
 </v>
 </v>
 <v t="amd.20151215154950.1" a="E"><vh>@path pelican-bootstrap3_local</vh>
-<v t="amd.20151215154950.2"><vh>@path templates</vh>
+<v t="amd.20151215154950.2" a="E"><vh>@path templates</vh>
 <v t="amd.20151215154950.3"><vh>@edit base.html</vh></v>
 <v t="amd.20151215154950.4"><vh>@edit search.html</vh></v>
 <v t="amd.20151215162536.1" a="E"><vh>@path includes</vh>
@@ -91,6 +91,25 @@
 </v>
 </v>
 </v>
+<v t="amd.20160324163947.1"><vh>研究專案</vh>
+<v t="amd.20160324163954.1" a="E"><vh>Raspberry pi 3 應用</vh>
+<v t="amd.20160324172443.1"><vh>從 Windows 連接</vh></v>
+<v t="amd.20160324172457.1"><vh>從 Ubuntu 連接</vh></v>
+<v t="amd.20160324171436.1"><vh>Mathematica</vh></v>
+<v t="amd.20160324221453.1"><vh>Junyper</vh></v>
+<v t="amd.20160324173857.1"><vh>LaTeX</vh></v>
+<v t="amd.20160324174604.1" a="E"><vh>BYOD</vh>
+<v t="amd.20160324201508.1"><vh>兒童電腦價格</vh></v>
+</v>
+</v>
+</v>
+</v>
+<v t="amd.20160410201430.1" a="E"><vh>blockdiag</vh>
+<v t="amd.20160410201430.2"><vh>@button blockdiag</vh></v>
+<v t="amd.20160410201430.3"><vh>blockdiag</vh></v>
+<v t="amd.20160410201438.1"><vh>cf4_block</vh></v>
+<v t="amd.20160410201430.4"><vh>@button nwdiag</vh></v>
+<v t="amd.20160410201430.5"><vh>nwdiag</vh></v>
 </v>
 <v t="amd.20151215170350.1"><vh>以下為 content 目錄中的 md 檔案</vh></v>
 <v t="amd.20160106093610.1"><vh>協同網誌編寫規範</vh></v>
@@ -122,10 +141,20 @@
 <v t="amd.20160319222458.1"><vh>@clean c4f_20160319-1.md</vh>
 <v t="amd.20160319230246.1"><vh>27</vh></v>
 </v>
-<v t="amd.20160319232117.1"><vh>@clean c4f_20160319-2.md</vh></v>
-<v t="amd.20160320001047.1"><vh>@clean c4f_20160320.md</vh></v>
+<v t="amd.20160319232117.1"><vh>@clean c4f_20160319-2.md</vh>
+<v t="amd.20160712092639.1"><vh>58</vh></v>
+</v>
+<v t="amd.20160320001047.1"><vh>@clean c4f_20160320.md</vh>
+<v t="amd.20160712092645.1"><vh>60</vh></v>
+</v>
 <v t="amd.20160320182523.1"><vh>@clean c4f_20160320-1.md</vh>
 <v t="amd.20160320184332.1"><vh>34</vh></v>
+</v>
+<v t="amd.20160324193327.1"><vh>@clean c4f_20160324.md</vh>
+<v t="amd.20160712092649.1"><vh>62</vh></v>
+</v>
+<v t="amd.20160330005047.1"><vh>@clean c4f_20160330.md</vh>
+<v t="amd.20160712092655.1"><vh>64</vh></v>
 </v>
 </v>
 </v>
@@ -764,6 +793,394 @@ Reeborg 機器人世界是孩童學習 Python3 程式的一套有趣味性的工
 
 </t>
 <t tx="amd.20160320184332.1"></t>
+<t tx="amd.20160324163947.1"></t>
+<t tx="amd.20160324163954.1"></t>
+<t tx="amd.20160324171436.1">讓使用者可以使用 Mathematica (非營利使用免費)
+
+sudo usermod -a -G video user_account
+
+然後 sudo reboot 重新開機
+
+但還是建議可以儘量使用 Python3 與 Jupyter 套件, 因為可以商業使用</t>
+<t tx="amd.20160324172443.1">xdmcp 建立只在本地端區域網路中使用, 若需跨網連線, 建立使用 SSH
+
+Raspberry Pi 端的設定:
+
+https://www.raspberrypi.org/forums/viewtopic.php?f=26&amp;t=21246
+
+Windows 使用 Xming
+
+https://sourceforge.net/projects/xming/
+
+xlaunch-&gt;選擇 xdmcp 連線</t>
+<t tx="amd.20160324172457.1">xdmcp 建立只在本地端區域網路中使用, 若需跨網連線, 建立使用 SSH
+
+Ubuntu 中安裝 remmina-remote_desktop 之後, 為了能夠利用 xdmcp 對本地端網路上的 Raspberry Pi3 連線, 必須再安裝：
+
+remmina-plugin-xdmcp
+
+參考:
+
+http://packages.ubuntu.com/precise-updates/gnome/remmina-plugin-xdmcp
+
+Raspberry Pi 端的設定:
+
+https://www.raspberrypi.org/forums/viewtopic.php?f=26&amp;t=21246</t>
+<t tx="amd.20160324173857.1">安裝 texlive
+
+sudo apt-get install texlive-full
+
+sudo apt-get update
+sudo apt-get upgrade
+sudo apt-get install kile
+sudo apt-get install okular</t>
+<t tx="amd.20160324174604.1">https://en.wikipedia.org/wiki/Bring_your_own_device
+
+refers to the policy of permitting employees to bring personally owned mobile devices (laptops, tablets, and smart phones) to their workplace, and to use those devices to access privileged company information and applications.
+
+建議硬體:
+
+http://www.amazon.com/CanaKit-Raspberry-Complete-Starter-Kit/dp/B01C6Q2GSY/</t>
+<t tx="amd.20160324193327.1">@language md
+Title: 為小孩準備一台電腦
+Category: 家長
+Tags: 導引
+Author: code4future
+@others
+是的, 您要為已經五歲的小孩準備一台電腦, 以下是我們的建議. 24吋螢幕的一台電腦總價格約為新台幣 7731 元.
+
+&lt;!-- PELICAN_END_SUMMARY --&gt;
+
+體積龐大的桌上型電腦並非為小孩準備電腦的首選, 因為世界趨勢已經指向所謂的物聯網與工業 4.0, 可攜、低價並且能隨著孩童成長, 配合數位運算與機電控制"自造"學習的卡片型電腦才是正確的選擇.
+
+&lt;pre class="brush: python;"&gt;
+# 在台灣買樹莓派卡片電腦, 大約是台幣 1338 起跳
+raspberrypi3 = 1338
+# 有開關的 USB 式電源線, 可以從接上 110V 插座, 也可以從 電腦的 USB 插槽接電, 大約台幣 250 元
+power = 250
+# 內建 Noobs 的 32 GB 記憶卡, 賣價 400 元台幣
+sdcard = 400
+# 樹莓派的專用外殼, 要價台幣 275 元
+case = 275
+# 24 吋, 擁有 HDMI 接頭的螢幕, 大約台幣 4~5 千元
+philips = 3988 
+# hdmi 接線, 130 元
+hdmi = 130
+# 微軟的鍵盤加上滑鼠, 最便宜的大約 590 元
+microsoft = 590
+# 耳機一副約 760 元
+earphone = 760
+try:
+    g.es(raspberrypi3+power+sdcard+case+philips+hdmi+microsoft+earphone)
+except:
+    print(raspberrypi3+power+sdcard+case+philips+hdmi+microsoft+earphone)
+#總價為新台幣: 7731 (201603)
+&lt;/pre&gt;
+
+卡片電腦: &lt;a href="http://code4futuretw.github.io/blogsite_data/files/rs-online_com.png"&gt;&amp;nbsp;&lt;/a&gt;
+
+要注意的是 2016 年2月起最新的是 64 位元內建  Wifi 的 Raspberry Pi 3, 在國外定價為美金 35 元, 在台灣大約 1338 元是最低價.
+
+電源供應器: &lt;a href="http://code4futuretw.github.io/blogsite_data/files/5v2a_usb_powersupply.png"&gt;&amp;nbsp;&lt;/a&gt;
+
+最好買 USB 式的 5V2A 規格, 若正好在筆電或桌上型電腦旁邊使用, 可以透過 USB 接線供電.
+
+含操作系統記憶卡(32GB): &lt;a href="http://code4futuretw.github.io/blogsite_data/files/32gb_noobs_kingston.png"&gt;&amp;nbsp;&lt;/a&gt;
+
+32 GB 大概是目前最划算的規格, 記得買內建 &lt;a href="https://www.raspberrypi.org/downloads/noobs/"&gt;Noobs&lt;/a&gt; 操作系統資料的版本.
+
+電腦卡外殼: &lt;a href="http://code4futuretw.github.io/blogsite_data/files/raspberrypi3_case.png"&gt;&amp;nbsp;&lt;/a&gt;
+
+螢幕: &lt;a href="http://code4futuretw.github.io/blogsite_data/files/philips_24_hdmi.png"&gt;&amp;nbsp;&lt;/a&gt;
+
+記得要買支援 HDMI 接頭的電腦螢幕.
+
+HDMI 連接線: &lt;a href="http://code4futuretw.github.io/blogsite_data/files/sony_hdmi_2m.png"&gt;&amp;nbsp;&lt;/a&gt;
+
+可以買 1.4 到 2 米的 Raspberry Pi 專用連接線.
+
+鍵盤與滑鼠: &lt;a href="http://code4futuretw.github.io/blogsite_data/files/microsoft_kb_mouse.png"&gt;&amp;nbsp;&lt;/a&gt;
+
+建議買 Microsoft 最低價的型號即可 (我們的經驗是, 能夠標上 Microsoft 商標的電腦週邊硬體, 都是不錯的選擇).
+
+耳機: &lt;a href="http://code4futuretw.github.io/blogsite_data/files/audio_tech_earphone.png"&gt;&amp;nbsp;&lt;/a&gt;
+
+選擇單邊線而且可折疊的機型, 使用或收藏都比較方便.</t>
+<t tx="amd.20160324201508.1">raspberrypi3 = 1338
+power = 250
+sdcard = 400
+case = 275
+philips = 3988 
+hdmi = 130
+microsoft = 590
+earphone = 760
+try:
+    g.es(raspberrypi3+power+sdcard+case+philips+hdmi+microsoft+earphone)
+except:
+    print(raspberrypi3+power+sdcard+case+philips+hdmi+microsoft+earphone)
+</t>
+<t tx="amd.20160324221453.1">https://github.com/kleinee/jns</t>
+<t tx="amd.20160330005047.1">@language md
+Title: 學習寫電腦程式的目的與意義
+Category: 家長
+Tags: 導引
+Author: code4future
+@others
+電腦編程的目的, 在能以客製隨選的方法解決問題, 而數位運算與思維的意義, 則希望從電腦的觀點提供解決方案.
+
+&lt;!-- PELICAN_END_SUMMARY --&gt;
+
+程式 (program) 其實是一種流程規劃, 通常以精確定義的法則, 安排特定順序, 來產生特定的結果. 換言之, 學習寫程式可以與數位運算無關, 當然也就不一定要使用電腦. 但是數位運算的精確與快速, 帶來的體貼與便利性, 讓全世界各國開始希望其國民從小就能夠學習寫電腦程式, 因此學習寫電腦程式的目的在於:
+
+1. 讓學童在俱備高度彈性的數位世界裡學習, 透過影音多媒體的教材提高學習興趣.
+
+2. 讓學童及早接觸數位環境, 學習如何利用數位方法解決周遭的問題.
+
+在數位世界裡, 最底層的運算單元雖然只有 0 與 1, 但是透過巧妙的安排, 可以利用單純且不易出錯的流程來進行數位運算, 可以利用相同的媒體來儲存各種不同的資料, 可以利用光速的方法來傳遞數據, 可以操控接近原子大小的精密製造流程來製造晶片, 可以利用演化與學習的模式來建立人工智慧. 這些相關技術與軟硬體產品的特性, 都是二十一世界各領域學生所必須儘早理解並掌握的知識.
+
+以電腦網路協定來說, 目前主流的網路協定稱為 TCPIP, 早期使用的版本為第四版, 而目前正在推動的則為第六版, 以 IPV6 來說, 其網路位址的個數為 2 的 128 次方 (以冒號區隔, 共分八區, 每一區有 4 個十六進位的數字), 理論上足夠分配給整個地球每一個帶電原子各一個網路位址.
+
+以電腦的運算能力來說, 目前的 64 位元個人電腦的運算能力比二十年前的超級電腦都強.
+
+以感測器的製造能力來說, 隨著奈米技術的應用, 感測器愈做愈小, 而且單價愈來愈便宜.
+
+以網路通信訊號的普及率來說, 在人類經常活動的區域範圍, 幾乎網路通信連線機制已經無所不再.
+
+以實體產品的組裝與製造技術來說, 愈來有愈多的智慧型機器人被導入生產流程之中, 不僅取代煩雜的勞務人力工作, 已經俱備全球連線彈性客製的能力.
+
+從以上的幾個面向來看, 及早學習寫電腦程式的目的, 就在於能讓學習者及早融入數位化運算充斥的未來環境, 而積極意義則在於, 希望這些未來學子能夠充份運用這些成熟的科技來改善環境, 有機會利用數位科技促進群體社會的永續發展.
+
+
+
+
+
+</t>
+<t tx="amd.20160410201430.1"></t>
+<t tx="amd.20160410201430.2">@language python
+import os
+# 節點的 body 內容設為 content
+content = p.b
+with open('test.diag', 'w') as f:
+    f.write(content)
+f.closed
+# 存為 svg
+#os.system("blockdiag -Tsvg test.diag" )
+# 存為 png, 使用 fireflysung.ttf
+os.system("blockdiag -f fireflysung.ttf test.diag" )
+#os.system("blockdiag test.diag" )
+g.es("已經存 test.png 檔案")</t>
+<t tx="amd.20160410201430.3">
+blockdiag {
+    default_shape = roundedbox;
+    // 內定寬度為 128
+    node_width = 140;
+    // 內定高度為 40
+    node_height = 50;
+    default_fontsize = 15;
+    default_node_color = "lightyellow";
+    edge_layout = flowchart;
+    // 表達方式
+    表達 [label = "六種表達方式"];
+    1 [label = "口語表達(聲音)"];
+    2 [label = "文字表達", color="#99ff33"];
+    3 [label = "2D表達(靜態影像)"];
+    4 [label = "3D表達(動態影像)"];
+    5 [label = "理論表達(定量分析)"];
+    6 [label = "實體表達", color="#99ff33"];
+    表達 -&gt; 1;
+    表達 -&gt; 2;
+    表達 -&gt; 3;
+    表達 -&gt; 4;
+    表達 -&gt; 5;
+    表達 -&gt; 6;
+    // 學門
+    學門 [label = "四種技術領域"];
+    學門1 [label = "熱流力學"];
+    學門2 [label = "固體力學"];
+    學門3 [label = "電機電子"];
+    學門4 [label = "資訊通信", color="#99ff33"];
+    學門 -&gt; 學門1;
+    學門 -&gt; 學門2;
+    學門 -&gt; 學門3;
+    學門 -&gt; 學門4;
+    // 流程
+    流程 [label = "四個層面"];
+    流程1 [label = "設計", color="#99ff33"];
+    流程2 [label = "製造"];
+    流程3 [label = "控制"];
+    流程4 [label = "管理", color="#99ff33"];
+    流程 -&gt; 流程1;
+    流程 -&gt; 流程2;
+    流程 -&gt; 流程3;
+    流程 -&gt; 流程4;
+    //專題
+    //專題 [label = "機械設計專題", stacked];
+    專題 [label = "隨身卡片電腦選購", stacked, color="#ff5050"];
+    專題 -&gt; 表達;
+    專題 -&gt; 流程;
+    專題 -&gt; 學門;
+}
+</t>
+<t tx="amd.20160410201430.4">@language python
+import os
+# 節點的 body 內容設為 content
+content = p.b
+with open('test.diag', 'w') as f:
+    f.write(content)
+f.closed
+# 存為 svg
+#os.system("nwdiag -Tsvg test.diag" )
+# 存為 png, 使用 fireflysung.ttf
+#os.system("nwdiag -f fireflysung.ttf test.diag" )
+os.system("nwdiag test.diag" )
+g.es("已經存 test.png 檔案")</t>
+<t tx="amd.20160410201430.5">/*
+nwdiag {
+  network dmz {
+      address = "210.x.x.x/24"
+
+      web01 [address = "210.x.x.1"];
+      web02 [address = "210.x.x.2"];
+  }
+  network internal {
+      address = "172.x.x.x/24";
+
+      web01 [address = "172.x.x.1"];
+      web02 [address = "172.x.x.2"];
+      db01;
+      db02;
+  }
+}
+*/
+
+nwdiag {
+    default_fontsize = 15;
+    校主幹 [shape = cloud];
+    校主幹 -- 系路由器;
+    
+    network 系主幹{
+        address = "140.130.17.0/24";
+        系路由器 [address="140.130.17.254"];
+        雲端點名網路;
+        八樓集線器 [address="140.130.17.82"];
+        七樓集線器;
+        六樓集線器;
+        系伺服器群;
+    }
+    
+    network 八樓主幹{
+        address="17.10-82"
+        八樓集線器 [address="140.130.17.82"];
+        老師1伺服器群 [address="140.130.17.10-15"];
+        老師2伺服器群 [address="140.130.17.16-25"];
+        老師3伺服器群 [address="140.130.17.26-60"];
+    }
+    
+    network CAD_CAE{
+        address="17.83";
+        八樓集線器 [address="140.130.17.82"];
+        CAD_NAT [address="140.130.17.82"];
+        CAE_NAT [address="140.130.17.83"];
+    }
+    
+    network 電腦輔助設計室{
+        address="192.168.1.0/24";
+        CAD_NAT [address="192.168.1.1"];
+        CAD1 [address=".2"];
+        CAD2;
+        CAD64 [address=".100"];
+    }
+    
+    network 電腦輔助繪圖室{
+        address="192.168.1.0/24";
+        CAE_NAT [address="192.168.1.1"];
+        CAE1 [address=".2"];
+        CAE2;
+        CAE64 [address=".100"];
+    }
+    
+    network 七樓主幹{
+        address="140.130.17.83-90"
+        七樓集線器;
+        老師4伺服器群 [address="140.130.17.61-63"];
+        老師5伺服器群 [address="140.130.17.64-70"];
+        老師6伺服器群 [address="140.130.17.71-75"];
+    }
+    
+    network 六樓主幹{
+        address="140.130.17.91-100"
+        六樓集線器;
+        老師7伺服器群 [address="140.130.17.76-78"];
+        老師8伺服器群 [address="140.130.17.79-80"];
+        老師9伺服器群 [address="140.130.17.81-95"];
+    }
+}</t>
+<t tx="amd.20160410201438.1">
+blockdiag {
+    default_shape = roundedbox;
+    // 內定寬度為 128
+    node_width = 140;
+    // 內定高度為 40
+    node_height = 50;
+    default_fontsize = 15;
+    default_node_color = "lightyellow";
+    edge_layout = flowchart;
+    code4future [label = "克服未來"]
+    // 服務對象
+    對象 [label = "四種服務對象"];
+    1 [label = "未成年兒童"];
+    2 [label = "家長"];
+    3 [label = "教師"];
+    4 [label = "社會人士"];
+    對象 -&gt; 1;
+    對象 -&gt; 2;
+    對象 -&gt; 3;
+    對象 -&gt; 4;
+    // 任務
+    任務 [label = "任務"];
+    數位運算 [label = "數位運算"];
+    編程教學 [label = "編程教學"];
+    任務 -&gt; 數位運算;
+    任務 -&gt; 編程教學;
+    // 工具
+    工具 [label = "工具"];
+    數位教材 [label = "數位教材"];
+    BYOD [label = "自帶筆電"];
+    RPI [label = "樹莓派電腦"];
+    3DP [label = "3D 印表機"];
+    SS [label = "3D 參數繪圖"]
+    OS [label = "3D 雲端繪圖"]
+    VREP [label = "動態模擬"]
+    工具 -&gt; 數位教材;
+    工具 -&gt; BYOD;
+    工具 -&gt; RPI;
+    工具 -&gt; 3DP;
+    工具 -&gt; SS;
+    工具 -&gt; OS;
+    工具 -&gt; VREP;
+    //手段
+    手段 [label = "手段"];
+    電腦程式設計 [label = "電腦程式設計"]
+    3D_製圖 [label = "3D 製圖"]
+    數位模擬 [label = "數位模擬"]
+    3D_列印 [label = "3D 列印"]
+    機電控制 [label = "機電控制"]
+    手段 -&gt; 電腦程式設計;
+    手段 -&gt; 3D_製圖;
+    手段 -&gt; 數位模擬;
+    手段 -&gt; 3D_列印;
+    手段 -&gt; 機電控制;
+    //C4F
+    code4future -&gt; 對象
+    code4future -&gt; 任務
+    code4future -&gt; 工具
+    code4future -&gt; 手段
+}
+</t>
+<t tx="amd.20160712092639.1"></t>
+<t tx="amd.20160712092645.1"></t>
+<t tx="amd.20160712092649.1"></t>
+<t tx="amd.20160712092655.1"></t>
 <t tx="leo.20151212173315.1"></t>
 <t tx="leo.20151212173315.2">QTreeWidget {
     /* These apply to the selected item, but not to editing items.*/

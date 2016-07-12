@@ -1,5 +1,65 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>Code4future</title><link href="http://blog.code4future.org/blog/" rel="alternate"></link><link href="http://blog.code4future.org/blog/feeds/jia-chang.atom.xml" rel="self"></link><id>http://blog.code4future.org/blog/</id><updated>2016-03-19T07:16:13+08:00</updated><entry><title>家長如何制定網路使用政策</title><link href="http://blog.code4future.org/blog/jia-chang-ru-he-zhi-ding-wang-lu-shi-yong-zheng-ce.html" rel="alternate"></link><updated>2016-03-19T07:16:13+08:00</updated><author><name>code4future</name></author><id>tag:blog.code4future.org,2016-03-19:blog/jia-chang-ru-he-zhi-ding-wang-lu-shi-yong-zheng-ce.html</id><summary type="html">&lt;p&gt;無論您從事那一個行業, 週遭一定充滿了各種網路與大小電腦的應用, 從大樓的門禁開始, 電梯、飲水機, 更不用提許多人辦公地點幾乎都各有一台桌上型或筆記型的個人電腦, 透過無線或有線網路與各種資訊系統或網站相連, 未來, 有關網路與電腦的各種應用, 更會密切涉入現代人的生活.&lt;/p&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>Code4future</title><link href="./" rel="alternate"></link><link href="./feeds/jia-chang.atom.xml" rel="self"></link><id>./</id><updated>2016-07-12T09:25:42+08:00</updated><entry><title>學習寫電腦程式的目的與意義</title><link href="./xue-xi-xie-dian-nao-cheng-shi-de-mu-de-yu-yi-yi.html" rel="alternate"></link><updated>2016-07-12T09:25:42+08:00</updated><author><name>code4future</name></author><id>tag:,2016-07-12:./xue-xi-xie-dian-nao-cheng-shi-de-mu-de-yu-yi-yi.html</id><summary type="html">&lt;p&gt;電腦編程的目的, 在能以客製隨選的方法解決問題, 而數位運算與思維的意義, 則希望從電腦的觀點提供解決方案.&lt;/p&gt;
+
+
+&lt;p&gt;程式 (program) 其實是一種流程規劃, 通常以精確定義的法則, 安排特定順序, 來產生特定的結果. 換言之, 學習寫程式可以與數位運算無關, 當然也就不一定要使用電腦. 但是數位運算的精確與快速, 帶來的體貼與便利性, 讓全世界各國開始希望其國民從小就能夠學習寫電腦程式, 因此學習寫電腦程式的目的在於:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;讓學童在俱備高度彈性的數位世界裡學習, 透過影音多媒體的教材提高學習興趣.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;讓學童及早接觸數位環境, 學習如何利用數位方法解決周遭的問題.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;在數位世界裡, 最底層的運算單元雖然只有 0 與 1, 但是透過巧妙的安排, 可以利用單純且不易出錯的流程來進行數位運算, 可以利用相同的媒體來儲存各種不同的資料, 可以利用光速的方法來傳遞數據, 可以操控接近原子大小的精密製造流程來製造晶片, 可以利用演化與學習的模式來建立人工智慧. 這些相關技術與軟硬體產品的特性, 都是二十一世界各領域學生所必須儘早理解並掌握的知識.&lt;/p&gt;
+&lt;p&gt;以電腦網路協定來說, 目前主流的網路協定稱為 TCPIP, 早期使用的版本為第四版, 而目前正在推動的則為第六版, 以 IPV6 來說, 其網路位址的個數為 2 的 128 次方 (以冒號區隔, 共分八區, 每一區有 4 個十六進位的數字), 理論上足夠分配給整個地球每一個帶電原子各一個網路位址.&lt;/p&gt;
+&lt;p&gt;以電腦的運算能力來說, 目前的 64 位元個人電腦的運算能力比二十年前的超級電腦都強.&lt;/p&gt;
+&lt;p&gt;以感測器的製造能力來說, 隨著奈米技術的應用, 感測器愈做愈小, 而且單價愈來愈便宜.&lt;/p&gt;
+&lt;p&gt;以網路通信訊號的普及率來說, 在人類經常活動的區域範圍, 幾乎網路通信連線機制已經無所不再.&lt;/p&gt;
+&lt;p&gt;以實體產品的組裝與製造技術來說, 愈來有愈多的智慧型機器人被導入生產流程之中, 不僅取代煩雜的勞務人力工作, 已經俱備全球連線彈性客製的能力.&lt;/p&gt;
+&lt;p&gt;從以上的幾個面向來看, 及早學習寫電腦程式的目的, 就在於能讓學習者及早融入數位化運算充斥的未來環境, 而積極意義則在於, 希望這些未來學子能夠充份運用這些成熟的科技來改善環境, 有機會利用數位科技促進群體社會的永續發展.&lt;/p&gt;</summary><category term="導引"></category></entry><entry><title>為小孩準備一台電腦</title><link href="./wei-xiao-hai-zhun-bei-yi-tai-dian-nao.html" rel="alternate"></link><updated>2016-03-30T14:20:04+08:00</updated><author><name>code4future</name></author><id>tag:,2016-03-30:./wei-xiao-hai-zhun-bei-yi-tai-dian-nao.html</id><summary type="html">&lt;p&gt;是的, 您要為已經五歲的小孩準備一台電腦, 以下是我們的建議. 24吋螢幕的一台電腦總價格約為新台幣 7731 元.&lt;/p&gt;
+
+
+&lt;p&gt;體積龐大的桌上型電腦並非為小孩準備電腦的首選, 因為世界趨勢已經指向所謂的物聯網與工業 4.0, 可攜、低價並且能隨著孩童成長, 配合數位運算與機電控制"自造"學習的卡片型電腦才是正確的選擇.&lt;/p&gt;
+&lt;pre class="brush: python;"&gt;
+# 在台灣買樹莓派卡片電腦, 大約是台幣 1338 起跳
+raspberrypi3 = 1338
+# 有開關的 USB 式電源線, 可以從接上 110V 插座, 也可以從 電腦的 USB 插槽接電, 大約台幣 250 元
+power = 250
+# 內建 Noobs 的 32 GB 記憶卡, 賣價 400 元台幣
+sdcard = 400
+# 樹莓派的專用外殼, 要價台幣 275 元
+case = 275
+# 24 吋, 擁有 HDMI 接頭的螢幕, 大約台幣 4~5 千元
+philips = 3988 
+# hdmi 接線, 130 元
+hdmi = 130
+# 微軟的鍵盤加上滑鼠, 最便宜的大約 590 元
+microsoft = 590
+# 耳機一副約 760 元
+earphone = 760
+try:
+    g.es(raspberrypi3+power+sdcard+case+philips+hdmi+microsoft+earphone)
+except:
+    print(raspberrypi3+power+sdcard+case+philips+hdmi+microsoft+earphone)
+#總價為新台幣: 7731 (201603)
+&lt;/pre&gt;
+
+&lt;p&gt;卡片電腦: &lt;a href="http://code4futuretw.github.io/blogsite_data/files/rs-online_com.png"&gt;&amp;nbsp;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;要注意的是 2016 年2月起最新的是 64 位元內建  Wifi 的 Raspberry Pi 3, 在國外定價為美金 35 元, 在台灣大約 1338 元是最低價.&lt;/p&gt;
+&lt;p&gt;電源供應器: &lt;a href="http://code4futuretw.github.io/blogsite_data/files/5v2a_usb_powersupply.png"&gt;&amp;nbsp;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;最好買 USB 式的 5V2A 規格, 若正好在筆電或桌上型電腦旁邊使用, 可以透過 USB 接線供電.&lt;/p&gt;
+&lt;p&gt;含操作系統記憶卡(32GB): &lt;a href="http://code4futuretw.github.io/blogsite_data/files/32gb_noobs_kingston.png"&gt;&amp;nbsp;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;32 GB 大概是目前最划算的規格, 記得買內建 &lt;a href="https://www.raspberrypi.org/downloads/noobs/"&gt;Noobs&lt;/a&gt; 操作系統資料的版本.&lt;/p&gt;
+&lt;p&gt;電腦卡外殼: &lt;a href="http://code4futuretw.github.io/blogsite_data/files/raspberrypi3_case.png"&gt;&amp;nbsp;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;螢幕: &lt;a href="http://code4futuretw.github.io/blogsite_data/files/philips_24_hdmi.png"&gt;&amp;nbsp;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;記得要買支援 HDMI 接頭的電腦螢幕.&lt;/p&gt;
+&lt;p&gt;HDMI 連接線: &lt;a href="http://code4futuretw.github.io/blogsite_data/files/sony_hdmi_2m.png"&gt;&amp;nbsp;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;可以買 1.4 到 2 米的 Raspberry Pi 專用連接線.&lt;/p&gt;
+&lt;p&gt;鍵盤與滑鼠: &lt;a href="http://code4futuretw.github.io/blogsite_data/files/microsoft_kb_mouse.png"&gt;&amp;nbsp;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;建議買 Microsoft 最低價的型號即可 (我們的經驗是, 能夠標上 Microsoft 商標的電腦週邊硬體, 都是不錯的選擇).&lt;/p&gt;
+&lt;p&gt;耳機: &lt;a href="http://code4futuretw.github.io/blogsite_data/files/audio_tech_earphone.png"&gt;&amp;nbsp;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;選擇單邊線而且可折疊的機型, 使用或收藏都比較方便.&lt;/p&gt;</summary><category term="導引"></category></entry><entry><title>家長如何制定網路使用政策</title><link href="./jia-chang-ru-he-zhi-ding-wang-lu-shi-yong-zheng-ce.html" rel="alternate"></link><updated>2016-03-19T07:16:13+08:00</updated><author><name>code4future</name></author><id>tag:,2016-03-19:./jia-chang-ru-he-zhi-ding-wang-lu-shi-yong-zheng-ce.html</id><summary type="html">&lt;p&gt;無論您從事那一個行業, 週遭一定充滿了各種網路與大小電腦的應用, 從大樓的門禁開始, 電梯、飲水機, 更不用提許多人辦公地點幾乎都各有一台桌上型或筆記型的個人電腦, 透過無線或有線網路與各種資訊系統或網站相連, 未來, 有關網路與電腦的各種應用, 更會密切涉入現代人的生活.&lt;/p&gt;
 
 
 &lt;p&gt;因此, 身為家長的您, 除了必須體認到未來的現代國民已經離不開網路與電腦之外, 必須了解目前全世界有關網路內容分級, 都是採取軟性的自我管制模式, 所以各位家長必須自己在家裡, 嚴格制定未成年兒童的網路使用政策.&lt;/p&gt;

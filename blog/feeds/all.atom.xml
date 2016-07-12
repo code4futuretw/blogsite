@@ -1,11 +1,71 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>Code4future</title><link href="http://blog.code4future.org/blog/" rel="alternate"></link><link href="http://blog.code4future.org/blog/feeds/all.atom.xml" rel="self"></link><id>http://blog.code4future.org/blog/</id><updated>2016-03-20T18:41:03+08:00</updated><entry><title>Reeborg 機器人的兩個世界</title><link href="http://blog.code4future.org/blog/reeborg-ji-qi-ren-de-liang-ge-shi-jie.html" rel="alternate"></link><updated>2016-03-20T18:41:03+08:00</updated><author><name>code4future</name></author><id>tag:blog.code4future.org,2016-03-20:blog/reeborg-ji-qi-ren-de-liang-ge-shi-jie.html</id><summary type="html">&lt;p&gt;Reeborg 機器人世界是孩童學習 Python3 程式的一套有趣味性的工具, 從早期的單機程式, 到現在能夠直接在雲端主機或本地端進行練習操作, 正好見證了過去十幾年全球數位運算發展趨勢.&lt;/p&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>Code4future</title><link href="./" rel="alternate"></link><link href="./feeds/all.atom.xml" rel="self"></link><id>./</id><updated>2016-07-12T09:25:42+08:00</updated><entry><title>學習寫電腦程式的目的與意義</title><link href="./xue-xi-xie-dian-nao-cheng-shi-de-mu-de-yu-yi-yi.html" rel="alternate"></link><updated>2016-07-12T09:25:42+08:00</updated><author><name>code4future</name></author><id>tag:,2016-07-12:./xue-xi-xie-dian-nao-cheng-shi-de-mu-de-yu-yi-yi.html</id><summary type="html">&lt;p&gt;電腦編程的目的, 在能以客製隨選的方法解決問題, 而數位運算與思維的意義, 則希望從電腦的觀點提供解決方案.&lt;/p&gt;
+
+
+&lt;p&gt;程式 (program) 其實是一種流程規劃, 通常以精確定義的法則, 安排特定順序, 來產生特定的結果. 換言之, 學習寫程式可以與數位運算無關, 當然也就不一定要使用電腦. 但是數位運算的精確與快速, 帶來的體貼與便利性, 讓全世界各國開始希望其國民從小就能夠學習寫電腦程式, 因此學習寫電腦程式的目的在於:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;讓學童在俱備高度彈性的數位世界裡學習, 透過影音多媒體的教材提高學習興趣.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;讓學童及早接觸數位環境, 學習如何利用數位方法解決周遭的問題.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;在數位世界裡, 最底層的運算單元雖然只有 0 與 1, 但是透過巧妙的安排, 可以利用單純且不易出錯的流程來進行數位運算, 可以利用相同的媒體來儲存各種不同的資料, 可以利用光速的方法來傳遞數據, 可以操控接近原子大小的精密製造流程來製造晶片, 可以利用演化與學習的模式來建立人工智慧. 這些相關技術與軟硬體產品的特性, 都是二十一世界各領域學生所必須儘早理解並掌握的知識.&lt;/p&gt;
+&lt;p&gt;以電腦網路協定來說, 目前主流的網路協定稱為 TCPIP, 早期使用的版本為第四版, 而目前正在推動的則為第六版, 以 IPV6 來說, 其網路位址的個數為 2 的 128 次方 (以冒號區隔, 共分八區, 每一區有 4 個十六進位的數字), 理論上足夠分配給整個地球每一個帶電原子各一個網路位址.&lt;/p&gt;
+&lt;p&gt;以電腦的運算能力來說, 目前的 64 位元個人電腦的運算能力比二十年前的超級電腦都強.&lt;/p&gt;
+&lt;p&gt;以感測器的製造能力來說, 隨著奈米技術的應用, 感測器愈做愈小, 而且單價愈來愈便宜.&lt;/p&gt;
+&lt;p&gt;以網路通信訊號的普及率來說, 在人類經常活動的區域範圍, 幾乎網路通信連線機制已經無所不再.&lt;/p&gt;
+&lt;p&gt;以實體產品的組裝與製造技術來說, 愈來有愈多的智慧型機器人被導入生產流程之中, 不僅取代煩雜的勞務人力工作, 已經俱備全球連線彈性客製的能力.&lt;/p&gt;
+&lt;p&gt;從以上的幾個面向來看, 及早學習寫電腦程式的目的, 就在於能讓學習者及早融入數位化運算充斥的未來環境, 而積極意義則在於, 希望這些未來學子能夠充份運用這些成熟的科技來改善環境, 有機會利用數位科技促進群體社會的永續發展.&lt;/p&gt;</summary><category term="導引"></category></entry><entry><title>為小孩準備一台電腦</title><link href="./wei-xiao-hai-zhun-bei-yi-tai-dian-nao.html" rel="alternate"></link><updated>2016-03-30T14:20:04+08:00</updated><author><name>code4future</name></author><id>tag:,2016-03-30:./wei-xiao-hai-zhun-bei-yi-tai-dian-nao.html</id><summary type="html">&lt;p&gt;是的, 您要為已經五歲的小孩準備一台電腦, 以下是我們的建議. 24吋螢幕的一台電腦總價格約為新台幣 7731 元.&lt;/p&gt;
+
+
+&lt;p&gt;體積龐大的桌上型電腦並非為小孩準備電腦的首選, 因為世界趨勢已經指向所謂的物聯網與工業 4.0, 可攜、低價並且能隨著孩童成長, 配合數位運算與機電控制"自造"學習的卡片型電腦才是正確的選擇.&lt;/p&gt;
+&lt;pre class="brush: python;"&gt;
+# 在台灣買樹莓派卡片電腦, 大約是台幣 1338 起跳
+raspberrypi3 = 1338
+# 有開關的 USB 式電源線, 可以從接上 110V 插座, 也可以從 電腦的 USB 插槽接電, 大約台幣 250 元
+power = 250
+# 內建 Noobs 的 32 GB 記憶卡, 賣價 400 元台幣
+sdcard = 400
+# 樹莓派的專用外殼, 要價台幣 275 元
+case = 275
+# 24 吋, 擁有 HDMI 接頭的螢幕, 大約台幣 4~5 千元
+philips = 3988 
+# hdmi 接線, 130 元
+hdmi = 130
+# 微軟的鍵盤加上滑鼠, 最便宜的大約 590 元
+microsoft = 590
+# 耳機一副約 760 元
+earphone = 760
+try:
+    g.es(raspberrypi3+power+sdcard+case+philips+hdmi+microsoft+earphone)
+except:
+    print(raspberrypi3+power+sdcard+case+philips+hdmi+microsoft+earphone)
+#總價為新台幣: 7731 (201603)
+&lt;/pre&gt;
+
+&lt;p&gt;卡片電腦: &lt;a href="http://code4futuretw.github.io/blogsite_data/files/rs-online_com.png"&gt;&amp;nbsp;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;要注意的是 2016 年2月起最新的是 64 位元內建  Wifi 的 Raspberry Pi 3, 在國外定價為美金 35 元, 在台灣大約 1338 元是最低價.&lt;/p&gt;
+&lt;p&gt;電源供應器: &lt;a href="http://code4futuretw.github.io/blogsite_data/files/5v2a_usb_powersupply.png"&gt;&amp;nbsp;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;最好買 USB 式的 5V2A 規格, 若正好在筆電或桌上型電腦旁邊使用, 可以透過 USB 接線供電.&lt;/p&gt;
+&lt;p&gt;含操作系統記憶卡(32GB): &lt;a href="http://code4futuretw.github.io/blogsite_data/files/32gb_noobs_kingston.png"&gt;&amp;nbsp;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;32 GB 大概是目前最划算的規格, 記得買內建 &lt;a href="https://www.raspberrypi.org/downloads/noobs/"&gt;Noobs&lt;/a&gt; 操作系統資料的版本.&lt;/p&gt;
+&lt;p&gt;電腦卡外殼: &lt;a href="http://code4futuretw.github.io/blogsite_data/files/raspberrypi3_case.png"&gt;&amp;nbsp;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;螢幕: &lt;a href="http://code4futuretw.github.io/blogsite_data/files/philips_24_hdmi.png"&gt;&amp;nbsp;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;記得要買支援 HDMI 接頭的電腦螢幕.&lt;/p&gt;
+&lt;p&gt;HDMI 連接線: &lt;a href="http://code4futuretw.github.io/blogsite_data/files/sony_hdmi_2m.png"&gt;&amp;nbsp;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;可以買 1.4 到 2 米的 Raspberry Pi 專用連接線.&lt;/p&gt;
+&lt;p&gt;鍵盤與滑鼠: &lt;a href="http://code4futuretw.github.io/blogsite_data/files/microsoft_kb_mouse.png"&gt;&amp;nbsp;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;建議買 Microsoft 最低價的型號即可 (我們的經驗是, 能夠標上 Microsoft 商標的電腦週邊硬體, 都是不錯的選擇).&lt;/p&gt;
+&lt;p&gt;耳機: &lt;a href="http://code4futuretw.github.io/blogsite_data/files/audio_tech_earphone.png"&gt;&amp;nbsp;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;選擇單邊線而且可折疊的機型, 使用或收藏都比較方便.&lt;/p&gt;</summary><category term="導引"></category></entry><entry><title>Reeborg 機器人的兩個世界</title><link href="./reeborg-ji-qi-ren-de-liang-ge-shi-jie.html" rel="alternate"></link><updated>2016-03-20T18:41:03+08:00</updated><author><name>code4future</name></author><id>tag:,2016-03-20:./reeborg-ji-qi-ren-de-liang-ge-shi-jie.html</id><summary type="html">&lt;p&gt;Reeborg 機器人世界是孩童學習 Python3 程式的一套有趣味性的工具, 從早期的單機程式, 到現在能夠直接在雲端主機或本地端進行練習操作, 正好見證了過去十幾年全球數位運算發展趨勢.&lt;/p&gt;
 
 
 &lt;p&gt;因為目前 Reeborg 機器人程式碼中同時存在 JavaScript 與 Brython: &lt;a href="http://brython.info/"&gt;http://brython.info/&lt;/a&gt; 語法, 而作者也不斷在這兩種語言中進行各種切換測試, 這裡先提供最近版本中的兩個機器人世界:&lt;/p&gt;
 &lt;p&gt;&lt;a href="http://code4futuredotorg.github.io/reeborg_tw/world.html"&gt;http://code4futuredotorg.github.io/reeborg_tw/world.html&lt;/a&gt; (&lt;a href="https://github.com/code4futuredotorg/reeborg_tw"&gt;Github 倉儲&lt;/a&gt;)&lt;/p&gt;
 &lt;p&gt;&lt;a href="http://code4futuredotorg.github.io/reeborg2/"&gt;http://code4futuredotorg.github.io/reeborg2/&lt;/a&gt; (&lt;a href="https://github.com/code4futuredotorg/reeborg2"&gt;Github 倉儲&lt;/a&gt;)&lt;/p&gt;
-&lt;p&gt;上面這兩個網站都是採用 &lt;a href="https://pages.github.com/"&gt;Github Pages 技術&lt;/a&gt;, 已經將原始程式碼中的絕對根目錄資料設定, 改為相對目錄, 因此也能夠在本地端利用 python3 -m http.server 的方式啟動.&lt;/p&gt;</summary><category term="導引"></category></entry><entry><title>有關社會人士學習電腦</title><link href="http://blog.code4future.org/blog/you-guan-she-hui-ren-shi-xue-xi-dian-nao.html" rel="alternate"></link><updated>2016-03-20T08:13:42+08:00</updated><author><name>code4future</name></author><id>tag:blog.code4future.org,2016-03-20:blog/you-guan-she-hui-ren-shi-xue-xi-dian-nao.html</id><summary type="html">&lt;p&gt;社會人士學習電腦的課題很廣, 我們只能提供較為基本的電腦使用功能與觀念的導引, 例如, 有關 Windows 與 Ubuntu 操作系統的取捨, 如何運用網路與網站來提升工作效率等.&lt;/p&gt;
+&lt;p&gt;上面這兩個網站都是採用 &lt;a href="https://pages.github.com/"&gt;Github Pages 技術&lt;/a&gt;, 已經將原始程式碼中的絕對根目錄資料設定, 改為相對目錄, 因此也能夠在本地端利用 python3 -m http.server 的方式啟動.&lt;/p&gt;</summary><category term="導引"></category></entry><entry><title>有關社會人士學習電腦</title><link href="./you-guan-she-hui-ren-shi-xue-xi-dian-nao.html" rel="alternate"></link><updated>2016-03-20T08:13:42+08:00</updated><author><name>code4future</name></author><id>tag:,2016-03-20:./you-guan-she-hui-ren-shi-xue-xi-dian-nao.html</id><summary type="html">&lt;p&gt;社會人士學習電腦的課題很廣, 我們只能提供較為基本的電腦使用功能與觀念的導引, 例如, 有關 Windows 與 Ubuntu 操作系統的取捨, 如何運用網路與網站來提升工作效率等.&lt;/p&gt;
 
 
 &lt;p&gt;Code4Future 將與社會人士學習電腦的主題劃分為:&lt;/p&gt;
@@ -22,7 +82,7 @@
 &lt;p&gt;Udemy:&lt;/p&gt;
 &lt;p&gt;&lt;a href="https://www.udemy.com/"&gt;https://www.udemy.com/&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;Khanacademy:&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://www.khanacademy.org/computing/computer-programming"&gt;https://www.khanacademy.org/computing/computer-programming&lt;/a&gt;&lt;/p&gt;</summary><category term="電腦基本功能"></category></entry><entry><title>全雲端電腦輔助機械設計 3D 套件</title><link href="http://blog.code4future.org/blog/quan-yun-duan-dian-nao-fu-zhu-ji-jie-she-ji-3d-tao-jian.html" rel="alternate"></link><updated>2016-03-20T01:13:14+08:00</updated><author><name>code4future</name></author><id>tag:blog.code4future.org,2016-03-20:blog/quan-yun-duan-dian-nao-fu-zhu-ji-jie-she-ji-3d-tao-jian.html</id><summary type="html">&lt;p&gt;一般人對於所謂的電腦輔助機械設計繪圖套件, 可能都還停留在單機 ,必須安裝, 必須經過軟硬體授權認証才能啟動的單機應用程式. 自從 2015 年3月份開始, 一群曾經在 1993 協助打造全世界第一套個人電腦操作系統上的 MCAD (Mechanical Computer Aided Design) 團隊, 推出了 OnShape, 從此您又多了一個選擇, 可以在各種電腦裝置 (包括手機與平板電腦) 上設計繪製 3D 的零組件, 不僅能與多人進行即時協同設計, 並且可以從擁有 500MB 到 5GB 的免費帳號開始入門.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://www.khanacademy.org/computing/computer-programming"&gt;https://www.khanacademy.org/computing/computer-programming&lt;/a&gt;&lt;/p&gt;</summary><category term="電腦基本功能"></category></entry><entry><title>全雲端電腦輔助機械設計 3D 套件</title><link href="./quan-yun-duan-dian-nao-fu-zhu-ji-jie-she-ji-3d-tao-jian.html" rel="alternate"></link><updated>2016-03-20T01:13:14+08:00</updated><author><name>code4future</name></author><id>tag:,2016-03-20:./quan-yun-duan-dian-nao-fu-zhu-ji-jie-she-ji-3d-tao-jian.html</id><summary type="html">&lt;p&gt;一般人對於所謂的電腦輔助機械設計繪圖套件, 可能都還停留在單機 ,必須安裝, 必須經過軟硬體授權認証才能啟動的單機應用程式. 自從 2015 年3月份開始, 一群曾經在 1993 協助打造全世界第一套個人電腦操作系統上的 MCAD (Mechanical Computer Aided Design) 團隊, 推出了 OnShape, 從此您又多了一個選擇, 可以在各種電腦裝置 (包括手機與平板電腦) 上設計繪製 3D 的零組件, 不僅能與多人進行即時協同設計, 並且可以從擁有 500MB 到 5GB 的免費帳號開始入門.&lt;/p&gt;
 
 
 &lt;p&gt;今天起, 請您暫時放下其他類似的 MCAD 套件, 開始關注: &lt;a href="https://www.onshape.com/"&gt;https://www.onshape.com/&lt;/a&gt;.&lt;/p&gt;
@@ -39,7 +99,7 @@
 &lt;video controls autoplay="autoplay" width="800" height="600"&gt;
   &lt;source src="http://code4futuretw.github.io/blogsite_data/files/laptop-720p-apple700kb.mp4"&gt;
   Your browser does not support the video tag.
-&lt;/video&gt;</summary><category term="MCAD"></category><category term="CAD"></category></entry><entry><title>數位運算博物館</title><link href="http://blog.code4future.org/blog/shu-wei-yun-suan-bo-wu-guan.html" rel="alternate"></link><updated>2016-03-19T23:45:30+08:00</updated><author><name>code4future</name></author><id>tag:blog.code4future.org,2016-03-19:blog/shu-wei-yun-suan-bo-wu-guan.html</id><summary type="html">&lt;p&gt;台灣是全世界重要的個人電腦生產國之一, 假如能夠有系統收集歷史上與數位運算相關的軟硬體相關資訊, 成立一個實體或虛擬的數位運算博物館, 那麼, 或許下一代年輕人能藉以鑑往知來, 在全球數位公民中扮演更重要的角色.&lt;/p&gt;
+&lt;/video&gt;</summary><category term="MCAD"></category><category term="CAD"></category></entry><entry><title>數位運算博物館</title><link href="./shu-wei-yun-suan-bo-wu-guan.html" rel="alternate"></link><updated>2016-03-19T23:45:30+08:00</updated><author><name>code4future</name></author><id>tag:,2016-03-19:./shu-wei-yun-suan-bo-wu-guan.html</id><summary type="html">&lt;p&gt;台灣是全世界重要的個人電腦生產國之一, 假如能夠有系統收集歷史上與數位運算相關的軟硬體相關資訊, 成立一個實體或虛擬的數位運算博物館, 那麼, 或許下一代年輕人能藉以鑑往知來, 在全球數位公民中扮演更重要的角色.&lt;/p&gt;
 
 
 &lt;p&gt;英國運算博物館 (National Museum of Computing):&lt;/p&gt;
@@ -52,12 +112,12 @@
 &lt;p&gt;&lt;a href="http://www.computerhistory.org/"&gt;http://www.computerhistory.org/&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;&lt;a href="http://tcm.computerhistory.org/"&gt;http://tcm.computerhistory.org/&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;從數位基礎到應用:&lt;/p&gt;
-&lt;p&gt;&lt;a href="http://www.nand2tetris.org/"&gt;http://www.nand2tetris.org/&lt;/a&gt;&lt;/p&gt;</summary><category term="數位運算"></category><category term="電腦發展史"></category></entry><entry><title>CodeForLife 編程套件介紹</title><link href="http://blog.code4future.org/blog/codeforlife-bian-cheng-tao-jian-jie-shao.html" rel="alternate"></link><updated>2016-03-19T23:04:17+08:00</updated><author><name>code4future</name></author><id>tag:blog.code4future.org,2016-03-19:blog/codeforlife-bian-cheng-tao-jian-jie-shao.html</id><summary type="html">&lt;p&gt;Code for Life &lt;a href="https://www.codeforlife.education/"&gt;https://www.codeforlife.education/&lt;/a&gt; 是一套適合幼稚園到國小兒童使用的編程教育套件.&lt;/p&gt;
+&lt;p&gt;&lt;a href="http://www.nand2tetris.org/"&gt;http://www.nand2tetris.org/&lt;/a&gt;&lt;/p&gt;</summary><category term="數位運算"></category><category term="電腦發展史"></category></entry><entry><title>CodeForLife 編程套件介紹</title><link href="./codeforlife-bian-cheng-tao-jian-jie-shao.html" rel="alternate"></link><updated>2016-03-19T23:04:17+08:00</updated><author><name>code4future</name></author><id>tag:,2016-03-19:./codeforlife-bian-cheng-tao-jian-jie-shao.html</id><summary type="html">&lt;p&gt;Code for Life &lt;a href="https://www.codeforlife.education/"&gt;https://www.codeforlife.education/&lt;/a&gt; 是一套適合幼稚園到國小兒童使用的編程教育套件.&lt;/p&gt;
 
 
 &lt;p&gt;Rapid Router 則是其中由英國 Ocado 公司在 &lt;a href="http://www.ocadotechnology.com/our-blog/articles/why-weve-open-sourced-code-for-life"&gt;2015 年 10 月份開源&lt;/a&gt;釋出的全球資訊網套件 (&lt;a href="https://github.com/ocadotechnology/rapid-router"&gt;Rapid Router Github 倉儲&lt;/a&gt;, &lt;a href="https://twitter.com/codeforlifeuk"&gt;Code for Life Twitter&lt;/a&gt;), 採用 Javascript 與 Python 編寫, 並且架構在 &lt;a href="https://www.djangoproject.com/"&gt;Django&lt;/a&gt; 全球資訊網框架上.&lt;/p&gt;
 &lt;p&gt;Rapid Router 從圖像編程入手, 規劃了適合 5-11 歲孩童電腦教學的教材, 並且逐步導入 Python 程式語法的教學, 其中的每一份教材都明確訂出進度與標的: &lt;a href="http://storage.googleapis.com/codeforlife-assets/general_resources/introduction_to_coding.pdf"&gt;http://storage.googleapis.com/codeforlife-assets/general_resources/introduction_to_coding.pdf&lt;/a&gt;.&lt;/p&gt;
-&lt;p&gt;同時, 老師註冊帳號後登入系統 ,就可以下載規劃完整的教學導引與學習評量內容, 儘管全部教材都是英文, 但若能夠藉由此份"快車找路"的類遊戲編程教學中, 讓孩童同時學習簡單的英文字句, 應該也是很不錯的額外收穫.&lt;/p&gt;</summary><category term="導引"></category></entry><entry><title>如何架構一個動靜皆宜的網誌系統</title><link href="http://blog.code4future.org/blog/ru-he-jia-gou-yi-ge-dong-jing-jie-yi-de-wang-zhi-xi-tong.html" rel="alternate"></link><updated>2016-03-19T13:29:17+08:00</updated><author><name>code4future</name></author><id>tag:blog.code4future.org,2016-03-19:blog/ru-he-jia-gou-yi-ge-dong-jing-jie-yi-de-wang-zhi-xi-tong.html</id><summary type="html">&lt;p&gt;全球資訊網上有兩種基本的 Blog 架構, 動態的網誌以 &lt;a href="https://wordpress.com/"&gt;Wordpress&lt;/a&gt; 為代表, 而靜態的網誌則以 &lt;a href="https://github.com/getpelican/pelican"&gt;Pelican&lt;/a&gt; 為例.&lt;/p&gt;
+&lt;p&gt;同時, 老師註冊帳號後登入系統 ,就可以下載規劃完整的教學導引與學習評量內容, 儘管全部教材都是英文, 但若能夠藉由此份"快車找路"的類遊戲編程教學中, 讓孩童同時學習簡單的英文字句, 應該也是很不錯的額外收穫.&lt;/p&gt;</summary><category term="導引"></category></entry><entry><title>如何架構一個動靜皆宜的網誌系統</title><link href="./ru-he-jia-gou-yi-ge-dong-jing-jie-yi-de-wang-zhi-xi-tong.html" rel="alternate"></link><updated>2016-03-19T13:29:17+08:00</updated><author><name>code4future</name></author><id>tag:,2016-03-19:./ru-he-jia-gou-yi-ge-dong-jing-jie-yi-de-wang-zhi-xi-tong.html</id><summary type="html">&lt;p&gt;全球資訊網上有兩種基本的 Blog 架構, 動態的網誌以 &lt;a href="https://wordpress.com/"&gt;Wordpress&lt;/a&gt; 為代表, 而靜態的網誌則以 &lt;a href="https://github.com/getpelican/pelican"&gt;Pelican&lt;/a&gt; 為例.&lt;/p&gt;
 
 
 &lt;p&gt;這一篇文章的目的, 在介紹 Code4Future 團隊如何利用 PHP、Python3, 在 OpenShift 雲端平台與 Github 版次管理系統中, 用同 Leo Editor 的專案架構, 以同一份內容, 幾乎同步地更新到動態與靜態的兩個網站.&lt;/p&gt;
@@ -82,7 +142,7 @@
 &lt;li&gt;先利用本地端所屬的 local-pelican 按鈕建立網誌文章.&lt;/li&gt;
 &lt;li&gt;本地端內容查詢無誤後, 再用 gh-pages-pelican 按鈕, 產升即將送到雲端上的 Pelican 網誌內容&lt;/li&gt;
 &lt;/ol&gt;
-&lt;p&gt;至於將 Pelican 中的 .md 檔案內容, 送到 Wordpress, 則配合 new-to-wp-pelican, edit-to-wp-pelican 與 get-from-wp-pelican 等3個按鈕指令.&lt;/p&gt;</summary><category term="導引"></category></entry><entry><title>有關學童電腦教學</title><link href="http://blog.code4future.org/blog/you-guan-xue-tong-dian-nao-jiao-xue.html" rel="alternate"></link><updated>2016-03-19T07:49:46+08:00</updated><author><name>code4future</name></author><id>tag:blog.code4future.org,2016-03-19:blog/you-guan-xue-tong-dian-nao-jiao-xue.html</id><summary type="html">&lt;p&gt;數位運算裝置融入各種教學的趨勢已經不可避免, 身為幼稚園到國小的教師, 可以利用現有的優秀教材來推廣學童電腦教學.&lt;/p&gt;
+&lt;p&gt;至於將 Pelican 中的 .md 檔案內容, 送到 Wordpress, 則配合 new-to-wp-pelican, edit-to-wp-pelican 與 get-from-wp-pelican 等3個按鈕指令.&lt;/p&gt;</summary><category term="導引"></category></entry><entry><title>有關學童電腦教學</title><link href="./you-guan-xue-tong-dian-nao-jiao-xue.html" rel="alternate"></link><updated>2016-03-19T07:49:46+08:00</updated><author><name>code4future</name></author><id>tag:,2016-03-19:./you-guan-xue-tong-dian-nao-jiao-xue.html</id><summary type="html">&lt;p&gt;數位運算裝置融入各種教學的趨勢已經不可避免, 身為幼稚園到國小的教師, 可以利用現有的優秀教材來推廣學童電腦教學.&lt;/p&gt;
 
 
 &lt;p&gt;這裡先介紹來自台灣, 兩個很棒的線上教材:&lt;/p&gt;
@@ -96,13 +156,13 @@
 &lt;p&gt;一小時玩程式: &lt;a href="http://www.junyiacademy.org/computer-science-a/ihc"&gt;http://www.junyiacademy.org/computer-science-a/ihc&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;數學式與 LaTeX: &lt;a href="http://www.junyiacademy.org/computer-science-a/i5t"&gt;http://www.junyiacademy.org/computer-science-a/i5t&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;橘子蘋果開放教材: &lt;a href="https://orangeapple.co/csr/open-material"&gt;https://orangeapple.co/csr/open-material&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;最後則介紹來自美國哈佛大學的 Scratch 開放教材: &lt;a href="http://scratched.gse.harvard.edu/guide/"&gt;http://scratched.gse.harvard.edu/guide/&lt;/a&gt;&lt;/p&gt;</summary><category term="導引"></category></entry><entry><title>家長如何制定網路使用政策</title><link href="http://blog.code4future.org/blog/jia-chang-ru-he-zhi-ding-wang-lu-shi-yong-zheng-ce.html" rel="alternate"></link><updated>2016-03-19T07:16:13+08:00</updated><author><name>code4future</name></author><id>tag:blog.code4future.org,2016-03-19:blog/jia-chang-ru-he-zhi-ding-wang-lu-shi-yong-zheng-ce.html</id><summary type="html">&lt;p&gt;無論您從事那一個行業, 週遭一定充滿了各種網路與大小電腦的應用, 從大樓的門禁開始, 電梯、飲水機, 更不用提許多人辦公地點幾乎都各有一台桌上型或筆記型的個人電腦, 透過無線或有線網路與各種資訊系統或網站相連, 未來, 有關網路與電腦的各種應用, 更會密切涉入現代人的生活.&lt;/p&gt;
+&lt;p&gt;最後則介紹來自美國哈佛大學的 Scratch 開放教材: &lt;a href="http://scratched.gse.harvard.edu/guide/"&gt;http://scratched.gse.harvard.edu/guide/&lt;/a&gt;&lt;/p&gt;</summary><category term="導引"></category></entry><entry><title>家長如何制定網路使用政策</title><link href="./jia-chang-ru-he-zhi-ding-wang-lu-shi-yong-zheng-ce.html" rel="alternate"></link><updated>2016-03-19T07:16:13+08:00</updated><author><name>code4future</name></author><id>tag:,2016-03-19:./jia-chang-ru-he-zhi-ding-wang-lu-shi-yong-zheng-ce.html</id><summary type="html">&lt;p&gt;無論您從事那一個行業, 週遭一定充滿了各種網路與大小電腦的應用, 從大樓的門禁開始, 電梯、飲水機, 更不用提許多人辦公地點幾乎都各有一台桌上型或筆記型的個人電腦, 透過無線或有線網路與各種資訊系統或網站相連, 未來, 有關網路與電腦的各種應用, 更會密切涉入現代人的生活.&lt;/p&gt;
 
 
 &lt;p&gt;因此, 身為家長的您, 除了必須體認到未來的現代國民已經離不開網路與電腦之外, 必須了解目前全世界有關網路內容分級, 都是採取軟性的自我管制模式, 所以各位家長必須自己在家裡, 嚴格制定未成年兒童的網路使用政策.&lt;/p&gt;
 &lt;p&gt;我們的認知:&lt;/p&gt;
 &lt;p&gt;未成年兒童, 不應該獨自使用公共網路, 更不應該在沒有家長的管制下, 上網交友.&lt;/p&gt;
-&lt;p&gt;根據 Facebook 的規定 &lt;a href="https://www.facebook.com/help/210644045634222"&gt;13 歲以上&lt;/a&gt; 才能建立帳號, 也就是 grade 7, 國中之後的年輕人才能夠使用臉書, 所以身為家長, 必須限制國小學童在家自由使用網路與電腦 (包括手機) 的權力, 假如配合學校功課的要求,  13 歲之前的孩童, 最好是在家長的陪同下使用廣域網路與電腦.&lt;/p&gt;</summary><category term="網路操作"></category></entry><entry><title>為什麼大家都要你學電腦?</title><link href="http://blog.code4future.org/blog/wei-shi-mo-da-jia-du-yao-ni-xue-dian-nao.html" rel="alternate"></link><updated>2016-03-09T19:03:50+08:00</updated><author><name>code4future</name></author><id>tag:blog.code4future.org,2016-03-09:blog/wei-shi-mo-da-jia-du-yao-ni-xue-dian-nao.html</id><summary type="html">&lt;p&gt;學電腦?學習寫程式?然後呢?&lt;/p&gt;
+&lt;p&gt;根據 Facebook 的規定 &lt;a href="https://www.facebook.com/help/210644045634222"&gt;13 歲以上&lt;/a&gt; 才能建立帳號, 也就是 grade 7, 國中之後的年輕人才能夠使用臉書, 所以身為家長, 必須限制國小學童在家自由使用網路與電腦 (包括手機) 的權力, 假如配合學校功課的要求,  13 歲之前的孩童, 最好是在家長的陪同下使用廣域網路與電腦.&lt;/p&gt;</summary><category term="網路操作"></category></entry><entry><title>為什麼大家都要你學電腦?</title><link href="./wei-shi-mo-da-jia-du-yao-ni-xue-dian-nao.html" rel="alternate"></link><updated>2016-03-09T19:03:50+08:00</updated><author><name>code4future</name></author><id>tag:,2016-03-09:./wei-shi-mo-da-jia-du-yao-ni-xue-dian-nao.html</id><summary type="html">&lt;p&gt;學電腦?學習寫程式?然後呢?&lt;/p&gt;
 
 
 &lt;p&gt;學電腦是一個非常廣的題目, 因為電腦原來的意思是計算器, 現在的計算器到處都是, 從冷氣的溫度控制到手機, 都是不同等級的電腦. 所以嚴格來說, 與電腦有關的學習是學不完的, 當全世界許多現代人都已經離不開電腦的時候, 所謂的學電腦, 應該是指:&lt;/p&gt;
@@ -120,7 +180,7 @@
 &lt;li&gt;電腦與數學及英文, 或者其他各種學科, 都有很密切的關聯, 學習電腦是要讓你的學習更有效率, 及早掌握現代人協同合作的方式.&lt;/li&gt;
 &lt;li&gt;學習電腦的主要目的在解決問題, 這些問題當然包括用有效率的方式來提供使用者遊戲或運動或玩樂.&lt;/li&gt;
 &lt;/ol&gt;
-&lt;p&gt;最後, 我們再次提醒你, 為什麼大家都叫你學電腦? 因為我們希望你未來能夠快速融入國際社會, 利用電腦解決各種問題, 做一個有用的青年, 造福社會!&lt;/p&gt;</summary><category term="Reeborg 機器人"></category></entry><entry><title>Code4future user 文章套稿</title><link href="http://blog.code4future.org/blog/code4future-user-wen-zhang-tao-gao.html" rel="alternate"></link><updated>2016-03-06T21:52:24+08:00</updated><author><name>user</name></author><id>tag:blog.code4future.org,2016-03-06:blog/code4future-user-wen-zhang-tao-gao.html</id><summary type="html">&lt;p&gt;這裡可以放入文章的摘要內容&lt;/p&gt;
+&lt;p&gt;最後, 我們再次提醒你, 為什麼大家都叫你學電腦? 因為我們希望你未來能夠快速融入國際社會, 利用電腦解決各種問題, 做一個有用的青年, 造福社會!&lt;/p&gt;</summary><category term="Reeborg 機器人"></category></entry><entry><title>Code4future user 文章套稿</title><link href="./code4future-user-wen-zhang-tao-gao.html" rel="alternate"></link><updated>2016-03-06T21:52:24+08:00</updated><author><name>user</name></author><id>tag:,2016-03-06:./code4future-user-wen-zhang-tao-gao.html</id><summary type="html">&lt;p&gt;這裡可以放入文章的摘要內容&lt;/p&gt;
 
 
 &lt;h1&gt;文章標題&lt;/h1&gt;
