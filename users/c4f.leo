@@ -41,7 +41,7 @@
 <v t="amd.20151215180106.1" a="E"><vh>設定與開發</vh>
 <v t="amd.20151216151325.1"><vh>@edit index.html</vh></v>
 <v t="amd.20151216152209.1"><vh>@edit README.md</vh></v>
-<v t="leo.20151213230723.1"><vh>Pelican 設定</vh>
+<v t="leo.20151213230723.1" a="E"><vh>Pelican 設定</vh>
 <v t="leo.20151213230957.1"><vh>文章 Date 設定</vh></v>
 <v t="leo.20151213230729.1"><vh>使用 summary plugin</vh></v>
 </v>
@@ -51,7 +51,7 @@
 <v t="leo.20151212173803.1"><vh>@edit publishconf.py</vh></v>
 <v t="amd.20151215170221.1"><vh>以下 local_publishconf.py 為近端所使用的設定</vh></v>
 <v t="leo.20151213085752.1"><vh>@edit local_publishconf.py</vh></v>
-<v t="amd.20151215121740.1" a="E"><vh>@path theme</vh>
+<v t="amd.20151215121740.1"><vh>@path theme</vh>
 <v t="amd.20151215121758.1" a="E"><vh>@path pelican-bootstrap3</vh>
 <v t="amd.20151215121816.1" a="E"><vh>@path templates</vh>
 <v t="amd.20151215121827.1"><vh>@edit base.html</vh></v>
@@ -155,6 +155,9 @@
 </v>
 <v t="amd.20160330005047.1"><vh>@clean c4f_20160330.md</vh>
 <v t="amd.20160712092655.1"><vh>64</vh></v>
+</v>
+<v t="amd.20160712094256.1"><vh>@clean c4f_20160712.md</vh>
+<v t="amd.20160712231633.1"><vh>67</vh></v>
 </v>
 </v>
 </v>
@@ -1181,6 +1184,283 @@ blockdiag {
 <t tx="amd.20160712092645.1"></t>
 <t tx="amd.20160712092649.1"></t>
 <t tx="amd.20160712092655.1"></t>
+<t tx="amd.20160712094256.1">@language md
+Title: 我們如何利用程式方法解決自己的問題
+Category: 社會人士
+Tags: 專題研究, 網誌架構
+Author: code4future
+@others
+在這篇文章中, 我們介紹如何利用 Python3 程式的特性與工具來解決我們在網誌發表上所面臨的問題.
+
+&lt;!-- PELICAN_END_SUMMARY --&gt;
+
+一般在網路上發表網誌有動態與靜態等兩種選擇, 所謂動態網誌, 就是網誌系統直接在全球資訊網路上提供編修文章與管理的功能, 使用者可以直接利用全球資訊網瀏覽器, 以帳號登入網誌管理系統, 依照使用者權限管理內容.
+
+動態網誌的好處就是即時而且靈活, 但是壞處則是資料的傳送必須透過全球資訊網程式處理後, 轉為 html 資料格式, 因此使用者擷取網誌內容的反應速度, 較事先已經轉成 html 的靜態網誌慢, 而另外一個壞處則是, 動態網誌將管理系統直接放在全球資訊網伺服器上, 儘管可以透過各種安全防護機制加以保護, 但是仍然帶有被駭客入侵修改內容的風險.
+
+至於靜態網誌則是使用者利用各種方式編修網誌內容後, 將已經轉成 html 格式的內容送到全球資訊網伺服器, 而在 WWW 伺服器中並沒有提供任何用來管理網誌內容的程式, 因此好處是被擷取的反應速度較動態網誌快, 並且少掉被駭客入侵網誌管理系統的機會, 只有駭客攻破提供全球資訊網伺服器的雲端架構, 靜態網誌內容才可能受到破壞. 而靜態網誌的缺點則是無法像動態網誌一樣, 即時直接讓使用者在瀏覽器中編修文章內容.
+
+了解動態網誌與靜態網誌的特性後, 一般使用者在建立網誌的過程中, 若希望能夠透過即時協同的方式, 多人共同管理網誌文章, 並且能夠有效保存各階段性的網誌文章內容. 大多採用動態網誌系統. 但是若想要利用類似 Github Pages 的架構, 利用分散式資料管理系統, 例如 GIT, 來管理每一個版本的內容, 則靜態網將會是比動態網誌更適合.
+
+以 Code4Future 來說, 我們想要同時擁有上述動態與靜態網誌的優點, 但是又必須儘量讓兩個不同系統的內容能夠同步, 於是我們想出利用程式方法來媒合兩種風格迥異的網誌系統.
+
+基本的作法如下：
+
+1. 我們其實是同時建立一個 Wordpress 靜態網誌系統與靜態的 Python3 Pelican 網誌系統.
+
+2. Wordpress 網誌系統的用法與一般動態網誌的管理模式相同, 可以讓負責協同的人員建立帳號, 依照帳號權限管理網誌內容.
+
+3. Python3 Pelican 的靜態網誌建立, 也採用一般靜態網誌的建立與上傳方法, 只是我們選擇利用 Github Pages 來伺服我們的靜態網誌.
+
+4. 結合 Wordpress 與 Pelican 網誌內容的基本技術植基於 &lt;a href="https://zh.wikipedia.org/wiki/XML-RPC"&gt;XML-RPC&lt;/a&gt; 協定, 因為 Wordpress 是採用 PHP 程式語言編寫, 而 Pelican 則是採用 Python 程式語言, 假如沒有中繼的 XML-RPC 協定來轉換兩者的資料內容, 使用者就必須從 Wordpress 儲存資料的資料庫系統下手.
+
+5. 另外一個重要的程式架構則是, 我們選擇以 &lt;a href="http://leoeditor.com/"&gt;Leo Editor&lt;/a&gt; 來管理這個資料互動的程式流程.
+
+6. 由於從 Pelican 靜態網誌系統將資料轉進或轉出 Wordpress 時, 需要擁有管理資料的帳號密碼, 這時我們利用存在使用者電腦特定位置的帳號密碼讀取, 來登入 Wordpress 系統.
+
+7. 假如原始網誌內容先在 Wordpress 建立, 則位於 Leo Editor 專案中的 Pelican 靜態網誌管理系統可以利用 get-from-wp 按鈕將資料取回.
+
+8. 假如原始網誌內容先在 Pelican 建立, 則可以利用 Leo Editor 的 new-to-wp 按鈕, 將靜態網誌內容推向 Wordpress.
+
+9. 假如 Wordpress 網誌內容更動, 則 Pelican 可以再利用 get-from-wp 按鈕取回最新的資料.
+
+10. 假如位於 Pelican 管理系統中的網誌內容更動, 則可以利用 Leo Editor 的 edit-to-wp 按鈕將更新資料推向 Wordpress.
+
+以下為實際的 Leo Editor 按鈕程式碼:
+
+new-to-wp-button
+
+&lt;pre class="brush: python"&gt;
+#coding: utf-8
+import xmlrpc.client
+import datetime
+import os
+
+def get_cat_tag_content(data):
+    # 請注意, 因為 data 來自 .md 的 body pan 內容, 第1行為 @language python
+    # 用跳行符號分割
+    data_list = data.split("\n")
+    #第2行為 title
+    title= data_list[1]
+    #第3行為 category
+    category = data_list[2]
+    #第4行為 tags
+    tags = data_list[3]
+    # 有多項資料的 content 型別為數列
+    # 再將第7行之後的資料數列串回成以跳行隔開的資料
+    content = "\n".join(data_list[6:])
+    # 先將截斷摘要與內文的 pelican md 檔按符號, 換成 Wordpress 的 &amp;lt;!-more-&amp;gt;
+    content = content.replace('&amp;lt;!-- PELICAN_END_SUMMARY --&amp;gt;', '&amp;lt;!--more--&amp;gt;')
+    # 接著若內容有 ~~~python 與 ~~~ 則換成 Wordpress 格式
+    content = content.replace('~~~python', '[code lang="python"]')
+    content = content.replace('~~~', '[/code]')
+    return title, category, tags, content
+    
+os.environ['TZ'] = 'Asia/Taipei'
+
+#################################
+filepath = "/home/amd/Desktop/www-code4future.txt"
+wordpress = "www.code4future.org"
+fo = open(filepath, "r+")
+data = []
+for line in fo.readlines():
+    data.append(line)
+fo.close()
+
+# 從網誌節點的 parent().h 取得 wp_url
+# 從網誌節點的 parent().b 取得帳號與密碼對應的文字檔案路徑
+wp_url = "https://"+wordpress+"/xmlrpc.php"
+wp_username = data[0]
+wp_password = data[1]
+#################################
+wp_blogid = "0"
+ 
+status_draft = 0
+status_published = 1
+ 
+server = xmlrpc.client.ServerProxy(wp_url)
+
+# 從目前所在節點的 body pan 中取出類別, tags 以及文章內容
+title_str, category_str, tags_str, content = get_cat_tag_content(p.b)
+# title 是一個單獨的字串
+title = title_str.split(":")[1]
+# 指定時間出版
+'''
+date_created = xmlrpc.client.DateTime(datetime.datetime.strptime("2013-01-01 00:00",
+"%Y-%m-%d %H:%M"))
+'''
+# 以現在時間出版, 考慮與 Server 時間差八個小時 (480 分鐘), 因此要在 8 個小時前發表
+date_created = xmlrpc.client.DateTime(datetime.datetime.strptime((datetime.datetime.now()- \
+datetime.timedelta(minutes=480)).strftime('%Y-%m-%d %H:%M'),"%Y-%m-%d %H:%M"))
+categories = [category_str.split(":")[1]]
+# 請注意, 因為 tags 用逗點隔開, 因此必須透過 split() 再分開成為 list 資料
+# 先用 : 斷開標投頭的 Tags:, 然後再透過逗點隔開, 將標註轉為數列資料
+tags = tags_str.split(":")[1].split(",")
+data = {'title': title, 'description': content, 'dateCreated': date_created, 'categories': categories, 'mt_keywords': tags}
+ 
+post_id = server.metaWeblog.newPost(wp_blogid, wp_username, wp_password, data, status_published)
+# 利用最後的 child 節點來儲存 post_id
+to_save_post_id = p.insertAsLastChild()   
+# 改為內文為空的節點, id 直接標在 head 標題 
+to_save_post_id.b = ""
+to_save_post_id.h = post_id
+# 因為新增節點, commander 必須 redraw
+c.redraw() 
+
+g.es("post_id 為", post_id)
+g.es("已經送出資料!")
+&lt;/pre&gt;
+
+edit-to-wp-button
+
+&lt;pre class="brush: python"&gt;
+#coding: utf-8
+import xmlrpc.client
+import datetime
+import os
+
+def get_cat_tag_content(data):
+    # 請注意, 因為 data 來自 .md 的 body pan 內容, 第1行為 @language python
+    # 用跳行符號分割
+    data_list = data.split("\n")
+    #第2行為 title
+    title= data_list[1]
+    #第3行為 category
+    category = data_list[2]
+    #第4行為 tags
+    tags = data_list[3]
+    # 有多項資料的 content 型別為數列
+    # 再將第7行之後的資料數列串回成以跳行隔開的資料
+    content = "\n".join(data_list[6:])
+    # 先將截斷摘要與內文的 pelican md 檔按符號, 換成 Wordpress 的 &amp;lt;!-more-&amp;gt;
+    content = content.replace('&amp;lt;!-- PELICAN_END_SUMMARY --&amp;gt;', '&amp;lt;!--more--&amp;gt;')
+    # 接著若內容有 ~~~python 與 ~~~ 則換成 Wordpress 格式
+    content = content.replace('~~~python', '[code lang="python"]')
+    content = content.replace('~~~', '[/code]')
+    return title, category, tags, content
+    
+os.environ['TZ'] = 'Asia/Taipei'
+ 
+#################################
+filepath = "/home/amd/Desktop/www-code4future.txt"
+wordpress = "www.code4future.org"
+fo = open(filepath, "r+")
+data = []
+for line in fo.readlines():
+    data.append(line)
+fo.close()
+
+wp_url = "https://"+wordpress+"/xmlrpc.php"
+wp_username = data[0]
+wp_password = data[1]
+#################################
+wp_blogid = "0"
+ 
+status_draft = 0
+status_published = 1
+ 
+server = xmlrpc.client.ServerProxy(wp_url)
+
+# 從目前所在節點的 body pan 中取出類別, tags 以及文章內容
+title_str, category_str, tags_str, content = get_cat_tag_content(p.b)
+# title 是一個單獨的字串
+title = title_str.split(":")[1]
+# 指定時間出版
+'''
+date_created = xmlrpc.client.DateTime(datetime.datetime.strptime("2013-01-01 00:00",
+"%Y-%m-%d %H:%M"))
+'''
+# 以現在時間出版, 考慮與 Server 時間差八個小時 (480 分鐘), 因此要在 8 個小時前發表
+date_created = xmlrpc.client.DateTime(datetime.datetime.strptime((datetime.datetime.now()- \
+datetime.timedelta(minutes=480)).strftime('%Y-%m-%d %H:%M'),"%Y-%m-%d %H:%M"))
+categories = [category_str.split(":")[1]]
+# 請注意, 因為 tags 用逗點隔開, 因此必須透過 split() 再分開成為 list 資料
+tags = tags_str.split(":")[1].split(",")
+data = {'title': title, 'description': content, 'dateCreated': date_created, 'categories': categories, 'mt_keywords': tags}
+
+# 設法取得原 post 的 id
+origin_post = p.getLastChild()
+# 直接從標題取得 post 的 id 號碼
+post_id = origin_post.h
+status = server.metaWeblog.editPost(post_id, wp_username, wp_password, data, status_published)
+
+if status:
+    g.es("資料已經更新!")
+else:
+    g.es("有問題, 資料沒有更新!")
+&lt;/pre&gt;
+
+get-from-wp button
+
+&lt;pre class="brush: python"&gt;
+#coding: utf-8
+import xmlrpc.client
+# 導入 html 模組, 使用 html.unescape 轉換 html 特殊符號
+import html
+ 
+#################################
+filepath = "/home/amd/Desktop/www-code4future.txt"
+wordpress = "www.code4future.org"
+fo = open(filepath, "r+")
+data = []
+for line in fo.readlines():
+    data.append(line)
+fo.close()
+
+# 從網誌節點的 parent().h 取得 wp_url
+# 從網誌節點的 parent().b 取得帳號與密碼對應的文字檔案路徑
+wp_url = "https://"+wordpress+"/xmlrpc.php"
+wp_username = data[0]
+wp_password = data[1]
+#################################
+
+server = xmlrpc.client.ServerProxy(wp_url)
+
+# 設法透過上述網誌網址, 帳號與密碼, 以及文章 id, 取回 categories, tags, 文章標題, 文章內容等資
+
+# 從最後的 child 節點來取 post_id
+origin_post = p.getLastChild()
+post_id = origin_post.h
+# 取回與 post_id 對應的網誌文章內容
+blog_content = server.metaWeblog.getPost(post_id, wp_username, wp_password)
+title = blog_content["title"]
+# 這裡要利用 html.unescape 轉回特殊符號
+description = html.unescape(blog_content["description"])
+mt_text_more = html.unescape(blog_content["mt_text_more"])
+if mt_text_more != "":
+    post_content = description + "\n&amp;lt;!--more--&amp;gt;\n"+mt_text_more
+else:
+    post_content = description
+# 所取回的 categories 為 list
+categories = blog_content["categories"]
+# 所取回的 tags 為以逗點隔開的字串
+mt_keywords = blog_content["mt_keywords"]
+# 取回文章作者
+author = blog_content["wp_author_display_name"]
+p.h = title
+categories_str = ""
+for category in categories:
+    # 假如不是最後一個
+    if category != categories[len(categories)-1]:
+        categories_str += category + ", "
+    else:
+        # 這是最後一個
+        categories_str += category
+line1 = "@language md\n"
+line2 = "Title: " +title + "\n"
+line3 = "Category: " + categories_str + "\n"
+line4 = "Tags: " + mt_keywords + "\n"
+line5 = "Author: " + author + "\n@others\n"
+post_content = post_content.replace('&amp;lt;!--more--&amp;gt;', '\n&amp;lt;!-- PELICAN_END_SUMMARY --&amp;gt;\n')
+post_content = post_content.replace('[code lang="python"]', '~~~python')
+post_content = post_content.replace('[/code]', '~~~')
+p.b = line1 + line2 + line3 + line4 + line5 + post_content + "\n"
+# 因為節點資料更新, commander 必須 redraw
+c.redraw() 
+g.es("資料已經取回")
+&lt;/pre&gt;
+</t>
+<t tx="amd.20160712231633.1"></t>
 <t tx="leo.20151212173315.1"></t>
 <t tx="leo.20151212173315.2">QTreeWidget {
     /* These apply to the selected item, but not to editing items.*/
