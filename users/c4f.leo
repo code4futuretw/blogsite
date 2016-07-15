@@ -159,7 +159,9 @@
 <v t="amd.20160712094256.1"><vh>@clean c4f_20160712.md</vh>
 <v t="amd.20160712231633.1"><vh>67</vh></v>
 </v>
-<v t="amd.20160715215651.1"><vh>@clean c4f_20160715.md</vh></v>
+<v t="amd.20160715215651.1"><vh>@clean c4f_20160715.md</vh>
+<v t="amd.20160716001133.1"><vh>85</vh></v>
+</v>
 </v>
 </v>
 </v>
@@ -1601,7 +1603,8 @@ Step 6:
 
 總結
 
-在這篇說明中, 我們利用 Gmail 帳號, 在 OpenShift 雲端平台登記了一個免費帳號, 並且利用這個免費帳號, 建立的一個 Wordpress 網站: &lt;a href="https://wp-topuniversity.rhcloud.com/"&gt;https://wp-topuniversity.rhcloud.com/&lt;/a&gt;, 這個網站使用了 Awesomeone theme, 但是t除了內建的 plugin 外, 還沒有啟用其他 plugin, 在隨後的說明, 我們將說明如何將 OpenShift 所建立的網誌與 Godaddy 的網址對應, 而且還要說明如何在 Wordpress 網站中啟用 Disqus 留言系統.</t>
+在這篇說明中, 我們利用 Gmail 帳號, 在 OpenShift 雲端平台登記了一個免費帳號, 並且利用這個免費帳號, 建立的一個 Wordpress 網站: &lt;a href="https://wp-topuniversity.rhcloud.com/"&gt;https://wp-topuniversity.rhcloud.com/&lt;/a&gt;, 這個網站使用了 Awesomeone theme, 但是除了內建的 plugin 外, 還沒有啟用其他 plugin, 在隨後的說明, 我們將說明如何將 OpenShift 所建立的網誌與 Godaddy 的網址對應, 而且還要說明如何在 Wordpress 網站中啟用 Disqus 留言系統.</t>
+<t tx="amd.20160716001133.1"></t>
 <t tx="leo.20151212173315.1"></t>
 <t tx="leo.20151212173315.2">QTreeWidget {
     /* These apply to the selected item, but not to editing items.*/
