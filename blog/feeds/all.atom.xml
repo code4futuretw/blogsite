@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>Code4future</title><link href="http://blog.code4future.org/blog/" rel="alternate"></link><link href="http://blog.code4future.org/blog/feeds/all.atom.xml" rel="self"></link><id>http://blog.code4future.org/blog/</id><updated>2016-07-17T16:38:46+08:00</updated><entry><title>我們如何建立這個網站 (二)</title><link href="http://blog.code4future.org/blog/wo-men-ru-he-jian-li-zhe-ge-wang-zhan-er.html" rel="alternate"></link><updated>2016-07-17T16:38:46+08:00</updated><author><name>code4future</name></author><id>tag:blog.code4future.org,2016-07-17:blog/wo-men-ru-he-jian-li-zhe-ge-wang-zhan-er.html</id><summary type="html">&lt;p&gt;在上一篇文章中, 我們介紹了如何利用 Gmail 郵箱在 OpenShift 雲端平台上登記免費的帳號, 如何在 OpenShift 建立 Wordpress 網站, 如何更改 theme 頁面主題, 而這個 OpenShift 平台上的 Wordpress 網站所使用的網址, 是由 OpenShift 提供, 主要是以使用者建立的應用程式名稱, 加上使用者所選的 namespace, 然後再疊上 rhcloud.com.&lt;/p&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>Code4future</title><link href="http://blog.code4future.org/blog/" rel="alternate"></link><link href="http://blog.code4future.org/blog/feeds/all.atom.xml" rel="self"></link><id>http://blog.code4future.org/blog/</id><updated>2016-07-17T16:46:45+08:00</updated><entry><title>我們如何建立這個網站 (二)</title><link href="http://blog.code4future.org/blog/wo-men-ru-he-jian-li-zhe-ge-wang-zhan-er.html" rel="alternate"></link><updated>2016-07-17T16:46:45+08:00</updated><author><name>code4future</name></author><id>tag:blog.code4future.org,2016-07-17:blog/wo-men-ru-he-jian-li-zhe-ge-wang-zhan-er.html</id><summary type="html">&lt;p&gt;在上一篇文章中, 我們介紹了如何利用 Gmail 郵箱在 OpenShift 雲端平台上登記免費的帳號, 如何在 OpenShift 建立 Wordpress 網站, 如何更改 theme 頁面主題, 而這個 OpenShift 平台上的 Wordpress 網站所使用的網址, 是由 OpenShift 提供, 主要是以使用者建立的應用程式名稱, 加上使用者所選的 namespace, 然後再疊上 rhcloud.com.&lt;/p&gt;
 
 
-&lt;p&gt;在這篇文章中, 我們將說明如何在 Godaddy DNS 設定中, 利用 www 當作主機代號, 疊上我們所購買的 domain name, 並且利用 DNS 架構中的 CNAME (別名) 將這個網址指到 OpenShift 的 Wordpress 網站, 最後再登入到 OpenShift 平台, 將原先 RedHat 附贈的網站名稱改為 Godaddy DNS 管理中所設定的網址名稱, 就可以完成使用我們所購買的 domain name 來跑 OpenShift 上的 Wordpress 網誌網站.&lt;/p&gt;
+&lt;p&gt;在這篇文章中, 我們將說明如何在 Godaddy DNS 設定中, 利用 www 當作主機代號, 疊上我們所購買的 domain name (也就是 code4future.org), 並且利用 DNS 架構中的 CNAME (別名) 將這個網址指到 OpenShift 的 Wordpress 網站, 最後再登入到 OpenShift 平台, 將原先 RedHat 附贈的網站名稱改為 Godaddy DNS 管理中所設定的網址名稱, 就可以完成使用我們所購買的 domain name 來跑 OpenShift 上的 Wordpress 網誌網站.&lt;/p&gt;
 &lt;p&gt;接下來的操作步驟, 目的就是要將第一篇我們已經完成的 Wordpress 網站網址, 對應為我們所購買的符號名稱, 也就是我們要將 wp-topuniversity.rhcloud.com 改為 demo.code4future.org.&lt;/p&gt;
 &lt;p&gt;這個設定, 總共牽涉到 3 個基本操作:&lt;/p&gt;
 &lt;ol&gt;
@@ -71,7 +71,7 @@
 &lt;p&gt;第 1 項設定是 Godaddy 帳號中的設定, 建立一個別名 (CNAME), 將 demo.code4future.org 指向 wp-topuniversity.rhcloud.com.&lt;/p&gt;
 &lt;p&gt;第 2 項設定則是 Wordpress 系統本身, 必須登入後在 Settings-&amp;gt;General 中, 將運行 Wordpress 的網址, 從 wp-topuniversity.rhcloud.com 改為 demo.code4future.org, 總共有兩個欄位必須更改.&lt;/p&gt;
 &lt;p&gt;而第 3 項設定則是 OpenShift 平台中應用程式所採用的 domain name alias 修改, 將原先使用的 wp-topuniversity.rhcloud.com 改為 demo.code4future.org.&lt;/p&gt;
-&lt;p&gt;完成上述一連串設定後, 終於可以用自己選定的網址來執行 Wordpress 網誌了.&lt;/p&gt;</summary><category term="專題研究"></category><category term="網誌架構"></category><category term="Wordpress"></category><category term="Godaddy"></category><category term="OpenShift"></category></entry><entry><title>我們如何建立這個網站 (一)</title><link href="http://blog.code4future.org/blog/wo-men-ru-he-jian-li-zhe-ge-wang-zhan-yi.html" rel="alternate"></link><updated>2016-07-16T00:20:13+08:00</updated><author><name>code4future</name></author><id>tag:blog.code4future.org,2016-07-16:blog/wo-men-ru-he-jian-li-zhe-ge-wang-zhan-yi.html</id><summary type="html">&lt;p&gt;在這篇文章中, 我們將介紹 code4future 的網誌是如何建立的.&lt;/p&gt;
+&lt;p&gt;完成上述一連串設定後, 終於可以用自己選定的網址來執行 Wordpress 網誌了.&lt;/p&gt;</summary><category term="專題研究"></category><category term="網誌架構"></category><category term="Wordpress"></category><category term="Godaddy"></category><category term="OpenShift"></category></entry><entry><title>我們如何建立這個網站 (一)</title><link href="http://blog.code4future.org/blog/wo-men-ru-he-jian-li-zhe-ge-wang-zhan-yi.html" rel="alternate"></link><updated>2016-07-17T16:45:55+08:00</updated><author><name>code4future</name></author><id>tag:blog.code4future.org,2016-07-17:blog/wo-men-ru-he-jian-li-zhe-ge-wang-zhan-yi.html</id><summary type="html">&lt;p&gt;在這篇文章中, 我們將介紹 code4future 的網誌是如何建立的.&lt;/p&gt;
 
 
 &lt;p&gt;這幾天我們發現, 大約在一年之前利用 OpenShift 雲端平台所搭建的 Wordpress 網站, 幾乎全部都被駭客攻陷, 根據初步的了解, 駭客是從 OpenShift 雲端平台啟動的程式碼置入惡意軟體, 讓連結到這些網站的用戶, 被強迫指到一些惡意網站, 因此這些 Wordpress 網站在修復之前, 幾乎已經完全癱瘓, 已經無法正常運作. 在此希望我們這個網站不會有這樣的下場.&lt;/p&gt;
@@ -131,7 +131,7 @@
 &lt;p&gt;下圖則是採用內建 theme 主題的 Wordpress 網站畫面:&lt;/p&gt;
 &lt;p&gt;&lt;img src="http://code4futuretw.github.io/blogsite_data/files/openshift/c4f_wordpresscreated.png" width="800" /&gt;&lt;/p&gt;
 &lt;p&gt;Step 6:&lt;/p&gt;
-&lt;p&gt;改用 awesomeone theme, 當以管理者身份登入 Wordpress 網站後, 選擇 Appearance-&amp;gt;Themes, 然後選擇 Add new, 並且以 Awesomeone 關鍵字搜尋, 就可以找到 Awesomeon theme, 選擇 install 並 activate, 就可以改用 Awesome theme 主題了.&lt;/p&gt;
+&lt;p&gt;改用 awesomeone theme, 當以管理者身份登入 Wordpress 網站後, 選擇 Appearance-&amp;gt;Themes, 然後選擇 Add new, 並且以 Awesomeone 關鍵字搜尋, 就可以找到 Awesomeone theme, 選擇 install 並 activate, 就可以改用 Awesome theme 主題了.&lt;/p&gt;
 &lt;p&gt;下圖可以看到, Wordpress 所採用的 default theme:&lt;/p&gt;
 &lt;p&gt;&lt;img src="http://code4futuretw.github.io/blogsite_data/files/openshift/c4f_wordpressdefaulttheme.png" width="800" /&gt;&lt;/p&gt;
 &lt;p&gt;下圖顯示我們可以利用 add new theme, 安裝選用新的網站 theme 主題:&lt;/p&gt;

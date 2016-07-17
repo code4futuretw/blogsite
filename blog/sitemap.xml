@@ -5,28 +5,28 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
 <url>
 <loc>http://blog.code4future.org/blog/</loc>
-<lastmod>2016-07-17T16:39:00-00:00</lastmod>
+<lastmod>2016-07-17T16:47:05-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>http://blog.code4future.org/blog/archives.html</loc>
-<lastmod>2016-07-17T16:39:00-00:00</lastmod>
+<lastmod>2016-07-17T16:47:05-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>http://blog.code4future.org/blog/tags.html</loc>
-<lastmod>2016-07-17T16:39:00-00:00</lastmod>
+<lastmod>2016-07-17T16:47:05-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>http://blog.code4future.org/blog/categories.html</loc>
-<lastmod>2016-07-17T16:39:00-00:00</lastmod>
+<lastmod>2016-07-17T16:47:05-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
@@ -40,14 +40,14 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
 <url>
 <loc>http://blog.code4future.org/blog/wo-men-ru-he-jian-li-zhe-ge-wang-zhan-er.html</loc>
-<lastmod>2016-07-17T16:38:46+08:00</lastmod>
+<lastmod>2016-07-17T16:46:45+08:00</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>http://blog.code4future.org/blog/wo-men-ru-he-jian-li-zhe-ge-wang-zhan-yi.html</loc>
-<lastmod>2016-07-16T00:20:13+08:00</lastmod>
+<lastmod>2016-07-17T16:45:55+08:00</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
 </url>
@@ -166,7 +166,7 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
 <url>
 <loc>http://blog.code4future.org/blog/category/she-hui-ren-shi.html</loc>
-<lastmod>2016-07-17T16:38:46+08:06</lastmod>
+<lastmod>2016-07-17T16:46:45+08:06</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
@@ -179,43 +179,8 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 </url>
 
 <url>
-<loc>http://blog.code4future.org/blog/tag/wang-zhi-jia-gou.html</loc>
-<lastmod>2016-07-17T16:38:46+08:06</lastmod>
-<changefreq>daily</changefreq>
-<priority>0.5</priority>
-</url>
-
-<url>
-<loc>http://blog.code4future.org/blog/tag/dian-nao-fa-zhan-shi.html</loc>
-<lastmod>2016-03-19T23:45:30+08:06</lastmod>
-<changefreq>daily</changefreq>
-<priority>0.5</priority>
-</url>
-
-<url>
-<loc>http://blog.code4future.org/blog/tag/shu-wei-yun-suan.html</loc>
-<lastmod>2016-03-19T23:45:30+08:06</lastmod>
-<changefreq>daily</changefreq>
-<priority>0.5</priority>
-</url>
-
-<url>
-<loc>http://blog.code4future.org/blog/tag/wordpress.html</loc>
-<lastmod>2016-07-17T16:38:46+08:06</lastmod>
-<changefreq>daily</changefreq>
-<priority>0.5</priority>
-</url>
-
-<url>
-<loc>http://blog.code4future.org/blog/tag/dian-nao-ji-ben-gong-neng.html</loc>
-<lastmod>2016-03-20T08:13:42+08:06</lastmod>
-<changefreq>daily</changefreq>
-<priority>0.5</priority>
-</url>
-
-<url>
-<loc>http://blog.code4future.org/blog/tag/cad.html</loc>
-<lastmod>2016-03-20T01:13:14+08:06</lastmod>
+<loc>http://blog.code4future.org/blog/tag/godaddy.html</loc>
+<lastmod>2016-07-17T16:46:45+08:06</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
@@ -228,15 +193,15 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 </url>
 
 <url>
-<loc>http://blog.code4future.org/blog/tag/mcad.html</loc>
-<lastmod>2016-03-20T01:13:14+08:06</lastmod>
+<loc>http://blog.code4future.org/blog/tag/shu-wei-yun-suan.html</loc>
+<lastmod>2016-03-19T23:45:30+08:06</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>http://blog.code4future.org/blog/tag/zhuan-ti-yan-jiu.html</loc>
-<lastmod>2016-07-17T16:38:46+08:06</lastmod>
+<loc>http://blog.code4future.org/blog/tag/openshift.html</loc>
+<lastmod>2016-07-17T16:46:45+08:06</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
@@ -249,8 +214,8 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 </url>
 
 <url>
-<loc>http://blog.code4future.org/blog/tag/xie-tong-wang-zhi.html</loc>
-<lastmod>2016-03-06T21:52:24+08:06</lastmod>
+<loc>http://blog.code4future.org/blog/tag/mcad.html</loc>
+<lastmod>2016-03-20T01:13:14+08:06</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
@@ -263,22 +228,57 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 </url>
 
 <url>
-<loc>http://blog.code4future.org/blog/tag/openshift.html</loc>
-<lastmod>2016-07-17T16:38:46+08:06</lastmod>
+<loc>http://blog.code4future.org/blog/tag/wordpress.html</loc>
+<lastmod>2016-07-17T16:46:45+08:06</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>http://blog.code4future.org/blog/tag/godaddy.html</loc>
-<lastmod>2016-07-17T16:38:46+08:06</lastmod>
+<loc>http://blog.code4future.org/blog/tag/dian-nao-ji-ben-gong-neng.html</loc>
+<lastmod>2016-03-20T08:13:42+08:06</lastmod>
+<changefreq>daily</changefreq>
+<priority>0.5</priority>
+</url>
+
+<url>
+<loc>http://blog.code4future.org/blog/tag/wang-zhi-jia-gou.html</loc>
+<lastmod>2016-07-17T16:46:45+08:06</lastmod>
+<changefreq>daily</changefreq>
+<priority>0.5</priority>
+</url>
+
+<url>
+<loc>http://blog.code4future.org/blog/tag/zhuan-ti-yan-jiu.html</loc>
+<lastmod>2016-07-17T16:46:45+08:06</lastmod>
+<changefreq>daily</changefreq>
+<priority>0.5</priority>
+</url>
+
+<url>
+<loc>http://blog.code4future.org/blog/tag/dian-nao-fa-zhan-shi.html</loc>
+<lastmod>2016-03-19T23:45:30+08:06</lastmod>
+<changefreq>daily</changefreq>
+<priority>0.5</priority>
+</url>
+
+<url>
+<loc>http://blog.code4future.org/blog/tag/cad.html</loc>
+<lastmod>2016-03-20T01:13:14+08:06</lastmod>
+<changefreq>daily</changefreq>
+<priority>0.5</priority>
+</url>
+
+<url>
+<loc>http://blog.code4future.org/blog/tag/xie-tong-wang-zhi.html</loc>
+<lastmod>2016-03-06T21:52:24+08:06</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>http://blog.code4future.org/blog/author/code4future.html</loc>
-<lastmod>2016-07-17T16:38:46+08:06</lastmod>
+<lastmod>2016-07-17T16:46:45+08:06</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>

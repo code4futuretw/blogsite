@@ -1586,7 +1586,7 @@ Step 5:
 
 Step 6:
 
-改用 awesomeone theme, 當以管理者身份登入 Wordpress 網站後, 選擇 Appearance-&gt;Themes, 然後選擇 Add new, 並且以 Awesomeone 關鍵字搜尋, 就可以找到 Awesomeon theme, 選擇 install 並 activate, 就可以改用 Awesome theme 主題了.
+改用 awesomeone theme, 當以管理者身份登入 Wordpress 網站後, 選擇 Appearance-&gt;Themes, 然後選擇 Add new, 並且以 Awesomeone 關鍵字搜尋, 就可以找到 Awesomeone theme, 選擇 install 並 activate, 就可以改用 Awesome theme 主題了.
 
 下圖可以看到, Wordpress 所採用的 default theme:
 
@@ -1618,7 +1618,7 @@ Author: code4future
 
 &lt;!-- PELICAN_END_SUMMARY --&gt;
 
-在這篇文章中, 我們將說明如何在 Godaddy DNS 設定中, 利用 www 當作主機代號, 疊上我們所購買的 domain name, 並且利用 DNS 架構中的 CNAME (別名) 將這個網址指到 OpenShift 的 Wordpress 網站, 最後再登入到 OpenShift 平台, 將原先 RedHat 附贈的網站名稱改為 Godaddy DNS 管理中所設定的網址名稱, 就可以完成使用我們所購買的 domain name 來跑 OpenShift 上的 Wordpress 網誌網站.
+在這篇文章中, 我們將說明如何在 Godaddy DNS 設定中, 利用 www 當作主機代號, 疊上我們所購買的 domain name (也就是 code4future.org), 並且利用 DNS 架構中的 CNAME (別名) 將這個網址指到 OpenShift 的 Wordpress 網站, 最後再登入到 OpenShift 平台, 將原先 RedHat 附贈的網站名稱改為 Godaddy DNS 管理中所設定的網址名稱, 就可以完成使用我們所購買的 domain name 來跑 OpenShift 上的 Wordpress 網誌網站.
 
 接下來的操作步驟, 目的就是要將第一篇我們已經完成的 Wordpress 網站網址, 對應為我們所購買的符號名稱, 也就是我們要將 wp-topuniversity.rhcloud.com 改為 demo.code4future.org.
 
