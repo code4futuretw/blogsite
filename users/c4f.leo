@@ -165,9 +165,16 @@
 <v t="amd.20160717151500.1"><vh>@clean c4f_20160717.md</vh>
 <v t="amd.20160717163525.1"><vh>92</vh></v>
 </v>
-<v t="amd.20160717183001.1"><vh>@clean c4f_20160717-1.md</vh></v>
-<v t="amd.20160718233536.1"><vh>@clean c4f_20160718.md</vh></v>
-<v t="amd.20160721203641.1"><vh>@clean c4f_20160721.md</vh></v>
+<v t="amd.20160717183001.1"><vh>我們如何建立這個網站 (三)</vh>
+<v t="amd.20160721205749.1"><vh>97</vh></v>
+</v>
+<v t="amd.20160718233536.1"><vh>@clean c4f_20160718.md</vh>
+<v t="amd.20160721205754.1"><vh>109</vh></v>
+</v>
+<v t="amd.20160721203641.1"><vh>@clean c4f_20160721.md</vh>
+<v t="amd.20160721205758.1"><vh>111</vh></v>
+</v>
+<v t="amd.20160724161400.1"><vh>@clean c4f_20160724.md</vh></v>
 </v>
 </v>
 </v>
@@ -1748,12 +1755,14 @@ Step 3:
 <t tx="amd.20160717183001.1">@language md
 Title: 我們如何建立這個網站 (三)
 Category: 社會人士
-Tags: 專題研究, 網誌架構, Wordpress, Godaddy, OpenShift
+Tags: Godaddy, OpenShift, Wordpress, 專題研究, 網誌架構
 Author: code4future
 @others
 在前兩篇文章中, 我們利用自己在 Godaddy 所購買的網域名稱, 配合 OpenShift 雲端平台, 建立了一個 &lt;a href="http://demo.code4future.org"&gt;http://demo.code4future.org&lt;/a&gt; 網站. 在這篇文章中, 我們將要加入 disqus 留言系統功能, 並且要利用 reCAPTCHA 來保護我們的帳號登錄流程, 減少被廣告商恣意利用程式方法入侵網誌系統.
 
 &lt;!-- PELICAN_END_SUMMARY --&gt;
+
+
 
 Step 1: 
 
@@ -1865,7 +1874,8 @@ Disqus 帳號建立後登入, 可以利用滑鼠右鍵從 Disqus Home 頁面最�
 
 結語
 
-在這篇文章中, 我們承接前面兩篇文章建立 Wordpress 網誌, 加入兩個 plugins, 分別用來提升網誌留言系統的效能, 並且利用 reCAPTCHA plugin 來防止駭客利用程式方法擾亂我們所建立的網站, 最後還展示如何修改 Awesomeone theme 主題中的 Sliders  內容.</t>
+在這篇文章中, 我們承接前面兩篇文章建立 Wordpress 網誌, 加入兩個 plugins, 分別用來提升網誌留言系統的效能, 並且利用 reCAPTCHA plugin 來防止駭客利用程式方法擾亂我們所建立的網站, 最後還展示如何修改 Awesomeone theme 主題中的 Sliders  內容.
+</t>
 <t tx="amd.20160718233536.1">@language md
 Title: 我們認知中的所謂工業 4.0
 Category: 社會人士
@@ -1914,6 +1924,26 @@ git clone OpenShift 平台網站的資料到近端簡單分析一下, 問題出�
 有了這樣的發現, 利用 git rm -rf *, 在版本資料中刪除所有的資料, 只留下 .git, 然後用最新的 OpenShift 平台上的 Wordpress 倉儲檔案, 重新提交推送到 OpenShift, 就這樣蓋掉被駭客入侵的舊檔案, 應該算是暫時解決了網站被駭的問題.
 
 然後呢?就是等著下一次網站再次被駭!再救, 再設法解決問題, 報告完畢.</t>
+<t tx="amd.20160721205749.1"></t>
+<t tx="amd.20160721205754.1"></t>
+<t tx="amd.20160721205758.1"></t>
+<t tx="amd.20160724161400.1">@language md
+Title: 我們如何處理舊電腦?
+Category: 社會人士
+Tags: 專題研究, 電腦, 操作系統, 驅動程式
+Author: code4future
+@others
+假如您在 2012 年入手了幾台 HP TouchSmart 320-1038tw 桌上型電腦, 當時在 Windows 7 的操作系統下, 觸控螢幕可能發揮不了太多功能, 即便您已經配合保固期內的自動升級成 Windows 8.1, 觸控螢幕卻因為 &lt;a href="http://support.hp.com/us-en/drivers/selfservice/hp-touchsmart-320-1000-desktop-pc-series/5146287/model/5149296#Z7_3054ICK0K8UDA0AQC11TA930O2"&gt;原廠該型的驅動程式支援網站&lt;/a&gt;中, 已經找不到支援 Windows 8 以上的觸控螢幕的驅動程式, 加上在台灣 2016 年 7 月 29 日之前免費升級成 Windows 10 操作系統的檢查程式不斷告訴您, HP TouchSmart 320-1038tw 硬體無法升級成 Windows 10, 或許您已經選擇相信微軟, 決定要購買新的電腦了?
+
+&lt;!-- PELICAN_END_SUMMARY --&gt;
+
+2012 年購買的電腦硬體, 在 4 年的期間微軟一口氣從 Windows 7 轉進到目前的 Windows 10, 當然 &lt;a href="http://h20564.www2.hp.com/hpsc/doc/public/display?docId=c03085254"&gt;HP TouchSmart 320-1038tw&lt;/a&gt; 使用的 AMD E2 3200 處理器, 並不是什麼高階機種, 但是應該可以相容 Windows 10 操作系統, 只不過原先 HP TouchSmart 320-1038tw 只內建 2GB 記憶體, 而且 200 pin 的 DDR3 1333-1600 的記憶體已經愈來愈少, 何況 HP TouchSmart 320-1038tw 只有兩個記憶體插槽, 且最高每條只支援 4GB, 因此最佳的情況是準備兩條 4GB 的記憶體, 然後從 Windows 8.1 升級到 Windows 10, 可是, 觸控螢幕的驅動程式到底在哪裡?
+
+前面提過 &lt;a href="http://support.hp.com/us-en/drivers/selfservice/hp-touchsmart-320-1000-desktop-pc-series/5146287/model/5149296#Z7_3054ICK0K8UDA0AQC11TA930O2"&gt;原廠該型的驅動程式支援網站&lt;/a&gt;中, 已經找不到支援 Windows 8 以上的觸控螢幕的驅動程式, 因此想要在 Windows 8.1 以上讓觸控螢幕發揮作用, 只能從觸控螢幕的型號下手.
+
+仔細閱讀硬體規格後, 發現 HP TouchSmart 320-1038tw 所使用的觸控螢幕為 NextWindow Voltron Touch Screen 6214, 而能夠支援 Windows 8 的驅動程式位於 &lt;a href="http://h20564.www2.hp.com/hpsc/swd/public/detail?swItemId=vc_115774_1"&gt;http://h20564.www2.hp.com/hpsc/swd/public/detail?swItemId=vc_115774_1&lt;/a&gt;, 而 Windows 10 的驅動程式則位於 &lt;a href="http://www.driverscape.com/download/nextwindow-voltron-touch-screen"&gt;http://www.driverscape.com/download/nextwindow-voltron-touch-screen&lt;/a&gt;.
+
+最後 HP TouchSmart 320-1038tw 假如只有 2GB 的記憶體, 並不建議升級到 Windows 10, 而是停留在 Windows 8.1, 然後只應付輕度使用, 例如用來聽聽音樂上上網, 假如真要升級到 Windows 10, 則建議將另外一台 HP TouchSmart 320-1038tw 的 2GB 記憶體拔過來用, 這下子, 希望這台外觀漂亮, Beats 音響表現還不錯的 20 吋觸控螢幕電腦, 還能夠多撐幾年.</t>
 <t tx="leo.20151212173315.1"></t>
 <t tx="leo.20151212173315.2">QTreeWidget {
     /* These apply to the selected item, but not to editing items.*/
